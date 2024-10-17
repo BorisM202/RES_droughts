@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: litrev.bib
+I was expecting a `,' or a `}'---line 45 of file litrev.bib
+ :  
+ :  url          = {https://www.eirgrid.ie/grid/system-and-renewable-data-reports},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 55 of file litrev.bib
+ :  
+ :  urldate      = {2024-04-03},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 231 of file litrev.bib
+ :  
+ :  language     = {en}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 389 of file litrev.bib
+ : @article{allen2023drought
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--empty institution in eirgrid2023future
+You've used 29 entries,
+            1791 wiz_defined-function locations,
+            613 strings with 10357 characters,
+and the built_in function-call counts, 7074 in all, are:
+= -- 543
+> -- 446
+< -- 1
++ -- 160
+- -- 131
+* -- 605
+:= -- 1204
+add.period$ -- 86
+call.type$ -- 29
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 248
+empty$ -- 635
+format.name$ -- 131
+if$ -- 1486
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 25
+newline$ -- 147
+num.names$ -- 28
+pop$ -- 54
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 92
+stack$ -- 0
+substring$ -- 499
+swap$ -- 31
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 57
+width$ -- 31
+write$ -- 313
+(There were 4 error messages)
