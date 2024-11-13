@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  17 OCT 2024 13:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  13 NOV 2024 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -391,118 +391,92 @@ e
 ))
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] [3]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../Figures//data_methods/find_res_droughts.pdf, id=193, 483.69685pt x 284.5275
-6pt>
-File: ../Figures//data_methods/find_res_droughts.pdf Graphic file (type pdf)
-<use ../Figures//data_methods/find_res_droughts.pdf>
-Package pdftex.def Info: ../Figures//data_methods/find_res_droughts.pdf  used o
-n input line 171.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+<../Figures//droughts_methodology.pdf, id=206, 483.69685pt x 284.52756pt>
+File: ../Figures//droughts_methodology.pdf Graphic file (type pdf)
+<use ../Figures//droughts_methodology.pdf>
+Package pdftex.def Info: ../Figures//droughts_methodology.pdf  used on input li
+ne 149.
 (pdftex.def)             Requested size: 455.24408pt x 267.79457pt.
-[4] [5 <../Figures//data_methods/find_res_droughts.pdf>]
-<../Figures//verification/power_curve.png, id=229, 867.24pt x 361.35pt>
-File: ../Figures//verification/power_curve.png Graphic file (type png)
-<use ../Figures//verification/power_curve.png>
-Package pdftex.def Info: ../Figures//verification/power_curve.png  used on inpu
-t line 193.
+ [5 <../Figures//droughts_methodology.pdf>]
+<../Figures//power_curve.pdf, id=231, 867.24pt x 361.35pt>
+File: ../Figures//power_curve.pdf Graphic file (type pdf)
+<use ../Figures//power_curve.pdf>
+Package pdftex.def Info: ../Figures//power_curve.pdf  used on input line 173.
 (pdftex.def)             Requested size: 455.24408pt x 189.68402pt.
-<../Figures//verification/wind_verification_contour.png, id=234, 1091.7588pt x 
-368.3361pt>
-File: ../Figures//verification/wind_verification_contour.png Graphic file (type
- png)
-<use ../Figures//verification/wind_verification_contour.png>
-Package pdftex.def Info: ../Figures//verification/wind_verification_contour.png
-  used on input line 217.
+<../Figures//verification_wind_contour.png, id=233, 1091.7588pt x 368.3361pt>
+File: ../Figures//verification_wind_contour.png Graphic file (type png)
+<use ../Figures//verification_wind_contour.png>
+Package pdftex.def Info: ../Figures//verification_wind_contour.png  used on inp
+ut line 182.
 (pdftex.def)             Requested size: 455.24408pt x 153.58727pt.
-<../Figures//verification/bar_number_events_verification_wind.png, id=236, 650.
-43pt x 361.35pt>
-File: ../Figures//verification/bar_number_events_verification_wind.png Graphic 
-file (type png)
-<use ../Figures//verification/bar_number_events_verification_wind.png>
-Package pdftex.def Info: ../Figures//verification/bar_number_events_verificatio
-n_wind.png  used on input line 226.
+ [6 <../Figures/Power_curve.pdf>]
+<../Figures//verification_wind_bar.png, id=259, 650.43pt x 361.35pt>
+File: ../Figures//verification_wind_bar.png Graphic file (type png)
+<use ../Figures//verification_wind_bar.png>
+Package pdftex.def Info: ../Figures//verification_wind_bar.png  used on input l
+ine 206.
 (pdftex.def)             Requested size: 455.24408pt x 252.92122pt.
- [6 <../Figures//verification/Power_curve.png>] [7 <../Figures//verification/wi
-nd_verification_contour.png> <../Figures//verification/bar_number_events_verifi
-cation_wind.png>]
-<../Figures//verification/solar_verification_contour.png, id=256, 1309.2915pt x
- 437.2335pt>
-File: ../Figures//verification/solar_verification_contour.png Graphic file (typ
-e png)
-<use ../Figures//verification/solar_verification_contour.png>
-Package pdftex.def Info: ../Figures//verification/solar_verification_contour.pn
-g  used on input line 253.
+ [7 <../Figures//verification_wind_contour.png>]
+<../Figures//verification_pv_contour.png, id=269, 1309.2915pt x 437.2335pt>
+File: ../Figures//verification_pv_contour.png Graphic file (type png)
+<use ../Figures//verification_pv_contour.png>
+Package pdftex.def Info: ../Figures//verification_pv_contour.png  used on input
+ line 219.
 (pdftex.def)             Requested size: 455.24408pt x 152.0266pt.
-<../Figures//verification/bar_number_events_verification_pv.png, id=258, 650.43
-pt x 361.35pt>
-File: ../Figures//verification/bar_number_events_verification_pv.png Graphic fi
-le (type png)
-<use ../Figures//verification/bar_number_events_verification_pv.png>
-Package pdftex.def Info: ../Figures//verification/bar_number_events_verificatio
-n_pv.png  used on input line 262.
+ [8 <../Figures//verification_wind_bar.png> <../Figures//verification_pv_contou
+r.png>]
+<../Figures//verification_pv_bar.png, id=280, 650.43pt x 361.35pt>
+File: ../Figures//verification_pv_bar.png Graphic file (type png)
+<use ../Figures//verification_pv_bar.png>
+Package pdftex.def Info: ../Figures//verification_pv_bar.png  used on input lin
+e 243.
 (pdftex.def)             Requested size: 455.24408pt x 252.92122pt.
-
-[8 <../Figures//verification/solar_verification_contour.png>]
-<../Figures//number_events/boxplot_number_events.png, id=274, 650.43pt x 433.62
-pt>
-File: ../Figures//number_events/boxplot_number_events.png Graphic file (type pn
-g)
-<use ../Figures//number_events/boxplot_number_events.png>
-Package pdftex.def Info: ../Figures//number_events/boxplot_number_events.png  u
-sed on input line 284.
-(pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
- [9 <../Figures//verification/bar_number_events_verification_pv.png>] [10 <../F
-igures//number_events/boxplot_number_events.png>]
-<../Figures//return_periods/return_periods.png, id=294, 650.43pt x 433.62pt>
-File: ../Figures//return_periods/return_periods.png Graphic file (type png)
-<use ../Figures//return_periods/return_periods.png>
-Package pdftex.def Info: ../Figures//return_periods/return_periods.png  used on
- input line 304.
-(pdftex.def)             Requested size: 409.71689pt x 273.14896pt.
- [11]
-<../Figures//seasonality/percentage_time_events.png, id=305, 650.43pt x 433.62p
-t>
-File: ../Figures//seasonality/percentage_time_events.png Graphic file (type png
-)
-<use ../Figures//seasonality/percentage_time_events.png>
-Package pdftex.def Info: ../Figures//seasonality/percentage_time_events.png  us
-ed on input line 318.
-(pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
- [12 <../Figures//return_periods/return_periods.png>]
-<../Figures//multiple_th/number_days_threshold.png, id=318, 650.43pt x 433.62pt
->
-File: ../Figures//multiple_th/number_days_threshold.png Graphic file (type png)
-
-<use ../Figures//multiple_th/number_days_threshold.png>
-Package pdftex.def Info: ../Figures//multiple_th/number_days_threshold.png  use
-d on input line 334.
-(pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
- [13 <../Figures//seasonality/percentage_time_events.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 354--356
+ [9 <../Figures//verification_pv_bar.png>]
+<../Figures//droughts_number_events.png, id=297, 650.43pt x 361.35pt>
+File: ../Figures//droughts_number_events.png Graphic file (type png)
+<use ../Figures//droughts_number_events.png>
+Package pdftex.def Info: ../Figures//droughts_number_events.png  used on input 
+line 266.
+(pdftex.def)             Requested size: 455.24408pt x 252.92122pt.
+ [10] [11 <../Figures//droughts_number_events.png>]
+<../Figures//droughts_return_periods.png, id=318, 650.43pt x 361.35pt>
+File: ../Figures//droughts_return_periods.png Graphic file (type png)
+<use ../Figures//droughts_return_periods.png>
+Package pdftex.def Info: ../Figures//droughts_return_periods.png  used on input
+ line 286.
+(pdftex.def)             Requested size: 409.71689pt x 227.62413pt.
+ [12 <../Figures//droughts_return_periods.png>]
+<../Figures//droughts_seasonality.png, id=329, 650.43pt x 361.35pt>
+File: ../Figures//droughts_seasonality.png Graphic file (type png)
+<use ../Figures//droughts_seasonality.png>
+Package pdftex.def Info: ../Figures//droughts_seasonality.png  used on input li
+ne 302.
+(pdftex.def)             Requested size: 455.24408pt x 252.92122pt.
+ [13]
+<../Figures//drouhgts_varying_threshold.png, id=337, 650.43pt x 361.35pt>
+File: ../Figures//drouhgts_varying_threshold.png Graphic file (type png)
+<use ../Figures//drouhgts_varying_threshold.png>
+Package pdftex.def Info: ../Figures//drouhgts_varying_threshold.png  used on in
+put line 318.
+(pdftex.def)             Requested size: 455.24408pt x 252.92122pt.
+ [14 <../Figures//droughts_seasonality.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--358
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--360
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
-[14 <../Figures//multiple_th/number_days_threshold.png>]
-Excluding 'comment' comment. [15] (./main.bbl [16] [17]
+[15 <../Figures//drouhgts_varying_threshold.png>] [16] (./main.bbl [17]
+[18]
 Underfull \hbox (badness 2903) in paragraph at lines 165--171
 []\OT1/cmr/m/n/10.95 Maximilian Parzen, Hazem Abdel-Khalek, Eka-te-rina Fe-do-t
 ova, Matin Mah-mood,
@@ -520,33 +494,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--197
 grid . ie / site-[]files / library / EirGrid /
  []
 
-) [18]
-<../Figures//data_methods/farm_location_wind_pv.png, id=353, 470.7186pt x 266.4
-354pt>
-File: ../Figures//data_methods/farm_location_wind_pv.png Graphic file (type png
-)
-<use ../Figures//data_methods/farm_location_wind_pv.png>
-Package pdftex.def Info: ../Figures//data_methods/farm_location_wind_pv.png  us
-ed on input line 397.
-(pdftex.def)             Requested size: 318.66946pt x 180.38089pt.
-<../Figures//data_methods/pv_wind_capacity_time.png, id=354, 722.7pt x 433.62pt
->
-File: ../Figures//data_methods/pv_wind_capacity_time.png Graphic file (type png
-)
-<use ../Figures//data_methods/pv_wind_capacity_time.png>
-Package pdftex.def Info: ../Figures//data_methods/pv_wind_capacity_time.png  us
-ed on input line 421.
-(pdftex.def)             Requested size: 409.71689pt x 245.82944pt.
- [19 <../Figures//data_methods/farm_location_wind_pv.png>] [20 <../Figures//dat
-a_methods/pv_wind_capacity_time.png>] (./main.aux)
+) [19] [20] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D3A083964E8C180D5983B608038AB0A;3174.
+(rerunfilecheck)             Checksum: B6B616F143504E5F03CCACB70CFD7BCB;3488.
  ) 
 Here is how much of TeX's memory you used:
- 11521 strings out of 480247
- 188675 string characters out of 5896151
- 478385 words of memory out of 5000000
- 29211 multiletter control sequences out of 15000+600000
+ 11461 strings out of 480247
+ 185191 string characters out of 5896151
+ 478220 words of memory out of 5000000
+ 29183 multiletter control sequences out of 15000+600000
  476491 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,11n,63p,1325b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -560,10 +516,10 @@ s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (20 pages, 2673149 bytes).
+Output written on main.pdf (20 pages, 1999233 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 382 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
