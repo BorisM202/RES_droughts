@@ -43,31 +43,32 @@
 
 \begin{abstract}
 
-\textcolor{blue}{Add Abstract}
+As the share of renewable energy sources (RES) like wind and photovoltaic (PV) power grows, managing their variability becomes a critical challenge for energy systems. This study investigates periods of low renewable generation, known as RES droughts, focusing on Ireland's current energy mix and a projected scenario with a more balanced distribution of wind and PV capacity. Using three datasets RES droughts are analysed over 45 years to assess their frequency, duration, and return periods. The methodology involves comparing modelled capacity factors against observed data to evaluate the accuracy of each dataset and applying a fixed threshold to identify RES drought events. Results show that adding PV capacity significantly reduces the frequency and duration of RES droughts, with a more balanced energy mix minimising seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience. \\
 
-Keywords: Energy Droughts, Wind Power, Solar PV Power, Renewable Energy Sources, Seasonality, Return Periods, 
+
+\textbf{Keywords}: Energy Droughts, Wind Power, Solar PV Power, Renewable Energy Sources, Seasonality, Return Periods, 
 \end{abstract}
 
 \section{Introduction}
 \label{sec:Intro}
 
-\textcolor{blue}{Get rid of ``we" everywhere.}
-
 \textcolor{blue}{Make sure past tense is used everywhere, e.g. ``was", not ``is"}
 
-\textcolor{blue}{Merge and shorten first two paragraphs} 
-
-As the global shift towards renewable energy accelerates, the European Union (EU) has positioned itself as a leader in climate and energy policy. Under the revised European Green Deal \cite{greendeal2023report}, the EU has set ambitious targets to achieve at least 69\% of electricity generation from renewable energy sources (RES) by 2030. This is a significant increase from 2022, when RES accounted for over 41\% of the EU’s electricity generation \cite{europe2023stat}. Meeting this goal is a key step in reducing greenhouse gas emissions and ensuring a sustainable energy future.
-
-However, as reliance on RES grows, so does the challenge of managing the variability of weather-dependent energy sources like wind and photovoltaic (PV) power. This challenge is further intensified by the increasing electrification of energy sectors which places additional demand on the power system~\cite{bloomfield2021}. As more sectors shift from fossil fuels to electricity, the power grid becomes increasingly sensitive to meteorological conditions~\cite{bloomfield2016, vanderWiel2019drought}. In this context, periods of low renewable generation, often referred to as \textit{Dunkelflaute} or RES droughts, pose a greater risk to grid stability and energy security. Ensuring a reliable electricity supply during these RES droughts is crucial for maintaining a resilient energy system capable of meeting both the growing demand for electricity and the EU’s decarbonization targets.
+As the global shift towards renewable energy accelerates, the European Union (EU) has emerged as a leader in climate and energy policy. Under the revised European Green Deal \cite{greendeal2023report}, the EU aims to generate at least 69\% of its electricity from renewable energy sources (RES) by 2030, up from 41\% in 2022 \cite{europe2023stat} \textcolor{cyan}{Can't seem to find a proper reference}. While this transition is essential for reducing greenhouse gas emissions, it also highlights the challenge of managing the variability of weather-dependent energy sources like wind and photovoltaic (PV) power. This challenge is compounded by the increasing electrification of energy sectors, which places greater demand on the power system and makes it more sensitive to meteorological conditions~\cite{bloomfield2021, bloomfield2016, vanderWiel2019drought}. Periods of low renewable generation, known as \textit{Dunkelflaute} or RES droughts, pose significant risks to grid stability and energy security, emphasizing the need for a resilient energy system to meet both growing electricity demand and decarbonization targets.
 
 \textcolor{blue}{Insert sales pitch paragraph here}
+\begin{comment}
+This study aims to quantify the occurrence of RES drought events in Ireland for two energy scenarios. The first represents the existing energy mix, predominantly driven by wind, while the second is based on a projected future energy scenario, featuring a more balanced share between wind and PV. A uniform methodology is used to identify RES droughts for each of the three datasets, and differences in the frequency, duration and seasonality are presented. 
+\end{comment}
+
+This study focuses on Ireland, a region with a strong reliance on wind energy and ambitious targets for PV expansion, to provide valuable insights into the potential benefits of diversifying the renewable energy mix. This work compares the performance of energy models and highlights the role of increased PV capacity in reducing RES drought risks, offering insights for policymakers and energy planners.
+
 
 For this study, a RES drought event is defined as occurring when the average capacity factor (CF) remains below a fixed threshold for a given duration, following the methodology used in other research~\cite{kaspar2019drought, ohba2022drought, mockert2023drought, mayer2023drought}. Alternative methods exist for defining RES droughts. One approach uses relative CF thresholds that change over the year to account for seasonal variations in renewable energy generation~\cite{raynaud2018drought, rinaldi2021drought, gangopadhyay2022drought, allen2023drought, kapica2024drought}. Another common method relies on percentile-based thresholds, where drought events are defined by identifying periods of unusually low generation relative to historical production levels, typically based on the lowest production percentiles~\cite{bracken2024drought, allen2023drought}. Additionally, some studies combine these definitions with metrics that incorporate the demand side of energy consumption, analysing the balance between supply and demand during drought periods~\cite{raynaud2018drought, rinaldi2021drought, allen2023drought, bracken2024drought}. In this paper, the focus is exclusively on energy generation, and a fixed threshold approach to define RES droughts is used. 
 
 RES droughts are identified using wind and PV CF time series. In this study, three different datasets are used, all of which are driven by ERA5 data~\cite{hersbach2020era5}. Two of the datasets are part of C3S Energy (C3S-E)~\cite{cds2023energy}, an energy-based operational dataset produced by the EU Copernicus Climate Change Service~\cite{dubus2023energy} (C3S). One of the C3S-E datasets provides CF time series aggregated at the national scale, while the other provides the CF time series at each grid point, at the ERA5 resolution of 0.25°. The third dataset was generated using the Atlite model~\cite{hofman2021atlite}, which converts the  ERA5 atmospheric data to a generation time series using specified wind turbine and PV panel models. Atlite is an open-source tool developed by PyPSA~\cite{hofman2021atlite} and is widely used for estimating wind and PV generation~\cite{mockert2023drought, li2023atlite, parzen2023atlite, ali2023comparative}.
 
-This study aims to quantify the occurrence of RES drought events in Ireland for two energy scenarios. The first represents the existing energy mix, predominantly driven by wind, while the second is based on a projected future energy scenario, featuring a more balanced share between wind and PV. A uniform methodology is used to identify RES droughts for each of the three datasets, and differences in the frequency, duration and seasonality are presented. 
+
 
 The datasets used in this study are detailed in section~\ref{sec:Data}, which describes their sources, characteristics, and relevance for evaluating RES droughts. Section~\ref{sec:Methods} outlines the energy models used to simulate wind and PV generation and provides the methodology for defining and identifying RES drought events, including the thresholds and metrics applied. In section~\ref{sec:Results}, the models are first verified against actual energy data to assess their accuracy, followed by an analysis of RES drought occurrences across the two energy scenarios, highlighting key differences across the datasets and the effects of varying energy capacities. Finally, section~\ref{sec:Conclusion} offers a discussion of the results in the context of energy reliability and future planning, followed by the main conclusions and recommendations for further research.
 
@@ -126,8 +127,6 @@ For national-level analyses, the aggregated CF time series provided by C3S-E are
 \subsection{C3S-E Gridded}
 \label{sec:c3se_g}
 
-For grid-level analyses, we use the gridded dataset from C3S-E to create a representative time series for Ireland's RES farms. We compile a comprehensive list of RES farms from the EirGrid website, which includes each farm’s GPS coordinates and installed capacity. Using these coordinates, we identify the nearest grid point on the C3S-E grid for each farm. For each farm, we retrieve the CF values from the C3S-E dataset for its corresponding grid point. To construct the final CF time series, we calculate a weighted average of the CF values, using the installed capacity of each farm as the weight. This process results in a single time series for each energy source (wind and PV), providing an accurate representation of the RES generation in Ireland at a grid level.
-
 For grid-level analyses, the gridded dataset from C3S-E is used to create a representative time series for Ireland's RES farms. A comprehensive list of RES farms, including each farm’s GPS coordinates and installed capacity, is compiled from the EirGrid website. Using these coordinates, the nearest grid point on the C3S-E grid is identified for each farm. The CF values from the C3S-E dataset corresponding to these grid points are retrieved for each farm. To construct the final CF time series, a weighted average of the CF values is calculated, with the installed capacity of each farm serving as the weight. This process results in a single time series for each energy source (wind and PV), providing an accurate representation of RES generation in Ireland at a grid level.
 
 \subsection{Atlite} 
@@ -164,7 +163,7 @@ The moving average approach smooths out short-term fluctuations, so that brief p
 \subsection{Verification}
 \label{sec:verification}
 
-The accuracy of the datasets used in this study is verified, before continuing to the analysis of RES droughts. For the verification process, we use time-varying values of installed capacity to account for changes in RES development over the verification period. This step allows us to assess how well the datasets represent the production of renewable energy by comparing them against observed data.
+The accuracy of the datasets used in this study is verified, before continuing to the analysis of RES droughts. For the verification process, time-varying values of installed capacity is used to account for changes in RES development over the verification period. This step allows us to assess how well the datasets represent the production of renewable energy by comparing them against observed data.
 
 \subsubsection{Wind Energy}
 \label{sec:wind_verification}
@@ -183,7 +182,7 @@ The smoothing of the wind turbine power curve represents losses associated with 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{verification_wind_contour}
-	\caption{\textcolor{blue}{Save as png? Investigate vertical blobs near zero in (c)}Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite  (left panel), C3S-E G (central panel) and C3S-E N (right panel) models}
+	\caption{\textcolor{blue}{Investigate vertical blobs near zero in (c)}Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite  (left panel), C3S-E G (central panel) and C3S-E N (right panel) models}
 	\label{fig:wind_verification_contour}
 \end{figure}
 
@@ -215,7 +214,7 @@ Fig.~\ref{fig:bar_number_events_verification_wind} presents results for the aver
 \subsubsection{PV Energy}
 \label{sec:pv_verification}
 
-The Atlite model allows the user to select certain PV panel characteristics. In this study, we consider the three PV panel types available in the Atlite model. Following the same methodology as in the previous section, the three available models are being compared using four skill scores (CC, RMSE, MB, and area under the curve). Based on the best-performing metrics, the Breyer PV panel model is selected \cite{beyer2004pv}, using the Kaneka Hybrid panel option.
+The Atlite model allows the user to select certain PV panel characteristics. In this study, the three PV panel types available are considered in the Atlite model. Following the same methodology as in the previous section, the three available models are being compared using four skill scores (CC, RMSE, MB, and area under the curve). Based on the best-performing metrics, the Breyer PV panel model is selected \cite{beyer2004pv}, using the Kaneka Hybrid panel option.
 
 \begin{figure}[h!]
 	\centering
