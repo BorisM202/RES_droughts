@@ -10,6 +10,8 @@
 
 \usepackage{amsmath} % Math equation
 
+\usepackage{url} 
+
 % For table
 \usepackage{multirow}
 \usepackage[table, xcdraw]{xcolor}
@@ -44,7 +46,7 @@
 
 \begin{abstract}
 
-As the share of renewable energy sources (RES) like wind and photovoltaic (PV) power grows, their dependence on weather poses a critical challenge for energy systems. This study investigates periods of low renewable generation, known as RES droughts, focusing on Ireland's current wind-dominated energy mix and a projected scenario with a more balanced distribution of wind and PV capacity. Three different modelled datasets are used, and their capacity factors are compared to observed data to quantify their overall skill. Then, using a RES drought definition with a fixed threshold, their skill at representing these events is assessed. These modelled capacity factors allow for an expansion over a 45-year period, allowing for an analysis of the frequency, duration and return periods of RES droughts at a climatological scale. Results show the importance of model selection for RES drought risk assessment. On a similar note, the addition of PV capacity to a wind-dominated system results in a large reduction in the frequency and duration of RES droughts, with a more balanced energy mix minimising seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience. \textcolor{magenta}{I rewrote this and I still do not like it}
+\noindent As the share of renewable energy sources (RES) like wind and photovoltaic (PV) power grows, their dependence on weather poses a critical challenge for energy systems. This study investigates periods of low renewable generation, known as RES droughts, focusing on Ireland's current wind-dominated energy mix and a projected scenario with a more balanced distribution of wind and PV capacity. Three different modelled datasets are used, and their capacity factors are compared to observed data to quantify their overall skill. Then, using a RES drought definition with a fixed threshold, their skill at representing these events is assessed. These modelled capacity factors allow for an expansion over a 45-year period, allowing for an analysis of the frequency, duration and return periods of RES droughts at a climatological scale. Results show the importance of model selection for RES drought risk assessment. On a similar note, the addition of PV capacity to a wind-dominated system results in a large reduction in the frequency and duration of RES droughts, with a more balanced energy mix minimising seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience. \textcolor{magenta}{I rewrote this and I still do not like it}
 
 % As the share of renewable energy sources (RES) like wind and photovoltaic (PV) power grows, their dependence on weather poses a critical challenge for energy systems. This study investigates periods of low renewable generation, known as RES droughts, focusing on Ireland's current wind-dominated energy mix and a projected scenario with a more balanced distribution of wind and PV capacity. Using three datasets RES droughts are analysed over 45 years to assess their frequency, duration, and return periods. The methodology involves comparing modelled capacity factors against observed data to evaluate the accuracy of each dataset and applying a fixed threshold to identify RES drought events. Results show that adding PV capacity significantly reduces the frequency and duration of RES droughts, with a more balanced energy mix minimising seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience. \\
 
@@ -55,7 +57,7 @@ As the share of renewable energy sources (RES) like wind and photovoltaic (PV) p
 \section{Introduction}
 \label{sec:Intro}
 
-As the global shift towards renewable energy accelerates, the European Union (EU) has emerged as a leader in climate and energy policy. Under the revised European Green Deal \cite{greendeal2023report} \url{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD%3A2022%3A230%3AFIN&qid=1653033922121}, the EU aims to generate at least 69\% of its electricity from renewable energy sources (RES) by 2030, up from 41\% in 2022 \cite{europe2023stat} \url{https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Renewable_energy_statistics}. While this transition is essential for reducing greenhouse gas emissions, it also highlights the challenge of managing the variability of weather-dependent energy sources like wind and photovoltaic (PV) power. This challenge is compounded by the increasing electrification of energy sectors, which places greater demand on the power system and makes it more sensitive to meteorological conditions~\cite{bloomfield2021, bloomfield2016, vanderWiel2019drought}. Periods of low renewable generation, known as \textit{Dunkelflaute} or RES droughts, pose significant risks to grid stability and energy security, emphasizing the need for a resilient energy system to meet both growing electricity demand and decarbonization targets.
+As the global shift towards renewable energy accelerates, the European Union (EU) has emerged as a leader in climate and energy policy. Under the revised European Green Deal \cite{greendeal2022report}, the EU aims to generate at least 69\% of its electricity from renewable energy sources (RES) by 2030, up from 41\% in 2022 \cite{eurostat2023share}. While this transition is essential for reducing greenhouse gas emissions, it also highlights the challenge of managing the variability of weather-dependent energy sources like wind and photovoltaic (PV) power. This challenge is compounded by the increasing electrification of energy sectors, which places greater demand on the power system and makes it more sensitive to meteorological conditions~\cite{bloomfield2021, bloomfield2016, vanderWiel2019drought}. Periods of low renewable generation, known as \textit{Dunkelflaute} or RES droughts, pose significant risks to grid stability and energy security, emphasizing the need for a resilient energy system to meet both growing electricity demand and decarbonization targets.
 
 
 \begin{comment}
@@ -84,7 +86,7 @@ This study uses publicly available datasets to construct and validate the models
 \subsection{Wind and PV Generation \& Capacity}
 \label{sec:eirgrid}
 
-EirGrid, the TSO for the Republic of Ireland, and SONI, the Northern Ireland TSO, provide detailed datasets on all wind and PV farms across the island of Ireland (Republic of Ireland and Northern Ireland) from 1990 to the present~\cite{eirgrid}. These datasets include information such as each farm’s installed capacity, name, and connection date. To enhance the accuracy of this data, the longitude and latitude for each farm were manually determined through online searches. For simplicity, this data will be referred to as originating from EirGrid, as all-island data was directly obtained from EirGrid, and the combined regions of the Republic of Ireland and Northern Ireland will be referred to as Ireland throughout the remainder of this document.
+EirGrid, the TSO for the Republic of Ireland, and SONI, the Northern Ireland TSO, provide detailed datasets on all wind and PV farms across the island of Ireland (Republic of Ireland and Northern Ireland) from 1990 to the present~\cite{eirgrid2023spreadsheet}. These datasets include information such as each farm’s installed capacity, name, and connection date. To enhance the accuracy of this data, the longitude and latitude for each farm were manually determined through online searches. For simplicity, this data will be referred to as originating from EirGrid, as all-island data was directly obtained from EirGrid, and the combined regions of the Republic of Ireland and Northern Ireland will be referred to as Ireland throughout the remainder of this document.
 
 The spreadsheet available from the EirGrid website contains two key variables: generation and availability. Generation is the energy that a RES farm actually contributed to the grid, which may include limitations introduced by the TSO to maintain grid stability, most commonly in the form of curtailment. Availability represents the energy that would have been generated from a RES farm if no grid constraints had been applied, making it representative of the weather-related response. This is then combined with installed capacity to compute the CF, the main variable for assessing renewable energy output. Generation and availability values are available from 2014 onward for wind and from 2018 onward for PV, although PV only became present in the Republic of Ireland data in 2023.
 
@@ -155,7 +157,7 @@ In this study, a RES drought event was defined as occurring when the 24-hour mov
 \begin{figure}[ht!]
 	\centering
 	\includegraphics{droughts_methodology}
-	\caption{Wind time series of CF (red) and its 24-hour moving average (green) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition}
+	\caption{Wind time series of CF (green) and its 24-hour moving average (pink) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition}
 	\label{fig:find_res_droughts}
 \end{figure}
 
@@ -177,7 +179,7 @@ The C3S-E datasets use the Vestas V136/3450 wind turbine power curve, (Fig.~\ref
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{verification_power_curve}
-	\caption{a/ Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (blue) and the Vestas V136/3450 used by C3S-E (orange) b/ Histograms of wind CF for Ireland from Atlite (blue), C3S-E (orange) and EirGrid (shaded)}
+	\caption{a/ Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (orange) and the Vestas V136/3450 used by C3S-E (teal) b/ Histograms of wind CF for Ireland from Atlite (orange), C3S-E (teal) and EirGrid (shaded)}
 	\label{fig:power_curve}
 \end{figure}
 
@@ -186,7 +188,7 @@ The smoothing of the wind turbine power curve represents losses associated with 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{verification_wind_contour}
-	\caption{\textcolor{blue}{Investigate vertical blobs near zero in (c)}Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite  (left panel), C3S-E G (central panel) and C3S-E N (right panel) models}
+	\caption{Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite  (left panel), C3S-E G (central panel) and C3S-E N (right panel) models}
 	\label{fig:wind_verification_contour}
 \end{figure}
 

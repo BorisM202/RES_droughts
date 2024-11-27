@@ -2,10 +2,13 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
 \global\let\oldnewlabel\newlabel
 \gdef\newlabel#1#2{\newlabelxx{#1}#2}
 \gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
 \let\newlabel\oldnewlabel
 \fi}
 \fi}
@@ -14,22 +17,22 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \bibstyle{unsrt}
-\citation{greendeal2023report}
-\citation{europe2023stat}
+\citation{greendeal2022report}
+\citation{eurostat2023share}
 \citation{bloomfield2021,bloomfield2016,vanderWiel2019drought}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
-\newlabel{sec:Intro}{{1}{1}{Introduction}{section.1}{}}
 \citation{kaspar2019drought,ohba2022drought,mockert2023drought,mayer2023drought}
 \citation{raynaud2018drought,rinaldi2021drought,gangopadhyay2022drought,allen2023drought,kapica2024drought}
 \citation{bracken2024drought,allen2023drought}
 \citation{raynaud2018drought,rinaldi2021drought,allen2023drought,bracken2024drought}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:Intro}{{1}{1}{Introduction}{section.1}{}}
 \citation{hersbach2020era5}
 \citation{cds2023energy}
 \citation{dubus2023energy}
 \citation{hofman2021atlite}
 \citation{hofman2021atlite}
 \citation{mockert2023drought,li2023atlite,parzen2023atlite,ali2023comparative}
-\citation{eirgrid}
+\citation{eirgrid2023spreadsheet}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Data}{2}{section.2}\protected@file@percent }
 \newlabel{sec:Data}{{2}{2}{Data}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Wind and PV Generation \& Capacity}{2}{subsection.2.1}\protected@file@percent }
@@ -61,8 +64,8 @@
 \citation{kaspar2019drought,ohba2022drought,mayer2023drought}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5}RES Drought Definition}{5}{subsection.3.5}\protected@file@percent }
 \newlabel{sec:res_drought}{{3.5}{5}{RES Drought Definition}{subsection.3.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Wind time series of CF (red) and its 24-hour moving average (green) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition\relax }}{5}{figure.caption.2}\protected@file@percent }
-\newlabel{fig:find_res_droughts}{{1}{5}{Wind time series of CF (red) and its 24-hour moving average (green) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Wind time series of CF (green) and its 24-hour moving average (pink) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition\relax }}{5}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:find_res_droughts}{{1}{5}{Wind time series of CF (green) and its 24-hour moving average (pink) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition\relax }{figure.caption.2}{}}
 \citation{staffell2016wake}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Results}{6}{section.4}\protected@file@percent }
 \newlabel{sec:Results}{{4}{6}{Results}{section.4}{}}
@@ -72,10 +75,10 @@
 \newlabel{sec:wind_verification}{{4.1.1}{6}{Wind Energy}{subsubsection.4.1.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Skill scores for wind for the three datasets compared to EirGrid data\relax }}{6}{table.caption.5}\protected@file@percent }
 \newlabel{tab:wind_skill_scores}{{2}{6}{Skill scores for wind for the three datasets compared to EirGrid data\relax }{table.caption.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces a/ Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (blue) and the Vestas V136/3450 used by C3S-E (orange) b/ Histograms of wind CF for Ireland from Atlite (blue), C3S-E (orange) and EirGrid (shaded)\relax }}{7}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:power_curve}{{2}{7}{a/ Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (blue) and the Vestas V136/3450 used by C3S-E (orange) b/ Histograms of wind CF for Ireland from Atlite (blue), C3S-E (orange) and EirGrid (shaded)\relax }{figure.caption.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textcolor {blue}{Investigate vertical blobs near zero in (c)}Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite (left panel), C3S-E G (central panel) and C3S-E N (right panel) models\relax }}{7}{figure.caption.4}\protected@file@percent }
-\newlabel{fig:wind_verification_contour}{{3}{7}{\textcolor {blue}{Investigate vertical blobs near zero in (c)}Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite (left panel), C3S-E G (central panel) and C3S-E N (right panel) models\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces a/ Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (orange) and the Vestas V136/3450 used by C3S-E (teal) b/ Histograms of wind CF for Ireland from Atlite (orange), C3S-E (teal) and EirGrid (shaded)\relax }}{7}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:power_curve}{{2}{7}{a/ Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (orange) and the Vestas V136/3450 used by C3S-E (teal) b/ Histograms of wind CF for Ireland from Atlite (orange), C3S-E (teal) and EirGrid (shaded)\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite (left panel), C3S-E G (central panel) and C3S-E N (right panel) models\relax }}{7}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:wind_verification_contour}{{3}{7}{Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite (left panel), C3S-E G (central panel) and C3S-E N (right panel) models\relax }{figure.caption.4}{}}
 \citation{beyer2004pv}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Average annual number of wind drought events for EirGrid (black), Atlite (red), C3S-E G (blue), and C3S-E N (purple)\relax }}{8}{figure.caption.6}\protected@file@percent }
 \newlabel{fig:bar_number_events_verification_wind}{{4}{8}{Average annual number of wind drought events for EirGrid (black), Atlite (red), C3S-E G (blue), and C3S-E N (purple)\relax }{figure.caption.6}{}}
@@ -105,8 +108,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and Conclusions}{16}{section.5}\protected@file@percent }
 \newlabel{sec:Conclusion}{{5}{16}{Discussion and Conclusions}{section.5}{}}
 \bibdata{litrev}
-\bibcite{greendeal2023report}{{1}{}{{}}{{}}}
-\bibcite{europe2023stat}{{2}{}{{}}{{}}}
+\bibcite{greendeal2022report}{{1}{}{{}}{{}}}
+\bibcite{eurostat2023share}{{2}{}{{}}{{}}}
 \bibcite{bloomfield2021}{{3}{}{{}}{{}}}
 \bibcite{bloomfield2016}{{4}{}{{}}{{}}}
 \bibcite{vanderWiel2019drought}{{5}{}{{}}{{}}}
@@ -130,7 +133,7 @@
 \bibcite{li2023atlite}{{20}{}{{}}{{}}}
 \bibcite{parzen2023atlite}{{21}{}{{}}{{}}}
 \bibcite{ali2023comparative}{{22}{}{{}}{{}}}
-\bibcite{eirgrid}{{23}{}{{}}{{}}}
+\bibcite{eirgrid2023spreadsheet}{{23}{}{{}}{{}}}
 \bibcite{brown2021drought}{{24}{}{{}}{{}}}
 \bibcite{otero2022drought}{{25}{}{{}}{{}}}
 \bibcite{saintdrenan2018solar}{{26}{}{{}}{{}}}

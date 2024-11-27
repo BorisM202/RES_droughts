@@ -1,67 +1,73 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: litrev.bib
-I was expecting a `,' or a `}'---line 43 of file litrev.bib
+I was expecting a `,' or a `}'---line 7 of file litrev.bib
+ :  note = "
+ :          "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 16 of file litrev.bib
+ :  note = "
+ :          "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 23 of file litrev.bib
+ :  note = "
+ :          "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 31 of file litrev.bib
  :  
- :  url          = {https://www.eirgrid.ie/grid/system-and-renewable-data-reports},
+ :  note         = "Accessed: 2024-11-06 Available at: \url{https://www.eirgrid.ie/site-files/library/EirGrid/Shaping-Our-Electricity-Future-Roadmap_Version-1.1_07.23.pdf},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 53 of file litrev.bib
- :  
- :  urldate      = {2024-04-03},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 227 of file litrev.bib
+I was expecting a `,' or a `}'---line 189 of file litrev.bib
  :  
  :  language     = {en}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 385 of file litrev.bib
+Repeated entry---line 347 of file litrev.bib
  : @article{allen2023drought
  :                          ,
 I'm skipping whatever remains of this entry
-Warning--empty institution in eirgrid2023future
 You've used 29 entries,
             1791 wiz_defined-function locations,
-            613 strings with 10365 characters,
-and the built_in function-call counts, 7074 in all, are:
-= -- 543
-> -- 446
+            614 strings with 10291 characters,
+and the built_in function-call counts, 7093 in all, are:
+= -- 541
+> -- 449
 < -- 1
-+ -- 160
-- -- 131
-* -- 605
-:= -- 1204
++ -- 161
+- -- 132
+* -- 600
+:= -- 1202
 add.period$ -- 86
 call.type$ -- 29
-change.case$ -- 30
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 248
-empty$ -- 635
-format.name$ -- 131
-if$ -- 1486
+cite$ -- 29
+duplicate$ -- 244
+empty$ -- 645
+format.name$ -- 132
+if$ -- 1494
 int.to.chr$ -- 0
 int.to.str$ -- 29
-missing$ -- 25
+missing$ -- 24
 newline$ -- 147
-num.names$ -- 28
-pop$ -- 54
+num.names$ -- 29
+pop$ -- 62
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 92
+skip$ -- 93
 stack$ -- 0
 substring$ -- 499
-swap$ -- 31
+swap$ -- 32
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 57
+warning$ -- 0
+while$ -- 58
 width$ -- 31
 write$ -- 313
-(There were 4 error messages)
+(There were 6 error messages)

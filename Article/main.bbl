@@ -1,16 +1,19 @@
 \begin{thebibliography}{10}
 
-\bibitem{greendeal2023report}
-Directorate-General for~Energy European~Commission.
-\newblock {Directive (EU) 2023/2413 of the European Parliament and of the
-  Council of 18 October 2023 amending Directive (EU) 2018/2001, Regulation (EU)
-  2018/1999 and Directive 98/70/EC as regards the promotion of energy from
-  renewable sources, and repealing Council Directive (EU) 2015/652}.
-\newblock {\em Official Journal of the European Union}, October 2023.
+\bibitem{greendeal2022report}
+European Commission.
+\newblock Implementing the repowereu action plan: investments needs, hydrogen
+  accelerator and achieving the bio-methane targets, May 2022.
+\newblock Accessed: 2024-11-06 Available at:
+  \url{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD:2022:230:FIN},
+  note =.
 
-\bibitem{europe2023stat}
-Eurostat European~Commission.
-\newblock Share of energy from renewable sources, April 2023.
+\bibitem{eurostat2023share}
+{EuroStat}.
+\newblock {Renewable Energy Statistics}, December 2023.
+\newblock Accessed: 2024-11-06 Available at:
+  \url{https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Renewable_energy_statistics},
+  note =.
 
 \bibitem{bloomfield2021}
 Hannah~C Bloomfield, David~J Brayshaw, Alberto Troccoli, Clare~M Goodess,
@@ -150,10 +153,11 @@ Kamran Ali Khan~Niazi and Marta Victoria.
 \newblock {\em Progress in Photovoltaics: Research and Applications},
   31(11):1101--1113, 2023.
 
-\bibitem{eirgrid}
-{System and Renewable Data Reports}.
-\newblock Available at
-  \url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports}.
+\bibitem{eirgrid2023spreadsheet}
+EirGrid~\& SONI.
+\newblock {System and Renewable Data Reports}.
+\newblock Accessed: 2024-11-06 Available at:
+  \url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports}, note =.
 
 \bibitem{brown2021drought}
 Patrick~T. Brown, David~J. Farnham, and Ken Caldeira.
@@ -190,9 +194,6 @@ Hans~G. Beyer, Gerd Heilscher, and Stefan Bofinger.
 
 \bibitem{eirgrid2023future}
 EirGrid~\& SONI.
-\newblock {Shaping Our ElectricityFuture}.
-\newblock Technical report, 2023.
-\newblock Available at
-  \url{https://www.eirgrid.ie/site-files/library/EirGrid/Shaping-Our-Electricity-Future-Roadmap_Version-1.1_07.23.pdf}.
+\newblock {Shaping Our Electricity Future}, 2023.
 
 \end{thebibliography}
