@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
@@ -7,31 +7,27 @@ I was expecting a `,' or a `}'---line 7 of file litrev.bib
  :  note = "
  :          "
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 16 of file litrev.bib
+I was expecting a `,' or a `}'---line 22 of file litrev.bib
  :  note = "
  :          "
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 23 of file litrev.bib
- :  note = "
- :          "
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 31 of file litrev.bib
+I was expecting a `,' or a `}'---line 30 of file litrev.bib
  :  
  :  note         = "Accessed: 2024-11-06 Available at: \url{https://www.eirgrid.ie/site-files/library/EirGrid/Shaping-Our-Electricity-Future-Roadmap_Version-1.1_07.23.pdf},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 189 of file litrev.bib
+I was expecting a `,' or a `}'---line 188 of file litrev.bib
  :  
  :  language     = {en}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 347 of file litrev.bib
+Repeated entry---line 346 of file litrev.bib
  : @article{allen2023drought
  :                          ,
 I'm skipping whatever remains of this entry
 You've used 29 entries,
             1791 wiz_defined-function locations,
-            614 strings with 10291 characters,
+            614 strings with 10269 characters,
 and the built_in function-call counts, 7093 in all, are:
 = -- 541
 > -- 449
@@ -70,4 +66,4 @@ warning$ -- 0
 while$ -- 58
 width$ -- 31
 write$ -- 313
-(There were 6 error messages)
+(There were 5 error messages)
