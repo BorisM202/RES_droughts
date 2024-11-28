@@ -46,7 +46,7 @@
 
 \begin{abstract}
 
-\noindent As the share of renewable energy sources (RES) like wind and photovoltaic (PV) power grows, their dependence on weather poses a critical challenge for energy systems. This study investigates periods of low renewable generation, known as RES droughts, with a focus on Ireland, its current wind-dominated energy mix and the more balanced target distribution of wind and PV capacity. Three different models are used to estimate the capacity factors of the different scenarios, and their overall skill is quantified by comparing them to observed data. Their skill at representing RES droughts is also calculated by using a RES drought definition with a fixed threshold. These models allow for an expansion of the capacity factor series over a 45-year period, provide the opportunity for an analysis of the frequency, duration and return periods of RES droughts at a climatological scale, identifying risks that may not be explicit at the short observed time scales. Results show the importance of model selection for RES drought risk assessment. On a similar note, the addition of PV capacity to a wind-dominated system results in a large reduction in the frequency and duration of RES droughts, with a more balanced energy mix minimising seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience. \textcolor{magenta}{I rewrote this and I still do not like it}
+\noindent As the share of renewable energy sources (RES) like wind and photovoltaic (PV) power grows, their dependence on weather poses a critical challenge for energy systems. This study investigates periods of low renewable generation, known as RES droughts, with a focus on Ireland, its current wind-dominated energy mix and the more balanced target distribution of wind and PV capacity. Three different models are used to estimate the capacity factors of the different scenarios, and their overall skill is quantified by comparing them to observed data. Their skill at representing RES droughts is also calculated by using a RES drought definition with a fixed threshold. These models allow for an expansion of the capacity factor series over a 45-year period, provide the opportunity for an analysis of the frequency, duration and return periods of RES droughts at a climatological scale, identifying risks that may not be explicit at the short observed time scales. Results show the importance of model selection for RES drought risk assessment. On a similar note, the addition of PV capacity to a wind-dominated system results in a large reduction in the frequency and duration of RES droughts, with a more balanced energy mix minimising seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience.
 
 % As the share of renewable energy sources (RES) like wind and photovoltaic (PV) power grows, their dependence on weather poses a critical challenge for energy systems. This study investigates periods of low renewable generation, known as RES droughts, focusing on Ireland's current wind-dominated energy mix and a projected scenario with a more balanced distribution of wind and PV capacity. Using three datasets RES droughts are analysed over 45 years to assess their frequency, duration, and return periods. The methodology involves comparing modelled capacity factors against observed data to evaluate the accuracy of each dataset and applying a fixed threshold to identify RES drought events. Results show that adding PV capacity significantly reduces the frequency and duration of RES droughts, with a more balanced energy mix minimising seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience. \\
 
@@ -216,6 +216,15 @@ Fig.~\ref{fig:bar_number_events_verification_wind} presents results for the aver
 	\label{fig:bar_number_events_verification_wind}
 \end{figure}
 
+\textcolor{cyan}{Which one do you prefer ?}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{verification_wind_bar2}
+	\caption{Average annual number of wind drought events for EirGrid (black), Atlite (red), C3S-E G (blue), and C3S-E N (purple)}
+	\label{fig:bar_number_events_verification_wind2}
+\end{figure}
+
 \newpage
 \subsubsection{PV Energy}
 \label{sec:pv_verification}
@@ -251,6 +260,15 @@ Fig.~\ref{fig:bar_number_events_verification_pv} shows the number of PV drought 
 	\includegraphics[width=\textwidth]{verification_pv_bar}
 	\caption{Annual number of PV drought events for EirGrid (black), Atlite (red), C3S-E G (blue), and C3S-E N (purple) in 2023}
 	\label{fig:bar_number_events_verification_pv}
+\end{figure}
+
+\textcolor{cyan}{Which one do you prefer ?}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{verification_pv_bar2}
+	\caption{Annual number of PV drought events for EirGrid (black), Atlite (red), C3S-E G (blue), and C3S-E N (purple) in 2023}
+	\label{fig:bar_number_events_verification_pv2}
 \end{figure}
 
 \newpage
@@ -342,7 +360,10 @@ In terms of future research, there are two main topics to explore. First, future
 
 \newpage
 \section{Acknowledgments}
+\begin{comment}
 Using the Climate Data Store. Thank EirGrid for the data and add a reference to the funding project or projects
+\end{comment}
+
 
 \section{Funding information}
 

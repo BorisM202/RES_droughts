@@ -1,42 +1,34 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: litrev.bib
-I was expecting a `,' or a `}'---line 7 of file litrev.bib
- :  note = "
- :          "
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 22 of file litrev.bib
- :  note = "
- :          "
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 30 of file litrev.bib
+I was expecting a `,' or a `}'---line 28 of file litrev.bib
  :  
- :  note         = "Accessed: 2024-11-06 Available at: \url{https://www.eirgrid.ie/site-files/library/EirGrid/Shaping-Our-Electricity-Future-Roadmap_Version-1.1_07.23.pdf},
+ :  note         = "\url{https://www.eirgrid.ie/site-files/library/EirGrid/Shaping-Our-Electricity-Future-Roadmap_Version-1.1_07.23.pdf} Accessed: 2024-11-0"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 188 of file litrev.bib
+I was expecting a `,' or a `}'---line 186 of file litrev.bib
  :  
  :  language     = {en}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 346 of file litrev.bib
+Repeated entry---line 344 of file litrev.bib
  : @article{allen2023drought
  :                          ,
 I'm skipping whatever remains of this entry
 You've used 29 entries,
             1791 wiz_defined-function locations,
-            614 strings with 10269 characters,
-and the built_in function-call counts, 7093 in all, are:
-= -- 541
+            615 strings with 10249 characters,
+and the built_in function-call counts, 7102 in all, are:
+= -- 543
 > -- 449
 < -- 1
 + -- 161
 - -- 132
 * -- 600
-:= -- 1202
-add.period$ -- 86
+:= -- 1204
+add.period$ -- 87
 call.type$ -- 29
 change.case$ -- 29
 chr.to.int$ -- 0
@@ -44,17 +36,17 @@ cite$ -- 29
 duplicate$ -- 244
 empty$ -- 645
 format.name$ -- 132
-if$ -- 1494
+if$ -- 1496
 int.to.chr$ -- 0
 int.to.str$ -- 29
 missing$ -- 24
-newline$ -- 147
+newline$ -- 148
 num.names$ -- 29
 pop$ -- 62
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 93
+skip$ -- 92
 stack$ -- 0
 substring$ -- 499
 swap$ -- 32
@@ -65,5 +57,5 @@ type$ -- 0
 warning$ -- 0
 while$ -- 58
 width$ -- 31
-write$ -- 313
-(There were 5 error messages)
+write$ -- 315
+(There were 3 error messages)

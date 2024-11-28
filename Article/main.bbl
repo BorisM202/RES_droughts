@@ -2,11 +2,11 @@
 
 \bibitem{greendeal2022report}
 European Commission.
-\newblock Implementing the repowereu action plan: investments needs, hydrogen
-  accelerator and achieving the bio-methane targets, May 2022.
-\newblock Accessed: 2024-11-06 Available at:
-  \url{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD:2022:230:FIN},
-  note =.
+\newblock {Implementing the RePowerEU action plan: investments needs, hydrogen
+  accelerator and achieving the bio-methane targets}, May 2022.
+\newblock
+  \url{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD:2022:230:FIN}
+  Accessed: 2024-11-06.
 
 \bibitem{eurostat2023share}
 {EuroStat}.
@@ -113,7 +113,8 @@ Hans Hersbach, Bill Bell, Paul Berrisford, Shoji Hirahara, Andr{\'a}s
 \bibitem{cds2023energy}
 Copernicus Climate Change~Service (C3S).
 \newblock {Climate and energy indicators for Europe from 1979 to present
-  derived from reanalysis.}, 2021.
+  derived from reanalysis.}, 2020.
+\newblock Accessed on 28-11-2024.
 
 \bibitem{dubus2023energy}
 Laurent Dubus, Yves‐Marie Saint‐Drenan, Alberto Troccoli, Matteo De~Felice,
@@ -156,8 +157,8 @@ Kamran Ali Khan~Niazi and Marta Victoria.
 \bibitem{eirgrid2023spreadsheet}
 EirGrid~\& SONI.
 \newblock {System and Renewable Data Reports}.
-\newblock Accessed: 2024-11-06 Available at:
-  \url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports}, note =.
+\newblock \url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports}
+  Accessed: 2024-11-06.
 
 \bibitem{brown2021drought}
 Patrick~T. Brown, David~J. Farnham, and Ken Caldeira.
