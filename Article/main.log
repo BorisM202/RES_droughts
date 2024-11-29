@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.1)  29 NOV 2024 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.1)  29 NOV 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,34 +437,34 @@ File: ../Figures/verification_pv_bar.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/verification_pv_bar.png  used on input line
  239.
 (pdftex.def)             Requested size: 455.24408pt x 252.92122pt.
- [9 <../Figures/verification_pv_contour.png>] [10 <../Figures/verification_pv_b
-ar.png>]
-<../Figures/droughts_number_events.pdf, id=270, 650.43pt x 433.62pt>
+ [9 <../Figures/verification_pv_contour.png> <../Figures/verification_pv_bar.pn
+g>]
+<../Figures/droughts_number_events.pdf, id=264, 650.43pt x 433.62pt>
 File: ../Figures/droughts_number_events.pdf Graphic file (type pdf)
 <use ../Figures/droughts_number_events.pdf>
 Package pdftex.def Info: ../Figures/droughts_number_events.pdf  used on input l
-ine 262.
+ine 260.
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
- [11 <../Figures/droughts_number_events.pdf>]
+ [10] [11 <../Figures/droughts_number_events.pdf>]
 <../Figures/droughts_return_periods.pdf, id=295, 650.43pt x 433.62pt>
 File: ../Figures/droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Figures/droughts_return_periods.pdf>
 Package pdftex.def Info: ../Figures/droughts_return_periods.pdf  used on input 
-line 282.
+line 280.
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
  [12] [13 <../Figures/droughts_return_periods.pdf>]
-<../Figures/droughts_seasonality.pdf, id=332, 650.43pt x 433.62pt>
+<../Figures/droughts_seasonality.pdf, id=331, 650.43pt x 433.62pt>
 File: ../Figures/droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Figures/droughts_seasonality.pdf>
 Package pdftex.def Info: ../Figures/droughts_seasonality.pdf  used on input lin
-e 298.
+e 296.
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
  [14 <../Figures/droughts_seasonality.pdf>]
-<../Figures/droughts_varying_threshold.pdf, id=345, 650.43pt x 433.62pt>
+<../Figures/droughts_varying_threshold.pdf, id=344, 650.43pt x 433.62pt>
 File: ../Figures/droughts_varying_threshold.pdf Graphic file (type pdf)
 <use ../Figures/droughts_varying_threshold.pdf>
 Package pdftex.def Info: ../Figures/droughts_varying_threshold.pdf  used on inp
-ut line 314.
+ut line 310.
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
  [15 <../Figures/droughts_varying_threshold.pdf>] [16] Excluding 'comment' comm
 ent. (./main.bbl
@@ -506,10 +506,10 @@ s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb>
-Output written on main.pdf (20 pages, 1197041 bytes).
+Output written on main.pdf (20 pages, 1196682 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
+ 457 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
  89 named destinations out of 1000 (max. 500000)
  243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
