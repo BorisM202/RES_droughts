@@ -17,45 +17,45 @@ Repeated entry---line 344 of file litrev.bib
  : @article{allen2023drought
  :                          ,
 I'm skipping whatever remains of this entry
-You've used 29 entries,
+You've used 28 entries,
             1791 wiz_defined-function locations,
-            615 strings with 10249 characters,
-and the built_in function-call counts, 7102 in all, are:
-= -- 543
-> -- 449
+            611 strings with 9997 characters,
+and the built_in function-call counts, 6973 in all, are:
+= -- 533
+> -- 445
 < -- 1
-+ -- 161
-- -- 132
-* -- 600
-:= -- 1204
-add.period$ -- 87
-call.type$ -- 29
-change.case$ -- 29
++ -- 159
+- -- 131
+* -- 597
+:= -- 1185
+add.period$ -- 84
+call.type$ -- 28
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 244
-empty$ -- 645
-format.name$ -- 132
-if$ -- 1496
+cite$ -- 28
+duplicate$ -- 239
+empty$ -- 627
+format.name$ -- 131
+if$ -- 1466
 int.to.chr$ -- 0
-int.to.str$ -- 29
+int.to.str$ -- 28
 missing$ -- 24
-newline$ -- 148
-num.names$ -- 29
-pop$ -- 62
+newline$ -- 143
+num.names$ -- 28
+pop$ -- 55
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 92
+skip$ -- 89
 stack$ -- 0
 substring$ -- 499
-swap$ -- 32
+swap$ -- 31
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 58
-width$ -- 31
-write$ -- 315
+while$ -- 57
+width$ -- 30
+write$ -- 305
 (There were 3 error messages)

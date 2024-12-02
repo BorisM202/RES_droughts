@@ -1,13 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{greendeal2022report}
-European Commission.
-\newblock {Implementing the RePowerEU action plan: investments needs, hydrogen
-  accelerator and achieving the bio-methane targets}, May 2022.
-\newblock
-  \url{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD:2022:230:FIN}
-  Accessed: 2024-11-06.
-
 \bibitem{eurostat2023share}
 {EuroStat}.
 \newblock {Renewable Energy Statistics}, December 2023.
@@ -187,14 +179,14 @@ Iain Staffell and Stefan Pfenninger.
   power output.
 \newblock {\em Energy}, 114:1224--1239, November 2016.
 
+\bibitem{eirgrid2023future}
+EirGrid~\& SONI.
+\newblock {Shaping Our Electricity Future}, 2023.
+
 \bibitem{beyer2004pv}
 Hans~G. Beyer, Gerd Heilscher, and Stefan Bofinger.
 \newblock A robust model for the mpp performance of different types of
   pv-modules applied for the performance check of grid connected systems.
 \newblock {\em Eurosun}, page~8, 2004.
-
-\bibitem{eirgrid2023future}
-EirGrid~\& SONI.
-\newblock {Shaping Our Electricity Future}, 2023.
 
 \end{thebibliography}
