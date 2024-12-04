@@ -1,4 +1,4 @@
-\documentclass[a4paper, 11pt]{article}
+\documentclass[a4paper, 11p1t]{article}
 \usepackage[utf8]{inputenc}
 
 \usepackage[breaklinks, colorlinks=true, citecolor=black, linkcolor=blue, urlcolor=blue, filecolor=blue]{hyperref}
@@ -33,7 +33,7 @@
 \bibliographystyle{unsrt}
 
 \usepackage{graphicx}
-\graphicspath{ {../Figures/} }
+\graphicspath{ {../Scripts/} }
 
 %opening
 %\title{ \textcolor{blue}{Change Title} The Impact of Model Assumptions on RES Drought Analysis}
@@ -142,7 +142,7 @@ In this study, a RES drought event was defined as occurring when the 24-hour mov
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics{droughts_methodology}
+	\includegraphics{droughts_methodology.pdf}
 	\caption{Wind time series of CF (green) and its 24-hour moving average (pink) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition}
 	\label{fig:find_res_droughts}
 \end{figure}
@@ -164,8 +164,8 @@ The C3S-E datasets use the Vestas V136/3450 wind turbine power curve, (Fig.~\ref
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{verification_power_curve}
-	\caption{a/ Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (orange) and the Vestas V136/3450 used by C3S-E (teal) b/ Histograms of wind CF for Ireland from Atlite (orange), C3S-E (teal) and EirGrid (shaded)}
+	\includegraphics{verification_power_curve.pdf}
+	\caption{a) Power curves of the Enercon E112.4500 with a 0.3 smoothing filter used by Atlite (orange) and the Vestas V136/3450 used by C3S-E (teal) b) Histograms of wind CF for Ireland from Atlite (orange), C3S-E (teal) and EirGrid (shaded)}
 	\label{fig:power_curve}
 \end{figure}
 
@@ -173,7 +173,7 @@ The smoothing of the wind turbine power curve represents losses associated with 
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{verification_wind_contour}
+	\includegraphics{verification_wind_contour.png}
 	\caption{Wind CF density plot of the observed EirGrid CF (vertical axes) and modelled (horizontal axes) CF data for the Atlite  (left panel), C3S-E G (central panel) and C3S-E N (right panel) models}
 	\label{fig:wind_verification_contour}
 \end{figure}
@@ -197,8 +197,8 @@ Fig.~\ref{fig:bar_number_events_verification_wind} presents results for the aver
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{verification_wind_bar}
-	\caption{Average annual number of wind drought events for EirGrid (black outline), Atlite (red), C3S-E G (blue), and C3S-E N (purple)}
+	\includegraphics{verification_wind_number_events.pdf}
+	\caption{Average annual number of wind drought events for Atlite (red), C3S-E G (blue), C3S-E N (purple), and EirGrid (black outline)}
 	\label{fig:bar_number_events_verification_wind}
 \end{figure}
 
@@ -212,7 +212,7 @@ The PV installed capacity available on the spreadsheets from EirGrid represents 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{verification_pv_contour}
+	\includegraphics{verification_pv_contour.png}
 	\caption{PV 2D density plot of the observed EirGrid (vertical axes) and modelled (horizontal axes) CF series for the Atlite  (left panel), C3S-E G (central panel) and C3S-E N (right panel) models}	
 	\label{fig:solar_verification_contour}
 \end{figure}
@@ -236,8 +236,8 @@ Fig.~\ref{fig:bar_number_events_verification_pv} shows the number of PV drought 
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{verification_pv_bar}
-	\caption{Annual number of PV drought events for EirGrid (black outline), Atlite (red), C3S-E G (blue), and C3S-E N (purple) in 2023}
+	\includegraphics{verification_pv_number_events.pdf}
+	\caption{Annual number of PV drought events for Atlite (red), C3S-E G (blue), and C3S-E N (purple) and EirGrid (black outline) in 2023}
 	\label{fig:bar_number_events_verification_pv}
 \end{figure}
 
@@ -257,7 +257,7 @@ The median, first, and third quartiles for the Atlite dataset are consistently g
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{droughts_number_events}
+	\includegraphics{droughts_number_events.pdf}
 	\caption{Annual number of RES droughts for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity for Atlite (red), C3S-E G (blue), and C3S-E N (purple). The x-axis represents duration ranges in days (lower bound included), while the y-axis indicates the annual number of events. The boxes display the first and third quartiles and the median is marked by a black line. The whiskers indicate the 5th and 95th percentiles}
 	\label{fig:boxplot_number_events}	
 \end{figure}
@@ -275,8 +275,8 @@ For the existing installed capacity scenario (Fig.\ref{fig:return_periods}c), th
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{droughts_return_periods}
-	\caption{Return periods of the duration of RES droughts for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red), C3S-E G (blue), and C3S-E N (purple). The x-axis represents the return period time in a log-scale and the y-axis indicates the duration of RES drought associated with it. The horizontal dashed line in the two bottom panels marks the 5-day return period, with coloured vertical dashed marking its return period for each dataset.}
+	\includegraphics{droughts_return_periods.pdf}
+	\caption{Return periods of the duration of RES droughts for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red triangle), C3S-E G (blue circle), and C3S-E N (purple square). The x-axis represents the return period time in a log-scale and the y-axis indicates the duration of RES drought associated with it. The horizontal dashed line in the two bottom panels marks the 5-day return period, with coloured vertical dashed marking its return period for each dataset}
 	\label{fig:return_periods}
 \end{figure}
 
@@ -293,13 +293,14 @@ For wind (Fig.~\ref{fig:res_droughts_seasonality}a), RES drought percentages are
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{droughts_seasonality}
-	\caption{Percentage of hours in a month identified as a RES drought for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red), C3S-E G (blue), and C3S-E N (purple). The x-axis represents the month of the year, and the y-axis indicates the percentage of hours. Lines correspond to the median values and the area between the first and third quartiles is shaded.}
+	\includegraphics{droughts_seasonality.pdf}
+	\caption{Percentage of hours in a month identified as a RES drought for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red dotted), C3S-E G (blue dashed), and C3S-E N (purple solid). The x-axis represents the month of the year, and the y-axis indicates the percentage of hours. Lines correspond to the median values and the area between the first and third quartiles is shaded.}
 	\label{fig:res_droughts_seasonality}
 \end{figure}
 
 Similar to previous results, the existing installed capacity wind-PV combination (Fig.\ref{fig:res_droughts_seasonality}c) shows patterns comparable to the wind panel (Fig.\ref{fig:res_droughts_seasonality}a). However, in this panel, the number of hours classified as RES droughts in summer decreases slightly compared to the wind-only scenario. This reduction can be explained by the contribution of PV generation during the summer months in the existing scenario, even though it constitutes only 11\% of total capacity. Since the number of RES drought hours for PV in summer is near zero, this small contribution has a noticeable impact on reducing overall drought hours. In the balanced scenario (Fig.~\ref{fig:res_droughts_seasonality}d), all three datasets show a reduction in monthly RES drought frequency. Annual reductions in median RES drought frequency are observed across the datasets, dropping from 14\% to 5\% for Atlite, from 8\% to 3\% for C3S-E G, and from 9\% to 4\% for C3S-E N. The balanced mix of wind and PV in this scenario reduces the seasonal signal overall and significantly decreases the percentage of RES drought hours in the summer. By reducing the frequency of summer droughts while maintaining resilience during winter, the balanced scenario offers a more reliable energy supply that better aligns with seasonal demand patterns.
 
+\begin{comment}
 \subsubsection{Change of Threshold}
 
 In this study, a threshold CF value of 0.1 was used to identify RES droughts. To assess how sensitive the results are to this threshold, the annual number of RES drought events was calculated for a range of CF threshold values (Fig.~\ref{fig:number_days_threshold}). The results reveal a general trend: as the threshold increases, so too does the number of identified events. This increase is not uniform across datasets and energy sources, but the overall pattern remains consistent. When the threshold increases, smaller events merge into larger, less frequent events. Depending on the dataset, the number of events reaches a peak around or after a threshold of 0.2, and then gradually decreases until only a single event encompasses the entire time series.
@@ -309,9 +310,13 @@ Overall, the four panels indicate that regardless of the threshold applied, the 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{droughts_varying_threshold}
-	\caption{Number of RES drought per year for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red), C3S-E G (blue), and C3S-E N (purple). The x-axis represent the threshold from 0.05 to 0.2 of the CF with a 0.01 increment. The y-axis indicates the annual number of events. Each line correspond to the median value and the first and third quartiles are shown in shaded area}
+	\caption{Number of RES drought per year for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity for Atlite (red dotted), C3S-E G (blue dashed), and C3S-E N (purple solid) The x-axis represent the threshold from 0.05 to 0.2 of the CF with a 0.01 increment. The y-axis indicates the annual number of events. Each line correspond to the median value and the first and third quartiles are shown in shaded area}
 	\label{fig:number_days_threshold}
 \end{figure}
+\end{comment}
+
+
+
 
 \newpage
 \section{Discussion and Conclusions}
