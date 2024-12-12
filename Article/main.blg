@@ -8,56 +8,57 @@ I was expecting a `,' or a `}'---line 28 of file litrev.bib
  :  note         = "\url{https://www.eirgrid.ie/site-files/library/EirGrid/Shaping-Our-Electricity-Future-Roadmap_Version-1.1_07.23.pdf} Accessed: 2024-11-0"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 199 of file litrev.bib
+I was expecting a `,' or a `}'---line 209 of file litrev.bib
  :  
  :  language     = {en}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 357 of file litrev.bib
+Repeated entry---line 367 of file litrev.bib
  : @article{allen2023drought
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--there's a number but no series in cap2024future
 Warning--empty publisher in cap2024future
-You've used 28 entries,
+Warning--empty publisher in seai2024future
+You've used 29 entries,
             1791 wiz_defined-function locations,
-            614 strings with 10196 characters,
-and the built_in function-call counts, 7035 in all, are:
-= -- 543
-> -- 445
+            620 strings with 10417 characters,
+and the built_in function-call counts, 7193 in all, are:
+= -- 556
+> -- 449
 < -- 2
-+ -- 159
-- -- 131
-* -- 607
-:= -- 1195
-add.period$ -- 87
-call.type$ -- 28
++ -- 161
+- -- 132
+* -- 614
+:= -- 1219
+add.period$ -- 91
+call.type$ -- 29
 change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 244
-empty$ -- 628
-format.name$ -- 131
-if$ -- 1480
+cite$ -- 32
+duplicate$ -- 254
+empty$ -- 647
+format.name$ -- 132
+if$ -- 1516
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 26
-newline$ -- 145
-num.names$ -- 28
-pop$ -- 53
+int.to.str$ -- 29
+missing$ -- 28
+newline$ -- 151
+num.names$ -- 29
+pop$ -- 60
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 86
+skip$ -- 88
 stack$ -- 0
 substring$ -- 499
-swap$ -- 32
+swap$ -- 33
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 57
-width$ -- 30
-write$ -- 309
+warning$ -- 3
+while$ -- 58
+width$ -- 31
+write$ -- 320
 (There were 3 error messages)
