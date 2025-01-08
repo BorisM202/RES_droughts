@@ -190,12 +190,12 @@ The effect of the difference between the power curves is also visible in Fig.~\r
 	\label{tab:wind_skill_scores}
 \end{table}
 
-Fig.~\ref{fig:bar_number_events_verification_wind} presents results for the average annual number of wind drought events during the 2014 to 2023 validation period. The figure shows that Atlite shows the best agreement overall with the observed frequency and duration of wind drought events. This pattern is particularly evident for shorter-duration events, which are the most frequent.
+Fig.~\ref{fig:bar_number_events_verification_wind} presents the average annual number of wind drought events during the 2014 to 2023 validation period. The figure shows that Atlite shows the best agreement overall with the observed frequency and duration of wind drought events. This pattern is particularly evident for shorter-duration events, which are the most frequent.
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics{verification_wind_number_events.pdf}
-	\caption{Average annual number of wind drought events for Atlite (red), C3S-E G (blue), C3S-E N (purple), and the observed data (black outline). The time series are obtained with a time series of the capacity from 2014 to 2023}
+	\caption{Average annual number of wind drought events for Atlite (red), C3S-E G (blue), C3S-E N (purple), and the observed data (black outline). The wind droughts are identified from 2014 to 2023}
 	\label{fig:bar_number_events_verification_wind}
 \end{figure}
 
@@ -229,12 +229,14 @@ Figure \ref{fig:solar_verification_contour} shows that the three datasets have a
 	\label{tab:pv_skill_scores}
 \end{table}
 
-Fig.~\ref{fig:bar_number_events_verification_pv} shows the number of PV drought events in 2023 across different duration ranges. The figure reveals partial agreement between the three datasets and the observed data, with consistent results observed for duration ranges of 1-2, 3-4, 7-8, and 8+ days. However, discrepancies appear in the other ranges, where the models diverge from the observed data. The main challenge in validating PV data stems from the recent installation of a large share of Ireland’s PV capacity, leading to uncertainties in PV generation data and the actual generating capacity in the first few months after each farm is connected. With over 65\% of the total PV capacity installed in 2023, these data uncertainties significantly impact the ability to perform rigorous validation for PV drought events.
+Fig.~\ref{fig:bar_number_events_verification_pv} shows the number of PV drought events during the 2023 validation period across different duration ranges. The figure reveals partial agreement between the three datasets and the observed data, with consistent results noticed for duration ranges of 1-2, 3-4, 7-8, and 8+ days. However, discrepancies appear in the other ranges, where the models diverge from the observed data. The main challenge in validating PV data stems from the recent installation of a large share of Ireland’s PV capacity, leading to uncertainties in PV generation data and the actual generating capacity in the first few months after each farm is connected. With over 65\% of the total PV capacity installed in 2023, these data uncertainties significantly impact the ability to perform rigorous validation for PV drought events. 
+
+Nevertheless, the ultimate goal of this analysis is to assess the combination of wind and PV generation, where the complementary nature of these energy sources mitigates the limitations seen in PV-only results.
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics{verification_pv_number_events.pdf}
-	\caption{Number of PV drought events for Atlite (red), C3S-E G (blue), and C3S-E N (purple) and the observed data (black outline) during 2023}
+	\caption{Number of PV drought events for Atlite (red), C3S-E G (blue), and C3S-E N (purple) and the observed data (black outline). The PV droughts are identified for 2023}
 	\label{fig:bar_number_events_verification_pv}
 \end{figure}
 
@@ -255,7 +257,7 @@ The median, first, and third quartiles for the Atlite dataset are consistently g
 \begin{figure}[!ht]
 	\centering
 	\includegraphics{droughts_number_events.pdf}
-	\caption{Annual number of RES droughts for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity for Atlite (red), C3S-E G (blue), and C3S-E N (purple). The x-axis represents duration ranges in days (lower bound included), while the y-axis indicates the annual number of events. The boxes display the first and third quartiles and the median is marked by a black line. The whiskers indicate the 5th and 95th percentiles}
+	\caption{Annual number of RES droughts (from 1979 to 2023) for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity for Atlite (red), C3S-E G (blue), and C3S-E N (purple). The x-axis represents duration ranges in days (lower bound included), while the y-axis indicates the annual number of events. The boxes display the first and third quartiles and the median is marked by a black line. The whiskers indicate the 5th and 95th percentiles}
 	\label{fig:boxplot_number_events}	
 \end{figure}
 
@@ -273,7 +275,7 @@ For the existing installed capacity scenario (Fig.\ref{fig:return_periods}c), th
 \begin{figure}[!ht]
 	\centering
 	\includegraphics{droughts_return_periods.pdf}
-	\caption{Return periods of the duration of RES droughts for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red triangle), C3S-E G (blue circle), and C3S-E N (purple square). The x-axis represents the return period time in a log-scale and the y-axis indicates the duration of RES drought associated with it. The horizontal dashed line marks the 5-day return period, with coloured vertical dashed marking its return period for each dataset}
+	\caption{Return periods of the duration of RES droughts  (from 1979 to 2023) for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red triangle), C3S-E G (blue circle), and C3S-E N (purple square). The x-axis represents the return period time in a log-scale and the y-axis indicates the duration of RES drought associated with it. The horizontal dashed line marks the 5-day return period, with coloured vertical dashed marking its return period for each dataset}
 	\label{fig:return_periods}
 \end{figure}
 
@@ -289,7 +291,7 @@ For Fig.~\ref{fig:res_droughts_seasonality}a, RES drought percentages are higher
 \begin{figure}[!ht]
 	\centering
 	\includegraphics{droughts_seasonality.pdf}
-	\caption{Percentage of hours in a month which are part of a RES drought for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red dotted), C3S-E G (blue dashed), and C3S-E N (purple solid). The x-axis represents the month of the year, and the y-axis indicates the percentage of hours. Lines correspond to the median values and the area between the first and third quartiles is shaded.}
+	\caption{Percentage of hours in a month which are part of a RES drought (from 1979 to 2023) for a)~Wind, b)~PV, and the combination for the c)~existing and d)~balanced installed capacity, for Atlite (red dotted), C3S-E G (blue dashed), and C3S-E N (purple solid). The x-axis represents the month of the year, and the y-axis indicates the percentage of hours. Lines correspond to the median values and the area between the first and third quartiles is shaded.}
 	\label{fig:res_droughts_seasonality}
 \end{figure}
 
@@ -321,7 +323,7 @@ This study has investigated the ability of three RES models to represent RES dro
 
 Atlite shows the best alignment with observed data for wind generation. Differences between the models are smaller for PV, with C3S-G performing marginally better than the other two. The results show that the two C3S-E datasets (C3S-E G and C3S-E N) consistently yield similar outcomes, indicating that their methodological differences have minimal impact. This distinction was also evident in the analysis, where Atlite reported higher return periods and a greater number of RES droughts, especially in scenarios with a balanced share of RES. Again, the results from RES drought modelling relies more on the precision of the wind power curve and PV panel models than on the specific locations of RES farms. Atlite’s superior performance highlights the importance of selecting validated models for assessing RES drought risks. This careful model selection can better quantify risks, support effective planning, and avoid the potential underestimation of capacity needs, which is essential for ensuring energy security.
 
-Looking at the balanced scenario, the analysis showed a significant improvement in the management of RES droughts due to the complementary nature of wind and PV generation. Wind and PV together perform better in terms of reducing drought frequency and duration than either would individually, largely because of the seasonal anti-correlation between the two energy sources. This diversification reduces the seasonal impact on RES droughts, as PV generation peaks in the summer and wind generation is more consistent in winter. Ireland currently has a highly wind-dependent energy system, but with ambitious targets for PV installations in the coming years, the energy mix is expected to approach a balance between wind and PV capacity. This balanced approach offers a more stable and secure energy supply by mitigating RES drought risks. For policymakers, these findings underscore the importance of meeting these capacity targets to enhance energy security through diversification. Additionally, the choice of model for RES drought assessment becomes increasingly critical as more renewable capacity is integrated into the system.
+Looking at the balanced scenario, the analysis showed a significant improvement in the management of RES droughts due to the complementary nature of wind and PV generation. Wind and PV together perform better in terms of reducing drought frequency and duration than either would individually, largely because of the seasonal anti-correlation between the two energy sources. This diversification reduces the seasonal impact on RES droughts, as PV generation peaks in the summer and wind generation is more consistent in winter. Ireland currently has a highly wind-dependent energy system, but with ambitious targets for PV installations in the coming years, the energy mix is expected to approach a balance between wind and PV capacity. While this balanced approach offers a more stable and secure energy supply by mitigating RES drought risks, it is important to note that having similar wind and PV capacities may not optimize other aspects, such as annual energy production or meeting nighttime loads. For policymakers, these findings underscore the importance of meeting these capacity targets to enhance energy security through diversification. Additionally, the choice of model for RES drought assessment becomes increasingly critical as more renewable capacity is integrated into the system.
 
 Future work is planned to extend the current analysis. First, climate projection data will be integrated with different energy scenarios, including the apparition of offshore wind to better understand how climate change might affect RES droughts. Second, expanding the geographic domain of the study to include the EU would provide a more comprehensive understanding of RES droughts in an interconnected energy grid. This would require extensive verification across all EU countries, making it a more complex but highly relevant challenge.
 
