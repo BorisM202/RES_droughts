@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  15 JAN 2025 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  15 JAN 2025 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,152 +245,154 @@ e
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
 /texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 142
+LaTeX Font Info:    Trying to load font information for U+msa on input line 154
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 142
+LaTeX Font Info:    Trying to load font information for U+msb on input line 154
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-48.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+54.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [1
 
 
-] [2] [3]
+]
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+60.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) [2] [3]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [4] [5] [6]
-<../Scripts//droughts_methodology.pdf, id=38, 445.849pt x 246.67972pt>
+<../Scripts//droughts_methodology.pdf, id=41, 445.849pt x 246.67972pt>
 File: ../Scripts//droughts_methodology.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_methodology.pdf>
 Package pdftex.def Info: ../Scripts//droughts_methodology.pdf  used on input li
-ne 237.
+ne 249.
 (pdftex.def)             Requested size: 445.8479pt x 246.67911pt.
 
-Overfull \hbox (55.8479pt too wide) in paragraph at lines 237--238
+Overfull \hbox (55.8479pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
-
-Overfull \hbox (1.65793pt too wide) in paragraph at lines 255--256
+[7]
+Overfull \hbox (1.65793pt too wide) in paragraph at lines 267--268
 \T1/cmr/m/n/12 ables.ninja also pro-vides four as-so-ci-ated smoothed power cur
 ves. The smooth-
  []
 
-[7]
-<../Scripts//verification_power_curve.pdf, id=42, 445.60156pt x 218.22694pt>
+[8 <../Scripts//droughts_methodology.pdf>]
+<../Scripts//verification_power_curve.pdf, id=59, 445.60156pt x 218.22694pt>
 File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 <use ../Scripts//verification_power_curve.pdf>
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
-t line 259.
+t line 271.
 (pdftex.def)             Requested size: 445.60046pt x 218.2264pt.
 
-Overfull \hbox (55.60046pt too wide) in paragraph at lines 259--260
+Overfull \hbox (55.60046pt too wide) in paragraph at lines 271--272
  [][] 
  []
 
-[8 <../Scripts//droughts_methodology.pdf>]
-<../Scripts//verification_wind_contour.png, id=57, 459.1554pt x 150.5625pt>
+<../Scripts//verification_wind_contour.png, id=60, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
-ut line 268.
+ut line 280.
 (pdftex.def)             Requested size: 459.15427pt x 150.56212pt.
 
-Overfull \hbox (69.15427pt too wide) in paragraph at lines 268--269
- [][] 
- []
-
-<../Scripts//verification_wind_number_events.pdf, id=59, 443.68091pt x 272.9643
-7pt>
-File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
-<use ../Scripts//verification_wind_number_events.pdf>
-Package pdftex.def Info: ../Scripts//verification_wind_number_events.pdf  used 
-on input line 292.
-(pdftex.def)             Requested size: 443.67982pt x 272.96368pt.
-
-Overfull \hbox (53.67982pt too wide) in paragraph at lines 292--293
+Overfull \hbox (69.15427pt too wide) in paragraph at lines 280--281
  [][] 
  []
 
 [9 <../Scripts//verification_power_curve.pdf>]
-<../Scripts//verification_pv_contour.png, id=80, 459.1554pt x 150.5625pt>
+<../Scripts//verification_wind_number_events.pdf, id=82, 443.68091pt x 272.9643
+7pt>
+File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
+<use ../Scripts//verification_wind_number_events.pdf>
+Package pdftex.def Info: ../Scripts//verification_wind_number_events.pdf  used 
+on input line 304.
+(pdftex.def)             Requested size: 443.67982pt x 272.96368pt.
+
+Overfull \hbox (53.67982pt too wide) in paragraph at lines 304--305
+ [][] 
+ []
+
+[10 <../Scripts//verification_wind_contour.png>] [11 <../Scripts//verification_
+wind_number_events.pdf>]
+<../Scripts//verification_pv_contour.png, id=94, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_pv_contour.png Graphic file (type png)
 <use ../Scripts//verification_pv_contour.png>
 Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
- line 307.
+ line 319.
 (pdftex.def)             Requested size: 459.15427pt x 150.56212pt.
 
-Overfull \hbox (69.15427pt too wide) in paragraph at lines 307--308
+Overfull \hbox (69.15427pt too wide) in paragraph at lines 319--320
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <../Scripts//verification_wind_contour.png>]
-
-LaTeX Warning: Text page 11 contains only floats.
-
-[11 <../Scripts//verification_wind_number_events.pdf> <../Scripts//verification
-_pv_contour.png>]
-<../Scripts//verification_pv_number_events.pdf, id=93, 445.849pt x 275.13245pt>
-
+[12 <../Scripts//verification_pv_contour.png>]
+<../Scripts//verification_pv_number_events.pdf, id=100, 445.849pt x 275.13245pt
+>
 File: ../Scripts//verification_pv_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_pv_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_pv_number_events.pdf  used on
- input line 333.
+ input line 345.
 (pdftex.def)             Requested size: 445.8479pt x 275.13176pt.
 
-Overfull \hbox (55.8479pt too wide) in paragraph at lines 333--334
+Overfull \hbox (55.8479pt too wide) in paragraph at lines 345--346
  [][] 
  []
 
-[12] [13 <../Scripts//verification_pv_number_events.pdf>]
-<../Scripts//droughts_number_events.pdf, id=110, 435.01134pt x 273.54399pt>
+[13 <../Scripts//verification_pv_number_events.pdf>] [14]
+<../Scripts//droughts_number_events.pdf, id=116, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 354.
+line 366.
 (pdftex.def)             Requested size: 435.01027pt x 273.5433pt.
 
-Overfull \hbox (45.01027pt too wide) in paragraph at lines 354--355
+Overfull \hbox (45.01027pt too wide) in paragraph at lines 366--367
  [][] 
  []
 
-[14] [15 <../Scripts//droughts_number_events.pdf>]
-<../Scripts//droughts_return_periods.pdf, id=129, 434.3668pt x 273.54399pt>
+[15 <../Scripts//droughts_number_events.pdf>] [16]
+<../Scripts//droughts_return_periods.pdf, id=135, 434.3668pt x 273.54399pt>
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 372.
+ line 384.
 (pdftex.def)             Requested size: 434.36574pt x 273.5433pt.
 
-Overfull \hbox (44.36574pt too wide) in paragraph at lines 372--373
+Overfull \hbox (44.36574pt too wide) in paragraph at lines 384--385
  [][] 
  []
 
-[16] [17 <../Scripts//droughts_return_periods.pdf>]
-<../Scripts//droughts_seasonality.pdf, id=158, 435.01134pt x 273.54399pt>
+[17 <../Scripts//droughts_return_periods.pdf>] [18]
+<../Scripts//droughts_seasonality.pdf, id=165, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 388.
+ne 400.
 (pdftex.def)             Requested size: 435.01027pt x 273.5433pt.
 
-Overfull \hbox (45.01027pt too wide) in paragraph at lines 388--389
+Overfull \hbox (45.01027pt too wide) in paragraph at lines 400--401
  [][] 
  []
 
-[18] [19 <../Scripts//droughts_seasonality.pdf>] [20]
-(./elsarticle-template-harv.bbl [21]
+[19] [20 <../Scripts//droughts_seasonality.pdf>] [21]
+(./elsarticle-template-harv.bbl [22]
 Underfull \hbox (badness 2050) in paragraph at lines 186--196
 []\T1/cmr/m/n/12 Mayer, M.J., Biró, B., Szücs, B., Aszódi, A., 2023.  Prob-a-bi
 lis-
@@ -402,21 +404,21 @@ Underfull \hbox (badness 1189) in paragraph at lines 186--196
  120801.
  []
 
-[22]
+[23]
 Underfull \hbox (badness 1127) in paragraph at lines 250--261
 \T1/cmr/m/n/12 ter-con-nect.  En-vi-ron-men-tal Sci-ence and Tech-nol-ogy 55, 6
 214^^U6226.
  []
 
-[23]) [24] (./elsarticle-template-harv.aux) ) 
+[24]) [25] (./elsarticle-template-harv.aux) ) 
 Here is how much of TeX's memory you used:
- 4399 strings out of 476025
- 66962 string characters out of 5790017
+ 4422 strings out of 476025
+ 67619 string characters out of 5790017
  1862388 words of memory out of 5000000
- 24798 multiletter control sequences out of 15000+600000
- 526385 words of font info for 69 fonts, out of 8000000 for 9000
+ 24816 multiletter control sequences out of 15000+600000
+ 527466 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,76p,1438b,303s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,10n,76p,1438b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/
@@ -426,19 +428,22 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
-ublic/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
-lic/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
-cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
--super/sfrm1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-s
-uper/sfss0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
-er/sfti0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super
-/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
-fti1200.pfb>
-Output written on elsarticle-template-harv.pdf (25 pages, 571251 bytes).
+ublic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
+c/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
+-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super
+/sfss0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
+fti0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sft
+i1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1
+200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt100
+0.pfb>
+Output written on elsarticle-template-harv.pdf (26 pages, 625426 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 270 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
