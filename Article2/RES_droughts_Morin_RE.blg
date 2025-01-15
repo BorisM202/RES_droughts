@@ -1,12 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: elsarticle-template-harv.aux
+The top-level auxiliary file: RES_droughts_Morin_RE.aux
 The style file: elsarticle-harv.bst
 Database file #1: litrev.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 29 entries,
             2990 wiz_defined-function locations,
-            814 strings with 12053 characters,
+            814 strings with 12047 characters,
 and the built_in function-call counts, 21802 in all, are:
 = -- 1531
 > -- 1114

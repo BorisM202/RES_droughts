@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main.aux
+The top-level auxiliary file: RES_Droughts_Morin.aux
 The style file: unsrt.bst
 Database file #1: litrev.bib
 I was expecting a `,' or a `}'---line 28 of file litrev.bib
@@ -22,7 +22,7 @@ Warning--empty publisher in cap2024future
 Warning--empty publisher in seai2024future
 You've used 29 entries,
             1791 wiz_defined-function locations,
-            620 strings with 10417 characters,
+            620 strings with 10445 characters,
 and the built_in function-call counts, 7193 in all, are:
 = -- 556
 > -- 449
