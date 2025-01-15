@@ -1,46 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: elsarticle-template-harv.aux
-I found no \bibstyle command---while reading file elsarticle-template-harv.aux
+The style file: elsarticle-harv.bst
+Database file #1: litrev.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 29 entries,
-            0 wiz_defined-function locations,
-            114 strings with 1025 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+            2990 wiz_defined-function locations,
+            814 strings with 12053 characters,
+and the built_in function-call counts, 21802 in all, are:
+= -- 1531
+> -- 1114
+< -- 8
++ -- 435
+- -- 396
+* -- 2574
+:= -- 3222
+add.period$ -- 101
+call.type$ -- 29
+change.case$ -- 275
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 1519
+empty$ -- 1456
+format.name$ -- 479
+if$ -- 3942
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 326
+newline$ -- 174
+num.names$ -- 116
+pop$ -- 540
+preamble$ -- 1
+purify$ -- 246
 quote$ -- 0
-skip$ -- 0
+skip$ -- 403
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 833
+swap$ -- 1207
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 255
 warning$ -- 0
-while$ -- 0
+while$ -- 116
 width$ -- 0
-write$ -- 0
-(There was 1 error message)
+write$ -- 444
