@@ -1,9 +1,11 @@
-Energy droughts are defined as periods of low production
+# Energy droughts are defined as periods of low production
+
+The C3S-Energy dataset provides renewable energy capacity factor time series
+
+Two C3S-Energy and one custom models are compared to assess RES droughts in Ireland
 	
-Three models compared to evaluate renewable energy droughts in Ireland
+RES drought trends are explored by analysing 45 years of ERA5 weather data
 	
-Analysis of 45 years of ERA5 weather data for energy drought trends
+Diverse energy mix reduces RES drought frequency, duration and extremes
 	
-Diverse energy mix reduces drought frequency and duration significantly
-	
-Model choice impacts energy drought results
+Model selection is crucial in the accurate identification of RES droughts
