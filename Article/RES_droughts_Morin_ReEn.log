@@ -1,36 +1,36 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  16 JAN 2025 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  16 JAN 2025 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **RES_droughts_Morin_ReEn.tex
 (./RES_droughts_Morin_ReEn.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (./elsarticle.cls
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./elsarticle.cls
 Document Class: elsarticle 2025/01/11, 3.4c: Elsevier Ltd
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count185
-\l__pdf_internal_box=\box51
+\l__pdf_internal_box=\box50
 ))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-02-02 L3 Experimental document command parser
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count186
 )
-\@bls=\dimen140
+\@bls=\dimen138
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
 \c@section=\count188
@@ -40,33 +40,33 @@ File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count192
 \c@figure=\count193
 \c@table=\count194
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen141
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen142
-\Gin@req@width=\dimen143
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
 )
 \c@tnote=\count195
 \c@fnote=\count196
@@ -75,36 +75,36 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \c@elsarticle@author=\count199
 \@eadauthor=\toks17
 \c@affn=\count266
-\absbox=\box52
-\elsarticlehighlightsbox=\box53
-\elsarticlegrabsbox=\box54
-\keybox=\box55
-\Columnwidth=\dimen144
-\space@left=\dimen145
-\els@boxa=\box56
-\els@boxb=\box57
-\leftMargin=\dimen146
+\absbox=\box51
+\elsarticlehighlightsbox=\box52
+\elsarticlegrabsbox=\box53
+\keybox=\box54
+\Columnwidth=\dimen142
+\space@left=\dimen143
+\els@boxa=\box55
+\els@boxb=\box56
+\leftMargin=\dimen144
 \@enLab=\toks18
-\@sep=\skip50
-\@@sep=\skip51
+\@sep=\skip49
+\@@sep=\skip50
 
 (./RES_droughts_Morin_ReEn.spl)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip52
-\bibsep=\skip53
+\bibhang=\skip51
+\bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count267
 )
 \splwrite=\write3
 \openout3 = `RES_droughts_Morin_ReEn.spl'.
 
-\appnamewidth=\dimen147
+\appnamewidth=\dimen145
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks19
 \symAMSa=\mathgroup4
@@ -113,52 +113,42 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip54
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
-\ex@=\dimen148
+\ex@=\dimen146
 ))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen149
+\pmbraise@=\dimen147
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count268
 LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count269
 \leftroot@=\count270
 LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
 \classnum@=\count271
 \DOTSCASE@=\count272
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box58
-\strutbox@=\box59
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen150
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+\big@size=\dimen148
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count273
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count274
 \dotsspace@=\muskip16
 \c@parentequation=\count275
@@ -168,42 +158,41 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count278
 \maxfields@=\count279
 \andhelp@=\toks22
-\eqnshift@=\dimen151
-\alignsep@=\dimen152
-\tagshift@=\dimen153
-\tagwidth@=\dimen154
-\totwidth@=\dimen155
-\lineht@=\dimen156
+\eqnshift@=\dimen149
+\alignsep@=\dimen150
+\tagshift@=\dimen151
+\tagwidth@=\dimen152
+\totwidth@=\dimen153
+\lineht@=\dimen154
 \@envbody=\toks23
-\multlinegap=\skip55
-\multlinetaggap=\skip56
+\multlinegap=\skip54
+\multlinetaggap=\skip55
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2023/01/19 line numbers on paragraphs v5.1
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count280
 \output=\toks25
 \linenoprevgraf=\count281
-\linenumbersep=\dimen157
-\linenumberwidth=\dimen158
+\linenumbersep=\dimen155
+\linenumberwidth=\dimen156
 \c@linenumber=\count282
 \c@pagewiselinenumber=\count283
 \c@LN@truepage=\count284
 \c@internallinenumber=\count285
 \c@internallinenumbers=\count286
-\quotelinenumbersep=\dimen159
-\bframerule=\dimen160
-\bframesep=\dimen161
-\bframebox=\box60
-\linenoamsmath@ams@eqpen=\count287
-LaTeX Info: Redefining \\ on input line 3131.
+\quotelinenumbersep=\dimen157
+\bframerule=\dimen158
+\bframesep=\dimen159
+\bframebox=\box59
+LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/xurl/xurl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
@@ -225,104 +214,104 @@ LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 
-(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen162
-\scratchbox=\box61
-\nofMPsegments=\count289
-\nofMParguments=\count290
+\scratchcounter=\count287
+\scratchdimen=\dimen160
+\scratchbox=\box60
+\nofMPsegments=\count288
+\nofMParguments=\count289
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen163
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen161
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
 \everyMPtoPDFconversion=\toks27
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
-/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 108
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 110
 .
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 108
+LaTeX Font Info:    Trying to load font information for U+msb on input line 110
 .
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-08.
+10.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1
 
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-14.
+16.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [2] [3]
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [2]
+Overfull \hbox (7.59276pt too wide) in paragraph at lines 128--129
+\T1/cmr/m/n/12 res-o-lu-tion of 0.25\TS1/cmr/m/n/12 °\T1/cmr/m/n/12 . The third
+ dataset was gen-er-ated us-ing the Atlite model [[]],
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[3]
+Overfull \hbox (17.82689pt too wide) in paragraph at lines 144--145
+\T1/cmr/m/n/12 duced by the Eu-ro-pean Cen-tre for Medium-Range Weather Fore-ca
+sts (ECMWF).
+ []
 
-[4] [5] [6]
-<../Scripts//droughts_methodology.pdf, id=41, 445.849pt x 246.67972pt>
+[4] [5] [6] [7]
+<../Scripts//droughts_methodology.pdf, id=44, 445.849pt x 246.67972pt>
 File: ../Scripts//droughts_methodology.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_methodology.pdf>
 Package pdftex.def Info: ../Scripts//droughts_methodology.pdf  used on input li
-ne 203.
+ne 205.
 (pdftex.def)             Requested size: 390.0pt x 215.78023pt.
- [7]
-Overfull \hbox (1.65793pt too wide) in paragraph at lines 221--222
-\T1/cmr/m/n/12 ables.ninja also pro-vides four as-so-ci-ated smoothed power cur
-ves. The smooth-
- []
-
-[8 <../Scripts//droughts_methodology.pdf>]
+ [8 <../Scripts//droughts_methodology.pdf>]
 <../Scripts//verification_power_curve.pdf, id=59, 445.60156pt x 218.22694pt>
 File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 <use ../Scripts//verification_power_curve.pdf>
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
-t line 225.
+t line 227.
 (pdftex.def)             Requested size: 390.0pt x 190.99803pt.
-<../Scripts//verification_wind_contour.png, id=60, 459.1554pt x 150.5625pt>
+ [9 <../Scripts//verification_power_curve.pdf>]
+<../Scripts//verification_wind_contour.png, id=80, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
-ut line 234.
+ut line 236.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
- [9 <../Scripts//verification_power_curve.pdf>]
 <../Scripts//verification_wind_number_events.pdf, id=82, 443.68091pt x 272.9643
 7pt>
 File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_wind_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_wind_number_events.pdf  used 
-on input line 258.
+on input line 260.
 (pdftex.def)             Requested size: 390.0pt x 239.95113pt.
- [10 <../Scripts//verification_wind_contour.png>] [11 <../Scripts//verification
-_wind_number_events.pdf>]
+ [10 <../Scripts//verification_wind_contour.png>]
+[11 <../Scripts//verification_wind_number_events.pdf>]
 <../Scripts//verification_pv_contour.png, id=94, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_pv_contour.png Graphic file (type png)
 <use ../Scripts//verification_pv_contour.png>
 Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
- line 273.
+ line 275.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
  [12 <../Scripts//verification_pv_contour.png>]
 <../Scripts//verification_pv_number_events.pdf, id=100, 445.849pt x 275.13245pt
@@ -330,65 +319,65 @@ Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
 File: ../Scripts//verification_pv_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_pv_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_pv_number_events.pdf  used on
- input line 299.
+ input line 301.
 (pdftex.def)             Requested size: 390.0pt x 240.66891pt.
- [13 <../Scripts//verification_pv_number_events.pdf>] [14]
+ [13 <../Scripts//verification_pv_number_events.pdf>]
+[14]
 <../Scripts//droughts_number_events.pdf, id=116, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 320.
+line 322.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [15 <../Scripts//droughts_number_events.pdf>] [16]
 <../Scripts//droughts_return_periods.pdf, id=135, 434.3668pt x 273.54399pt>
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 338.
+ line 340.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
  [17 <../Scripts//droughts_return_periods.pdf>] [18]
 <../Scripts//droughts_seasonality.pdf, id=165, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 354.
+ne 356.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
- [19] [20 <../Scripts//droughts_seasonality.pdf>] [21]
-(./RES_droughts_Morin_ReEn.bbl [22] [23] [24]) [25]
+ [19] [20 <../Scripts//droughts_seasonality.pdf>]
+[21] (./RES_droughts_Morin_ReEn.bbl [22] [23] [24] [25]) [26]
 (./RES_droughts_Morin_ReEn.aux) ) 
 Here is how much of TeX's memory you used:
- 4536 strings out of 476025
- 69608 string characters out of 5790017
- 1867388 words of memory out of 5000000
- 24921 multiletter control sequences out of 15000+600000
- 527779 words of font info for 72 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 72i,10n,76p,1437b,488s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
-fbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfr
-m0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
-000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm120
-0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.
-pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss0800.pf
-b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn.pdf (26 pages, 661256 bytes).
+ 4472 strings out of 480247
+ 67832 string characters out of 5896151
+ 357365 words of memory out of 5000000
+ 22350 multiletter control sequences out of 15000+600000
+ 484764 words of font info for 68 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 70i,10n,76p,1437b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-
+super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sftt1200.pfb>
+Output written on RES_droughts_Morin_ReEn.pdf (27 pages, 660879 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 278 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

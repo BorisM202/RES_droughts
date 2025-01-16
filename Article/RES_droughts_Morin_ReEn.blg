@@ -1,52 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: RES_droughts_Morin_ReEn.aux
-The style file: elsarticle-harv.bst
+The style file: elsarticle-num-names.bst
 Database file #1: RES_droughts_Morin_ref.bib
-Warning--entry type for "cap2024future" isn't style-file defined
---line 26 of file RES_droughts_Morin_ref.bib
-Warning--entry type for "seai2024future" isn't style-file defined
---line 39 of file RES_droughts_Morin_ref.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 29 entries,
-            2990 wiz_defined-function locations,
-            824 strings with 12536 characters,
-and the built_in function-call counts, 21975 in all, are:
-= -- 1570
-> -- 1114
-< -- 8
+            2918 wiz_defined-function locations,
+            821 strings with 12518 characters,
+and the built_in function-call counts, 21743 in all, are:
+= -- 1536
+> -- 1136
+< -- 9
 + -- 435
 - -- 396
-* -- 2624
-:= -- 3239
-add.period$ -- 110
+* -- 2794
+:= -- 3157
+add.period$ -- 57
 call.type$ -- 29
-change.case$ -- 277
+change.case$ -- 276
 chr.to.int$ -- 29
 cite$ -- 29
-duplicate$ -- 1524
-empty$ -- 1441
+duplicate$ -- 1490
+empty$ -- 1400
 format.name$ -- 479
-if$ -- 3965
+if$ -- 3919
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 325
-newline$ -- 183
+missing$ -- 331
+newline$ -- 150
 num.names$ -- 116
-pop$ -- 510
+pop$ -- 483
 preamble$ -- 1
-purify$ -- 246
+purify$ -- 275
 quote$ -- 0
-skip$ -- 410
+skip$ -- 305
 stack$ -- 0
-substring$ -- 841
-swap$ -- 1229
-text.length$ -- 0
+substring$ -- 870
+swap$ -- 1247
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 261
 warning$ -- 0
 while$ -- 116
 width$ -- 0
-write$ -- 466
-(There were 2 warnings)
+write$ -- 414
