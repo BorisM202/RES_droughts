@@ -138,12 +138,11 @@
   renewable power potentials and time series}}.
 \newblock \bibinfo{journal}{Journal of Open Source Software}
   \bibinfo{volume}{6}, \bibinfo{pages}{3294}.
-%Type = Book
+%Type = Misc
 \bibitem[{of~Ireland(2023)}]{cap2024future}
 \bibinfo{author}{of~Ireland, G.}, \bibinfo{year}{2023}.
 \newblock \bibinfo{title}{{Climate Action Plan 2024}}.
-\newblock \bibinfo{number}{3}.
-%Type = Book
+%Type = Misc
 \bibitem[{Ireland(2024)}]{seai2024future}
 \bibinfo{author}{Ireland, S.E.A.}, \bibinfo{year}{2024}.
 \newblock \bibinfo{title}{{National Energy Projections 2024}}.
@@ -283,7 +282,7 @@
 \newblock \DOIprefix\doi{10.1016/j.energy.2016.08.068}.
 %Type = Article
 \bibitem[{van~der Wiel et~al.(2019)van~der Wiel, Stoop, Van~Zuijlen, Blackport,
-  Van~den Broek and Selten}]{vanderWiel2019drought}
+  Van~den Broek and Selten}]{vanderwiel2019drought}
 \bibinfo{author}{van~der Wiel, K.}, \bibinfo{author}{Stoop, L.P.},
   \bibinfo{author}{Van~Zuijlen, B.R.H.}, \bibinfo{author}{Blackport, R.},
   \bibinfo{author}{Van~den Broek, M.A.}, \bibinfo{author}{Selten, F.M.},

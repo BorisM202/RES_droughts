@@ -42,6 +42,9 @@
 %% The lineno packages adds line numbers.
 \usepackage{lineno}
 
+%% Use this package to add line brakes in URL
+\usepackage{xurl}
+
 \graphicspath{ {../Scripts/} }
 
 \journal{Renewable Energy}
@@ -111,7 +114,7 @@ RES Drought\sep Wind Power \sep Solar PV Power \sep Renewable Energy Sources \se
 \section{Introduction}
 \label{sec:Intro}
 
-The EU aims to generate at least 69\% of its electricity from renewable energy sources (RES) by 2030, up from 41\% in 2022 \citep{eurostat2023share}. While this transition is essential for reducing greenhouse gas emissions, it also highlights the challenge of managing the variability of weather-dependent energy sources such as wind and photovoltaic (PV) power. This challenge is compounded by the increasing electrification of energy sectors, which places greater demand on the power system and makes it more sensitive to meteorological conditions~\citep{bloomfield2016, bloomfield2021, vanderWiel2019drought}. Periods of low renewable generation, known as \textit{Dunkelflaute} or RES droughts, pose significant risks to system adequacy and energy security, emphasizing the need for a resilient energy system to meet both growing electricity demand and decarbonization targets.
+The EU aims to generate at least 69\% of its electricity from renewable energy sources (RES) by 2030, up from 41\% in 2022 \citep{eurostat2023share}. While this transition is essential for reducing greenhouse gas emissions, it also highlights the challenge of managing the variability of weather-dependent energy sources such as wind and photovoltaic (PV) power. This challenge is compounded by the increasing electrification of energy sectors, which places greater demand on the power system and makes it more sensitive to meteorological conditions~\citep{bloomfield2016, bloomfield2021, vanderwiel2019drought}. Periods of low renewable generation, known as \textit{Dunkelflaute} or RES droughts, pose significant risks to system adequacy and energy security, emphasizing the need for a resilient energy system to meet both growing electricity demand and decarbonization targets.
 
 This study focuses on Ireland, a region with a strong reliance on wind power, which has ambitious targets for PV power expansion. This case study provides valuable insights into the potential benefits of diversifying the renewable energy mix on RES droughts. The performance of different RES models are compared, and a 45-year time series of RES generation is produced. The results highlight the role of increased PV capacity in reducing RES drought risks, offering insights for policymakers and energy planners.
 
@@ -367,11 +370,12 @@ Looking at the 57W-43PV scenario, the analysis showed a significant improvement 
 
 Future work is planned to extend the current analysis. First, climate projection data will be integrated with different energy scenarios, incorporating the addition of offshore wind, to better understand how climate change might affect RES droughts. Second, expanding the geographic domain of the study to include the EU would provide a more comprehensive understanding of RES droughts in an interconnected energy grid. This would require extensive verification across all EU countries, making it a more complex but highly relevant challenge.
 
-%% If you have bib database file and want bibtex to generate the
-%% bibitems, please use
+\section*{Data Availability}
+
+The meteorological data, including wind speed, irradiance, and temperature, can be accessed through the Climate Data Store (\url{https://doi.org/10.24381/cds.adbb2d47}). The C3S-E dataset is also available from the Climate Data Store (\url{https://doi.org/10.24381/cds.4bd77450}). Information on wind and PV farms in Ireland can be obtained from the EirGrid website (\url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports}). The Atlite scripts used in this study are open-source and can be found on GitHub (\url{https://github.com/pypsa/atlite}). The data required to reproduce the figures in this article will be made available upon acceptance of the manuscript.
 
 \bibliographystyle{elsarticle-harv}
-\bibliography{litrev}
+\bibliography{RES_droughts_Morin_ref}
 
 %% Refer following link for more details about bibliography and citations.
 %% https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  15 JAN 2025 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  16 JAN 2025 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**RES_droughts_Morin_RE.tex
-(./RES_droughts_Morin_RE.tex
+**RES_droughts_Morin_ReEn.tex
+(./RES_droughts_Morin_ReEn.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (./elsarticle.cls
 Document Class: elsarticle 2025/01/11, 3.4c: Elsevier Ltd
@@ -88,7 +88,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@sep=\skip49
 \@@sep=\skip50
 
-(./RES_droughts_Morin_RE.spl)
+(./RES_droughts_Morin_ReEn.spl)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
@@ -97,7 +97,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count267
 )
 \splwrite=\write3
-\openout3 = `RES_droughts_Morin_RE.spl'.
+\openout3 = `RES_droughts_Morin_ReEn.spl'.
 
 \appnamewidth=\dimen145
 )
@@ -189,23 +189,30 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box59
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(./RES_droughts_Morin_RE.aux)
-\openout1 = `RES_droughts_Morin_RE.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(./RES_droughts_Morin_ReEn.aux)
+\openout1 = `RES_droughts_Morin_ReEn.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -232,20 +239,20 @@ e
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 105
+LaTeX Font Info:    Trying to load font information for U+msa on input line 108
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 105
+LaTeX Font Info:    Trying to load font information for U+msb on input line 108
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-05.
+08.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -254,7 +261,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-11.
+14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -267,10 +274,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Scripts//droughts_methodology.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_methodology.pdf>
 Package pdftex.def Info: ../Scripts//droughts_methodology.pdf  used on input li
-ne 200.
+ne 203.
 (pdftex.def)             Requested size: 390.0pt x 215.78023pt.
  [7]
-Overfull \hbox (1.65793pt too wide) in paragraph at lines 218--219
+Overfull \hbox (1.65793pt too wide) in paragraph at lines 221--222
 \T1/cmr/m/n/12 ables.ninja also pro-vides four as-so-ci-ated smoothed power cur
 ves. The smooth-
  []
@@ -280,13 +287,13 @@ ves. The smooth-
 File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 <use ../Scripts//verification_power_curve.pdf>
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
-t line 222.
+t line 225.
 (pdftex.def)             Requested size: 390.0pt x 190.99803pt.
 <../Scripts//verification_wind_contour.png, id=60, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
-ut line 231.
+ut line 234.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
  [9 <../Scripts//verification_power_curve.pdf>]
 <../Scripts//verification_wind_number_events.pdf, id=82, 443.68091pt x 272.9643
@@ -294,7 +301,7 @@ ut line 231.
 File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_wind_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_wind_number_events.pdf  used 
-on input line 255.
+on input line 258.
 (pdftex.def)             Requested size: 390.0pt x 239.95113pt.
  [10 <../Scripts//verification_wind_contour.png>] [11 <../Scripts//verification
 _wind_number_events.pdf>]
@@ -302,7 +309,7 @@ _wind_number_events.pdf>]
 File: ../Scripts//verification_pv_contour.png Graphic file (type png)
 <use ../Scripts//verification_pv_contour.png>
 Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
- line 270.
+ line 273.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
  [12 <../Scripts//verification_pv_contour.png>]
 <../Scripts//verification_pv_number_events.pdf, id=100, 445.849pt x 275.13245pt
@@ -310,80 +317,64 @@ Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
 File: ../Scripts//verification_pv_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_pv_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_pv_number_events.pdf  used on
- input line 296.
+ input line 299.
 (pdftex.def)             Requested size: 390.0pt x 240.66891pt.
  [13 <../Scripts//verification_pv_number_events.pdf>] [14]
 <../Scripts//droughts_number_events.pdf, id=116, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 317.
+line 320.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [15 <../Scripts//droughts_number_events.pdf>] [16]
 <../Scripts//droughts_return_periods.pdf, id=135, 434.3668pt x 273.54399pt>
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 335.
+ line 338.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
  [17 <../Scripts//droughts_return_periods.pdf>]
 <../Scripts//droughts_seasonality.pdf, id=161, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 351.
+ne 354.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [18 <../Scripts//droughts_seasonality.pdf>] [19] [20]
-(./RES_droughts_Morin_RE.bbl [21] [22]
-Underfull \hbox (badness 2050) in paragraph at lines 186--196
-[]\T1/cmr/m/n/12 Mayer, M.J., Biró, B., Szücs, B., Aszódi, A., 2023.  Prob-a-bi
-lis-
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 186--196
-\T1/cmr/m/n/12 pen-e-tra-tion us-ing ma-chine learn-ing.  Ap-plied En-ergy 336,
- 120801.
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 250--261
-\T1/cmr/m/n/12 ter-con-nect.  En-vi-ron-men-tal Sci-ence and Tech-nol-ogy 55, 6
-214^^U6226.
- []
-
-[23]) [24] (./RES_droughts_Morin_RE.aux) ) 
+(./RES_droughts_Morin_ReEn.bbl [21] [22] [23]) [24]
+(./RES_droughts_Morin_ReEn.aux) ) 
 Here is how much of TeX's memory you used:
- 4356 strings out of 480247
- 65786 string characters out of 5896151
- 354123 words of memory out of 5000000
- 22243 multiletter control sequences out of 15000+600000
- 484451 words of font info for 67 fonts, out of 8000000 for 9000
+ 4470 strings out of 480247
+ 67802 string characters out of 5896151
+ 356330 words of memory out of 5000000
+ 22348 multiletter control sequences out of 15000+600000
+ 484764 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,10n,76p,1435b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-
-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.e
-nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-ti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on RES_droughts_Morin_RE.pdf (25 pages, 624894 bytes).
+ 70i,10n,76p,1437b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-
+super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sftt1200.pfb>
+Output written on RES_droughts_Morin_ReEn.pdf (25 pages, 657236 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
+ 272 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
