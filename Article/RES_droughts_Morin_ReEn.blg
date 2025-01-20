@@ -1,9 +1,11 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: RES_droughts_Morin_ReEn.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 The style file: elsarticle-num-names.bst
+Reallocating 'name_of_file' (item size: 1) to 23 items.
 Database file #1: RES_droughts_Morin_ref.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 You've used 29 entries,
             2918 wiz_defined-function locations,
             821 strings with 12518 characters,
