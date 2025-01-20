@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  20 JAN 2025 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  20 JAN 2025 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -324,7 +324,7 @@ v_number_events.pdf>]
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 320.
+line 322.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
 
 [14] [15 <../Scripts//droughts_number_events.pdf>]
@@ -332,14 +332,14 @@ line 320.
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 339.
+ line 341.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
  [16 <../Scripts//droughts_return_periods.pdf>]
 <../Scripts//droughts_seasonality.pdf, id=164, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 354.
+ne 356.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [17] [18 <../Scripts//droughts_seasonality.pdf>] [19]
 (./RES_droughts_Morin_ReEn.bbl [20] [21] [22] [23]) [24]
@@ -372,7 +372,7 @@ m-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn.pdf (25 pages, 661709 bytes).
+Output written on RES_droughts_Morin_ReEn.pdf (25 pages, 661638 bytes).
 PDF statistics:
  278 PDF objects out of 1000 (max. 8388607)
  188 compressed objects within 2 object streams
