@@ -1,54 +1,117 @@
-\documentclass[a4paper, 11p1t]{article}
-\usepackage[utf8]{inputenc}
+%% 
+%% Copyright 2007-2025 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.3 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for Elsevier's document class `elsarticle'
+%% with harvard style bibliographic references
 
-\usepackage[breaklinks, colorlinks=true, citecolor=black, linkcolor=blue, urlcolor=blue, filecolor=blue]{hyperref}
+\documentclass[preprint, 12pt]{elsarticle}
 
-\usepackage{comment}
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times,authoryear]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
 
-\usepackage[center, labelfont=bf]{caption}
-\captionsetup{justification=justified, singlelinecheck=false} % Justify left
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+%% please give \usepackage{epsfig}
 
-\usepackage{amsmath} % Math equation
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsmath package provides various useful equation environments.
+\usepackage{amsmath}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
 
-\usepackage{url} 
+%% The lineno packages adds line numbers.
+\usepackage{lineno}
 
-% For table
-\usepackage{multirow}
-\usepackage[table, xcdraw]{xcolor}
+%% Use this package to add line brakes in URL
+\usepackage{xurl}
 
-% Page definitions
-\setlength{\topmargin}{1.5cm}
-\setlength{\headheight}{1.1\baselineskip}
-\setlength{\headsep}{20pt}
-\setlength{\topskip}{12pt}
-\setlength{\evensidemargin}{0pt}
-\setlength{\oddsidemargin}{0pt}
-\setlength{\textheight}{240mm}
-\setlength{\textwidth}{160mm}
-\setlength{\voffset}{-2cm}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt}
-
-\usepackage{natbib} % Bibliography
-\bibliographystyle{unsrt}
-
-\usepackage{graphicx}
 \graphicspath{ {../Scripts/} }
 
-%opening
-\title{Reducing RES Droughts through the integration of wind and PV}
-\author{Boris Morin, Damian Flynn, Aina Maimó Far, Conor Sweeney}
+\journal{Renewable Energy}
 
 \begin{document}
 
-\maketitle
+\begin{frontmatter}
+	
+\newpageafter{author}
 
+\title{Reducing RES Droughts through the integration of wind and PV}
+
+\author[Math]{Boris Morin \corref{cor1}}
+\ead{boris.morin@ucdconnect.ie}
+
+\author[Math]{Aina Maimó Far}
+\ead{aina.maimofar@ucd.ie}
+
+\author[Eng]{Damian Flynn}
+\ead{damian.flynn@ucd.ie}
+
+\author[Math]{Conor Sweeney}
+\ead{conor.sweeney@ucd.ie}
+
+%% Author affiliation
+\affiliation[Math]{organization={School of Mathematics and Statistics, University College Dublin}, %Department and Organization
+	addressline={Belfied, Dublin 4}, 
+	city={Dublin},
+	postcode={D04 V1W8}, 
+	country={Ireland}}
+
+\affiliation[Eng]{organization={School of Electrical and Electronic Engineering, University College Dublin}, %Department and Organization
+	addressline={Belfied, Dublin 4}, 
+	city={Dublin},
+	postcode={D04 V1W8}, 
+	country={Ireland}}
+
+\cortext[cor1]{Corresponding author}
+
+%% Abstract
 \begin{abstract}
-
-\noindent The dependence of renewable energy sources (RES) such as wind and photovoltaic (PV) systems on the weather poses a critical challenge for energy systems. This study investigates the impact of targeting a balanced distribution of wind and PV capacity on reducing periods of low renewable generation, known as RES droughts. Three different RES models are used to estimate the capacity factors for different installed capacities of wind and PV energy. The skill of the RES models is quantified by comparing capacity factor time series to observed data. Their skill at representing RES droughts is also quantified. The RES models are used to generate a 45-year hourly time series of RES generation, enabling analysis of the frequency, duration and return periods of RES droughts at a climatological scale. Results show the importance of using an accurate, validated RES model for RES drought risk assessment. The addition of PV capacity to a wind-dominated system results in a large reduction in the frequency and duration of RES droughts, as well as reducing seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience. \\
-
-\textbf{Keywords}: RES Drought, Wind Power, Solar PV Power, Renewable Energy Sources, Return Periods
+Increasing the share of electricity produced from renewable energy sources (RES), combined with RES dependence on weather, poses a critical challenge for energy systems. This study investigates the importance of the balance between wind and photovoltaic (PV) capacity on periods of low renewable generation, known as RES droughts. Three different RES models are used to estimate the capacity factors for different scenarios of installed capacities for wind and PV power. The skill of the RES models is quantified by comparing capacity factor time series to observed hourly data and by assessing their representation of observed RES droughts. The RES models are used to generate a 45-year hourly time series of RES capacity factor, enabling analysis of the frequency, duration and return periods of RES droughts at a climatological scale. Results show the importance of using an accurate, validated RES model for RES drought risk assessment. The addition of PV capacity to a wind-dominated system results in a significant reduction in the frequency and duration of RES droughts, while also reducing extremes and seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience.
 \end{abstract}
+
+%%Research highlights
+\begin{highlights}
+\item RES droughts are analysed using 45 years of hourly wind and PV generation data
+
+\item RES droughts from C3S-Energy and ERA5-Atlite datasets are compared
+
+\item Adding PV to a wind-dominated system reduces RES drought frequency and duration
+
+\item Validated RES datasets are crucial to accurately identify RES drought extremes
+
+\end{highlights}
+
+%% Keywords
+\begin{keyword}
+RES Drought \sep Wind Power \sep Solar PV Power \sep Renewable Energy Sources \sep Return Periods
+
+\end{keyword}
+
+\end{frontmatter}
+
+%% Add \usepackage{lineno} before \begin{document} and uncomment 
+%% following line to enable line numbers
+\linenumbers
 
 \section{Introduction}
 \label{sec:Intro}
@@ -139,7 +202,7 @@ In this study, a RES drought event was defined as occurring when the 24-hour mov
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics{droughts_methodology.pdf}
+	\includegraphics[width=\textwidth]{droughts_methodology.pdf}
 	\caption{Wind time series of CF (green) and its 24-hour moving average (pink) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition}
 	\label{fig:find_res_droughts}
 \end{figure}
@@ -163,7 +226,7 @@ The performance of each CF time series is then assessed based on four skill scor
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics{verification_power_curve.pdf}
+	\includegraphics[width=\textwidth]{verification_power_curve.pdf}
 	\caption{a) Power curves of the Enercon E112.4500 with a 0.3w smoothing filter used by Atlite (orange) and the Vestas V136/3450 used by C3S-E (blue) b) Histograms of wind CF for Ireland from Atlite (orange), C3S-E (blue) and Observed (shaded)}
 	\label{fig:power_curve}
 \end{figure}
@@ -172,7 +235,7 @@ Based on these metrics, the most representative power curve for Ireland is the E
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics{verification_wind_contour.png}
+	\includegraphics[width=\textwidth]{verification_wind_contour.png}
 	\caption{Wind CF density plot of the observed CF (vertical axes) and modelled (horizontal axes) CF data for the a) Atlite, b) C3S-E G and c) C3S-E N models}
 	\label{fig:wind_verification_contour}
 \end{figure}
@@ -210,7 +273,7 @@ The PV installed capacity available on the spreadsheets from EirGrid represents 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics{verification_pv_contour.png}
+	\includegraphics[width=\textwidth]{verification_pv_contour.png}
 	\caption{PV CF density plot of the observed (vertical axes) and modelled (horizontal axes) CF series for the a) Atlite, b) C3S-E G and c) C3S-E N models}	
 	\label{fig:solar_verification_contour}
 \end{figure}
@@ -236,7 +299,7 @@ As the goal of this analysis is to assess the combination of wind and PV generat
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics{verification_pv_number_events.pdf}
+	\includegraphics[width=\textwidth]{verification_pv_number_events.pdf}
 	\caption{Number of PV drought events for Atlite (red), C3S-E G (blue), and C3S-E N (purple) and the observed data (black outline). The PV droughts are identified for 2023, considering the actual capacity of the system at any given time}
 	\label{fig:bar_number_events_verification_pv}
 \end{figure}
@@ -258,7 +321,7 @@ The median, first, and third quartiles for the Atlite dataset are consistently g
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics{droughts_number_events.pdf}
+	\includegraphics[width=\textwidth]{droughts_number_events.pdf}
 	\caption{Average annual number of RES droughts (from 1979 to 2023) for a)~Wind, b)~PV, c)~91W-9PV and d)~57W-43PV for Atlite (red), C3S-E G (blue), and C3S-E N (purple). The x-axis represents duration ranges in days (lower bound included), while the y-axis indicates the annual number of events. The boxes display the first and third quartiles and the median is marked by a black line. The whiskers indicate the 5th and 95th percentiles}
 	\label{fig:boxplot_number_events}	
 \end{figure}
@@ -270,14 +333,14 @@ The RES drought events identified over the 45-year period were used to calculate
 The duration of wind droughts (Fig.~\ref{fig:return_periods}a) increases in a log-linear fashion across the three datasets. The log-linear trend indicates a predictable relationship between drought duration and occurrence, with longer wind droughts becoming exponentially less likely as duration increases. 
 
 In the case of PV droughts (Fig.~\ref{fig:return_periods}b), Atlite behaves differently than the two C3S-E datasets. The Atlite results show a generally log-linear increase. For C3S-E G and C3S-E N, the duration of PV droughts increases in a log-linear pattern for events lasting less than 16 days. Beyond this duration, there is a sharp rise in drought duration for events up to a one-year return period. This sudden increase again reflects the impact of extended periods of low PV generation during winter in Ireland.
-
+ 
 The difference between Atlite and the C3S-E results arises from differences in the datasets near the threshold of 0.1 CF. Atlite remains slightly above the threshold more frequently during these conditions, leading to shorter, more fragmented drought events. In contrast, C3S-E G and C3S-E N tend to fall below the threshold in similar conditions, resulting in longer continuous drought periods, especially during winter.
 
 For the 91W-9PV scenario (Fig.~\ref{fig:return_periods}c), the return periods mirror those of Fig.~\ref{fig:return_periods}a, due to the low levels of installed PV capacity. In the 57W-43PV scenario (Fig.~\ref{fig:return_periods}d), the return periods for RES droughts increase across all durations. For example, the return period for a five-day drought event (shown by the vertical dashed lines in Fig.~\ref{fig:return_periods}) extends from roughly six months for the 91W-9PV scenario, to four years for the 57W-43PV scenario in the Atlite dataset, and from about fifteen months to around five years in the two C3S-E datasets.
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics{droughts_return_periods.pdf}
+	\includegraphics[width=\textwidth]{droughts_return_periods.pdf}
 	\caption{Return periods of the duration of RES droughts  (from 1979 to 2023) for a)~Wind, b)~PV, c)~91W-9PV and d)~57W-43PV for Atlite (red triangle), C3S-E G (blue circle), and C3S-E N (purple square). The x-axis represents the return period time in a log-scale and the y-axis indicates the duration of RES drought associated with it. The horizontal dashed line marks the 5-day return period, with coloured vertical dashed marking its return period for each dataset}
 	\label{fig:return_periods}
 \end{figure}
@@ -292,7 +355,7 @@ For wind-dominated scenarios (Fig.~\ref{fig:res_droughts_seasonality}a~\&~c), th
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics{droughts_seasonality.pdf}
+	\includegraphics[width=\textwidth]{droughts_seasonality.pdf}
 	\caption{Percentage of hours in a month which are part of a RES drought (from 1979 to 2023) for a)~Wind, b)~PV, c)~91W-9PV and d)~57W-43PV for Atlite (red dotted), C3S-E G (blue dashed), and C3S-E N (purple solid). The x-axis represents the month of the year, and the y-axis indicates the percentage of hours. Lines correspond to the median values and the area between the first and third quartiles is shaded. Note the different y-axis scale for b).}
 	\label{fig:res_droughts_seasonality}
 \end{figure}
@@ -318,8 +381,12 @@ The ERA5 data can be obtained from the Climate Data Store (\url{https://doi.org/
 
 The research conducted in this publication was funded by Science Foundation Ireland and co-funding partners under grant number 21/SPP/3756 through the NexSys Strategic Partnership Programme.
 
-
-\bibliography{litrev}
-
+\bibliographystyle{elsarticle-num-names}
+\bibliography{RES_droughts_Morin_ref}
 
 \end{document}
+
+\endinput
+
+
+

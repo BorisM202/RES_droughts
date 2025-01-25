@@ -7,13 +7,6 @@
   \url{https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Renewable_energy_statistics}
   Accessed: 2024-11-06.
 
-\bibitem{bloomfield2021}
-Hannah~C Bloomfield, David~J Brayshaw, Alberto Troccoli, Clare~M Goodess,
-  Matteo De~Felice, Laurent Dubus, Philip~E Bett, and Yves-Marie Saint-Drenan.
-\newblock Quantifying the sensitivity of european power systems to energy
-  scenarios and climate change projections.
-\newblock {\em Renewable Energy}, 164:1062–1075, February 2021.
-
 \bibitem{bloomfield2016}
 Hannah~C Bloomfield, David~J Brayshaw, Len~C Shaffrey, Phil~J Coker, and
   Hazel~E Thornton.
@@ -21,7 +14,14 @@ Hannah~C Bloomfield, David~J Brayshaw, Len~C Shaffrey, Phil~J Coker, and
   variability.
 \newblock {\em Environmental Research Letters}, 11(12):124025, 2016.
 
-\bibitem{vanderWiel2019drought}
+\bibitem{bloomfield2021}
+Hannah~C Bloomfield, David~J Brayshaw, Alberto Troccoli, Clare~M Goodess,
+  Matteo De~Felice, Laurent Dubus, Philip~E Bett, and Yves-Marie Saint-Drenan.
+\newblock Quantifying the sensitivity of european power systems to energy
+  scenarios and climate change projections.
+\newblock {\em Renewable Energy}, 164:1062–1075, February 2021.
+
+\bibitem{vanderwiel2019drought}
 Karin van~der Wiel, Laurens~P. Stoop, B.~R.~H. Van~Zuijlen, Russell Blackport,
   M.~A. Van~den Broek, and F.~M. Selten.
 \newblock Meteorological conditions leading to extreme low variable renewable
@@ -102,12 +102,6 @@ Hans Hersbach, Bill Bell, Paul Berrisford, Shoji Hirahara, Andr{\'a}s
 \newblock {\em Quarterly Journal of the Royal Meteorological Society},
   146(730):1999--2049, July 2020.
 
-\bibitem{cds2023energy}
-Copernicus Climate Change~Service (C3S).
-\newblock {Climate and energy indicators for Europe from 1979 to present
-  derived from reanalysis.}, 2020.
-\newblock Accessed on 28-11-2024.
-
 \bibitem{dubus2023energy}
 Laurent Dubus, Yves‐Marie Saint‐Drenan, Alberto Troccoli, Matteo De~Felice,
   Yohann Moreau, Linh Ho‐Tran, Clare Goodess, Rodrigo Amaro E~Silva, and Luke
@@ -116,6 +110,12 @@ Laurent Dubus, Yves‐Marie Saint‐Drenan, Alberto Troccoli, Matteo De~Felice,
   demand indicators for Europe based on the ERA5 reanalysis and ENTSO‐E
   data}.
 \newblock {\em Meteorological Applications}, 30(5):e2145, September 2023.
+
+\bibitem{cds2023energy}
+Copernicus Climate Change~Service (C3S).
+\newblock {Climate and energy indicators for Europe from 1979 to present
+  derived from reanalysis.}, 2020.
+\newblock Accessed on 28-11-2024.
 
 \bibitem{hofman2021atlite}
 Fabian Hofmann, Johannes Hampp, Fabian Neumann, Tom Brown, and Jonas
