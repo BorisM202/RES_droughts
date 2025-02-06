@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  25 JAN 2025 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  6 FEB 2025 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -236,116 +236,113 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-[1
+LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110
-.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-10.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1
 
 
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-16.
+05.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [2] [3]
-Overfull \hbox (17.82689pt too wide) in paragraph at lines 144--145
+Overfull \hbox (17.82689pt too wide) in paragraph at lines 133--134
 \T1/cmr/m/n/12 duced by the Eu-ro-pean Cen-tre for Medium-Range Weather Fore-ca
 sts (ECMWF).
  []
 
 [4] [5] [6]
-<../Scripts//droughts_methodology.pdf, id=41, 445.45973pt x 246.67972pt>
+<../Scripts//droughts_methodology.pdf, id=37, 445.45973pt x 246.67972pt>
 File: ../Scripts//droughts_methodology.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_methodology.pdf>
 Package pdftex.def Info: ../Scripts//droughts_methodology.pdf  used on input li
-ne 205.
+ne 194.
 (pdftex.def)             Requested size: 390.0pt x 215.97595pt.
  [7] [8 <../Scripts//droughts_methodology.pdf>]
-<../Scripts//verification_power_curve.pdf, id=64, 443.26425pt x 218.22694pt>
+<../Scripts//verification_power_curve.pdf, id=61, 443.26425pt x 218.22694pt>
 File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 <use ../Scripts//verification_power_curve.pdf>
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
-t line 229.
+t line 218.
 (pdftex.def)             Requested size: 390.0pt x 192.00699pt.
  [9 <../Scripts//verification_power_curve.pdf>]
-<../Scripts//verification_wind_contour.png, id=83, 459.1554pt x 150.5625pt>
+<../Scripts//verification_wind_contour.png, id=80, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
-ut line 238.
+ut line 227.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
-<../Scripts//verification_wind_number_events.pdf, id=85, 443.68091pt x 272.9643
+<../Scripts//verification_wind_number_events.pdf, id=82, 443.68091pt x 272.9643
 7pt>
 File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_wind_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_wind_number_events.pdf  used 
-on input line 262.
+on input line 251.
 (pdftex.def)             Requested size: 390.0pt x 239.95113pt.
  [10 <../Scripts//verification_wind_contour.png>]
 [11 <../Scripts//verification_wind_number_events.pdf>]
-<../Scripts//verification_pv_contour.png, id=97, 459.1554pt x 150.5625pt>
+<../Scripts//verification_pv_contour.png, id=94, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_pv_contour.png Graphic file (type png)
 <use ../Scripts//verification_pv_contour.png>
 Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
- line 276.
+ line 265.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
  [12 <../Scripts//verification_pv_contour.png>]
-<../Scripts//verification_pv_number_events.pdf, id=103, 445.849pt x 275.13245pt
->
+<../Scripts//verification_pv_number_events.pdf, id=99, 445.849pt x 275.13245pt>
+
 File: ../Scripts//verification_pv_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_pv_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_pv_number_events.pdf  used on
- input line 302.
+ input line 291.
 (pdftex.def)             Requested size: 390.0pt x 240.66891pt.
  [13 <../Scripts//verification_pv_number_events.pdf>]
-<../Scripts//droughts_number_events.pdf, id=114, 435.01134pt x 273.54399pt>
+<../Scripts//droughts_number_events.pdf, id=111, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 324.
+line 313.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
 
 [14] [15 <../Scripts//droughts_number_events.pdf>]
-<../Scripts//droughts_return_periods.pdf, id=133, 434.3668pt x 273.54399pt>
+<../Scripts//droughts_return_periods.pdf, id=130, 434.3668pt x 273.54399pt>
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 343.
+ line 332.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
  [16]
-<../Scripts//droughts_seasonality.pdf, id=137, 435.01134pt x 273.54399pt>
+<../Scripts//droughts_seasonality.pdf, id=134, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 358.
+ne 347.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [17 <../Scripts//droughts_return_periods.pdf>] [18 <../Scripts//droughts_seaso
 nality.pdf>] [19]
 (./RES_droughts_Morin_Earth.bbl [20] [21] [22] [23]) [24]
 (./RES_droughts_Morin_Earth.aux) ) 
 Here is how much of TeX's memory you used:
- 4473 strings out of 480247
- 67855 string characters out of 5896151
- 358372 words of memory out of 5000000
- 22351 multiletter control sequences out of 15000+600000
+ 4471 strings out of 480247
+ 67838 string characters out of 5896151
+ 358369 words of memory out of 5000000
+ 22349 multiletter control sequences out of 15000+600000
  484764 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,10n,76p,1438b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -368,10 +365,10 @@ ublic/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
 000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/
 texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_Earth.pdf (25 pages, 630080 bytes).
+Output written on RES_droughts_Morin_Earth.pdf (24 pages, 628373 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
+ 268 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
