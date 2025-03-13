@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  12 MAR 2025 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  13 MAR 2025 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -266,115 +266,122 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [2] [3] [4]
-Overfull \hbox (17.82689pt too wide) in paragraph at lines 150--151
+Overfull \hbox (17.82689pt too wide) in paragraph at lines 146--147
 \T1/cmr/m/n/12 duced by the Eu-ro-pean Cen-tre for Medium-Range Weather Fore-ca
 sts (ECMWF).
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5] [6] [7]
 <../Scripts//droughts_methodology.pdf, id=44, 445.45973pt x 246.67972pt>
 File: ../Scripts//droughts_methodology.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_methodology.pdf>
 Package pdftex.def Info: ../Scripts//droughts_methodology.pdf  used on input li
-ne 211.
+ne 207.
 (pdftex.def)             Requested size: 390.0pt x 215.97595pt.
  [8] [9 <../Scripts//droughts_methodology.pdf>]
 <../Scripts//verification_power_curve.pdf, id=67, 443.26425pt x 218.22694pt>
 File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 <use ../Scripts//verification_power_curve.pdf>
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
-t line 235.
+t line 231.
 (pdftex.def)             Requested size: 390.0pt x 192.00699pt.
-<../Scripts//verification_wind_contour.png, id=68, 459.1554pt x 150.5625pt>
+ [10 <../Scripts//verification_power_curve.pdf>]
+<../Scripts//verification_wind_contour.png, id=86, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
-ut line 244.
+ut line 240.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
- [10 <../Scripts//verification_power_curve.pdf>]
-<../Scripts//verification_wind_number_events.pdf, id=88, 443.68091pt x 272.9643
-7pt>
+<../Scripts//verification_wind_number_events.pdf, id=88, 445.849pt x 275.13245p
+t>
 File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_wind_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_wind_number_events.pdf  used 
-on input line 268.
-(pdftex.def)             Requested size: 390.0pt x 239.95113pt.
+on input line 264.
+(pdftex.def)             Requested size: 390.0pt x 240.66891pt.
  [11 <../Scripts//verification_wind_contour.png>]
-<../Scripts//verification_pv_contour.png, id=93, 459.1554pt x 150.5625pt>
+[12 <../Scripts//verification_wind_number_events.pdf>]
+<../Scripts//verification_pv_contour.png, id=104, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_pv_contour.png Graphic file (type png)
 <use ../Scripts//verification_pv_contour.png>
 Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
- line 282.
+ line 278.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
-
-[12 <../Scripts//verification_wind_number_events.pdf> <../Scripts//verification
-_pv_contour.png>]
-<../Scripts//verification_pv_number_events.pdf, id=103, 445.849pt x 275.13245pt
+ [13 <../Scripts//verification_pv_contour.png>]
+<../Scripts//verification_pv_number_events.pdf, id=109, 445.849pt x 275.13245pt
 >
 File: ../Scripts//verification_pv_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_pv_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_pv_number_events.pdf  used on
- input line 308.
+ input line 304.
 (pdftex.def)             Requested size: 390.0pt x 240.66891pt.
- [13] [14 <../Scripts//verification_pv_number_events.pdf>]
-<../Scripts//droughts_number_events.pdf, id=117, 435.01134pt x 273.54399pt>
+ [14 <../Scripts//verification_pv_number_events.pdf>]
+Overfull \hbox (0.38795pt too wide) in paragraph at lines 320--321
+[]\T1/cmr/m/n/12 Additionally, the con-sis-tently higher drought counts re-port
+ed by the Atlite
+ []
+
+<../Scripts//droughts_number_events.pdf, id=120, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 330.
+line 325.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
-
 [15] [16 <../Scripts//droughts_number_events.pdf>]
-<../Scripts//droughts_return_periods.pdf, id=136, 434.3668pt x 273.54399pt>
+<../Scripts//droughts_return_periods.pdf, id=139, 434.3668pt x 273.54399pt>
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 349.
+ line 340.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
- [17 <../Scripts//droughts_return_periods.pdf>]
-<../Scripts//droughts_seasonality.pdf, id=162, 435.01134pt x 273.54399pt>
+ [17 <../Scripts//droughts_return_periods.pdf>] [18]
+<../Scripts//droughts_seasonality.pdf, id=169, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 364.
+ne 358.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
- [18] [19 <../Scripts//droughts_seasonality.pdf>] [20]
-(./RES_droughts_Morin_ReEn_R2.bbl [21] [22] [23] [24]) [25]
-(./RES_droughts_Morin_ReEn_R2.aux) ) 
+ [19 <../Scripts//droughts_seasonality.pdf>] [20]
+
+Package natbib Warning: Citation `doi:10.3390/atmos12050624' on page 21 undefin
+ed on input line 374.
+
+[21] (./RES_droughts_Morin_ReEn_R2.bbl [22] [23] [24])
+
+Package natbib Warning: There were undefined citations.
+
+[25] (./RES_droughts_Morin_ReEn_R2.aux) ) 
 Here is how much of TeX's memory you used:
  4472 strings out of 480247
- 67868 string characters out of 5896151
- 359346 words of memory out of 5000000
+ 67869 string characters out of 5896151
+ 357346 words of memory out of 5000000
  22350 multiletter control sequences out of 15000+600000
  484764 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,10n,76p,2181b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-rm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sft
-i1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn_R2.pdf (26 pages, 631765 bytes).
+ 70i,10n,76p,2642b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-s
+uper/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sftt1200.pfb>
+Output written on RES_droughts_Morin_ReEn_R2.pdf (26 pages, 634328 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
+ 278 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
