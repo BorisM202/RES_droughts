@@ -3,45 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: RES_droughts_Morin_ReEn_R2.aux
 The style file: elsarticle-num-names.bst
 Database file #1: RES_droughts_Morin_ref.bib
+Warning--I didn't find a database entry for "doi:10.3390/atmos12050624"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 29 entries,
+You've used 25 entries,
             2918 wiz_defined-function locations,
-            820 strings with 12500 characters,
-and the built_in function-call counts, 21846 in all, are:
-= -- 1540
-> -- 1152
-< -- 9
-+ -- 441
-- -- 402
-* -- 2813
-:= -- 3173
-add.period$ -- 57
-call.type$ -- 29
-change.case$ -- 279
-chr.to.int$ -- 29
-cite$ -- 29
-duplicate$ -- 1495
-empty$ -- 1399
-format.name$ -- 485
-if$ -- 3934
+            795 strings with 11465 characters,
+and the built_in function-call counts, 18689 in all, are:
+= -- 1316
+> -- 974
+< -- 7
++ -- 372
+- -- 339
+* -- 2403
+:= -- 2714
+add.period$ -- 49
+call.type$ -- 25
+change.case$ -- 237
+chr.to.int$ -- 25
+cite$ -- 25
+duplicate$ -- 1286
+empty$ -- 1206
+format.name$ -- 410
+if$ -- 3368
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 333
-newline$ -- 150
-num.names$ -- 116
-pop$ -- 485
+missing$ -- 285
+newline$ -- 132
+num.names$ -- 100
+pop$ -- 420
 preamble$ -- 1
-purify$ -- 277
+purify$ -- 237
 quote$ -- 0
-skip$ -- 305
+skip$ -- 262
 stack$ -- 0
-substring$ -- 863
-swap$ -- 1255
+substring$ -- 735
+swap$ -- 1074
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 261
+type$ -- 225
 warning$ -- 0
-while$ -- 116
+while$ -- 99
 width$ -- 0
-write$ -- 415
+write$ -- 360
+(There was 1 warning)

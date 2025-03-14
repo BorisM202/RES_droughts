@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -189,13 +189,6 @@
 \newblock \bibinfo{journal}{Meteorological Applications} \bibinfo{volume}{30}
   (\bibinfo{year}{2023}) \bibinfo{pages}{e2145}.
   \DOIprefix\doi{10.1002/met.2145}.
-%Type = Misc
-\bibitem[{{Copernicus Climate Change Service (C3S)}(2020)}]{cds2023energy}
-\bibinfo{author}{{Copernicus Climate Change Service (C3S)}},
-  \bibinfo{title}{{Climate and energy indicators for Europe from 1979 to
-  present derived from reanalysis.}}, \bibinfo{year}{2020}.
-  \DOIprefix\doi{10.24381/cds.4bd77450}, \bibinfo{note}{accessed on
-  28-11-2024}.
 %Type = Article
 \bibitem[{Hofmann et~al.(2021)Hofmann, Hampp, Neumann, Brown, and
   H{\"o}rsch}]{hofman2021atlite}
@@ -207,38 +200,6 @@
 \newblock \bibinfo{journal}{Journal of Open Source Software}
   \bibinfo{volume}{6} (\bibinfo{year}{2021}) \bibinfo{pages}{3294}.
   \DOIprefix\doi{10.21105/joss.03294}.
-%Type = Article
-\bibitem[{Li et~al.(2023)Li, Zhao, Xu, Li, Liu, Mahmud, and
-  Chen}]{li2023atlite}
-\bibinfo{author}{J.~Li}, \bibinfo{author}{Z.~Zhao}, \bibinfo{author}{D.~Xu},
-  \bibinfo{author}{P.~Li}, \bibinfo{author}{Y.~Liu}, \bibinfo{author}{M.~A.
-  Mahmud}, \bibinfo{author}{D.~Chen},
-\newblock \bibinfo{title}{The potential assessment of pump hydro energy storage
-  to reduce renewable curtailment and {CO2 emissions in Northwest China}},
-\newblock \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{212}
-  (\bibinfo{year}{2023}) \bibinfo{pages}{82--96}.
-  \DOIprefix\doi{10.1016/j.renene.2023.04.132}.
-%Type = Article
-\bibitem[{Parzen et~al.(2023)Parzen, Abdel-Khalek, Fedotova, Mahmood,
-  Frysztacki, Hampp, Franken, Schumm, Neumann, Poli et~al.}]{parzen2023atlite}
-\bibinfo{author}{M.~Parzen}, \bibinfo{author}{H.~Abdel-Khalek},
-  \bibinfo{author}{E.~Fedotova}, \bibinfo{author}{M.~Mahmood},
-  \bibinfo{author}{M.~M. Frysztacki}, \bibinfo{author}{J.~Hampp},
-  \bibinfo{author}{L.~Franken}, \bibinfo{author}{L.~Schumm},
-  \bibinfo{author}{F.~Neumann}, \bibinfo{author}{D.~Poli}, et~al.,
-\newblock \bibinfo{title}{Pypsa-earth. a new global open energy system
-  optimization model demonstrated in africa},
-\newblock \bibinfo{journal}{Applied Energy} \bibinfo{volume}{341}
-  (\bibinfo{year}{2023}) \bibinfo{pages}{121096}.
-  \DOIprefix\doi{10.1016/j.apenergy.2023.121096}.
-%Type = Article
-\bibitem[{Ali Khan~Niazi and Victoria(2023)}]{ali2023comparative}
-\bibinfo{author}{K.~Ali Khan~Niazi}, \bibinfo{author}{M.~Victoria},
-\newblock \bibinfo{title}{Comparative analysis of photovoltaic configurations
-  for agrivoltaic systems in europe},
-\newblock \bibinfo{journal}{Progress in Photovoltaics: Research and
-  Applications} \bibinfo{volume}{31} (\bibinfo{year}{2023})
-  \bibinfo{pages}{1101--1113}. \DOIprefix\doi{10.1002/pip.3727}.
 %Type = Misc
 \bibitem[{{EirGrid \& SONI}(2023)}]{eirgrid2023spreadsheet}
 \bibinfo{author}{{EirGrid \& SONI}}, \bibinfo{title}{{System and Renewable Data
@@ -246,16 +207,16 @@
   \url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports},
   \bibinfo{note}{{A}ccessed: 2024-11-06}.
 %Type = Article
-\bibitem[{Otero et~al.(2022)Otero, Martius, Allen, Bloomfield, and
-  Schaefli}]{otero2022drought}
-\bibinfo{author}{N.~Otero}, \bibinfo{author}{O.~Martius},
-  \bibinfo{author}{S.~Allen}, \bibinfo{author}{H.~Bloomfield},
-  \bibinfo{author}{B.~Schaefli},
-\newblock \bibinfo{title}{{Characterizing renewable energy compound events
-  across Europe using a logistic regression‐based approach}},
-\newblock \bibinfo{journal}{Meteorological Applications} \bibinfo{volume}{29}
-  (\bibinfo{year}{2022}) \bibinfo{pages}{e2089}.
-  \DOIprefix\doi{10.1002/met.2089}, \bibinfo{note}{13}.
+\bibitem[{Doddy~Clarke et~al.(2021)Doddy~Clarke, Griffin, McDermott,
+  Monteiro~Correia, and Sweeney}]{doddy2021era5}
+\bibinfo{author}{E.~Doddy~Clarke}, \bibinfo{author}{S.~Griffin},
+  \bibinfo{author}{F.~McDermott}, \bibinfo{author}{J.~Monteiro~Correia},
+  \bibinfo{author}{C.~Sweeney},
+\newblock \bibinfo{title}{Which reanalysis dataset should we use for renewable
+  energy analysis in ireland?},
+\newblock \bibinfo{journal}{Atmosphere} \bibinfo{volume}{12}
+  (\bibinfo{year}{2021}) \bibinfo{pages}{624}.
+  \DOIprefix\doi{10.3390/atmos12050624}.
 %Type = Article
 \bibitem[{Saint-Drenan et~al.(2018)Saint-Drenan, Wald, Ranchin, Dubus, and
   Troccoli}]{saintdrenan2018solar}

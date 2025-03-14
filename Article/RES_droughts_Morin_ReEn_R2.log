@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  13 MAR 2025 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  14 MAR 2025 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -316,7 +316,7 @@ Package pdftex.def Info: ../Scripts//verification_pv_number_events.pdf  used on
  input line 304.
 (pdftex.def)             Requested size: 390.0pt x 240.66891pt.
  [14 <../Scripts//verification_pv_number_events.pdf>]
-Overfull \hbox (0.38795pt too wide) in paragraph at lines 320--321
+Overfull \hbox (0.38795pt too wide) in paragraph at lines 322--323
 []\T1/cmr/m/n/12 Additionally, the con-sis-tently higher drought counts re-port
 ed by the Atlite
  []
@@ -325,26 +325,38 @@ ed by the Atlite
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 325.
+line 327.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
 [15] [16 <../Scripts//droughts_number_events.pdf>]
 <../Scripts//droughts_return_periods.pdf, id=139, 434.3668pt x 273.54399pt>
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 340.
+ line 342.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
- [17 <../Scripts//droughts_return_periods.pdf>] [18]
+ [17 <../Scripts//droughts_return_periods.pdf>]
+Overfull \hbox (15.52878pt too wide) in paragraph at lines 353--354
+\T1/cmr/m/n/12 nounced sea-sonal pat-tern, with about 24% of sum-mer hours (Jun
+e^^UJuly^^UAugust)
+ []
+
+
+Overfull \hbox (38.07883pt too wide) in paragraph at lines 353--354
+\T1/cmr/m/n/12 iden-ti-fied as droughts com-pared to only 4% in win-ter (De-cem
+-ber^^UJanuary^^UFebruary).
+ []
+
+[18]
 <../Scripts//droughts_seasonality.pdf, id=169, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 358.
+ne 361.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [19 <../Scripts//droughts_seasonality.pdf>] [20]
 
 Package natbib Warning: Citation `doi:10.3390/atmos12050624' on page 21 undefin
-ed on input line 374.
+ed on input line 377.
 
 [21] (./RES_droughts_Morin_ReEn_R2.bbl [22] [23] [24])
 
@@ -352,13 +364,13 @@ Package natbib Warning: There were undefined citations.
 
 [25] (./RES_droughts_Morin_ReEn_R2.aux) ) 
 Here is how much of TeX's memory you used:
- 4472 strings out of 480247
- 67869 string characters out of 5896151
- 357346 words of memory out of 5000000
- 22350 multiletter control sequences out of 15000+600000
+ 4460 strings out of 480247
+ 67587 string characters out of 5896151
+ 358065 words of memory out of 5000000
+ 22338 multiletter control sequences out of 15000+600000
  484764 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,10n,76p,2642b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,10n,76p,2642b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-s
 uper/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.en
 c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
@@ -378,7 +390,7 @@ type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn_R2.pdf (26 pages, 634328 bytes).
+Output written on RES_droughts_Morin_ReEn_R2.pdf (26 pages, 633878 bytes).
 PDF statistics:
  278 PDF objects out of 1000 (max. 8388607)
  188 compressed objects within 2 object streams
