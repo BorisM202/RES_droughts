@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -200,6 +200,17 @@
 \newblock \bibinfo{journal}{Journal of Open Source Software}
   \bibinfo{volume}{6} (\bibinfo{year}{2021}) \bibinfo{pages}{3294}.
   \DOIprefix\doi{10.21105/joss.03294}.
+%Type = Article
+\bibitem[{Kies et~al.(2021)Kies, Schyska, Bilousova, El~Sayed, Jurasz, and
+  Stoecker}]{kies2021drought}
+\bibinfo{author}{A.~Kies}, \bibinfo{author}{B.~U. Schyska},
+  \bibinfo{author}{M.~Bilousova}, \bibinfo{author}{O.~El~Sayed},
+  \bibinfo{author}{J.~Jurasz}, \bibinfo{author}{H.~Stoecker},
+\newblock \bibinfo{title}{Critical review of renewable generation datasets and
+  their implications for european power system models},
+\newblock \bibinfo{journal}{Renewable and Sustainable Energy Reviews}
+  \bibinfo{volume}{152} (\bibinfo{year}{2021}) \bibinfo{pages}{111614}.
+  \DOIprefix\doi{10.1016/j.rser.2021.111614}.
 %Type = Misc
 \bibitem[{{EirGrid \& SONI}(2023)}]{eirgrid2023spreadsheet}
 \bibinfo{author}{{EirGrid \& SONI}}, \bibinfo{title}{{System and Renewable Data

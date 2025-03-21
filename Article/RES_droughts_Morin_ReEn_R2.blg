@@ -1,51 +1,47 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: RES_droughts_Morin_ReEn_R2.aux
-Reallocating 'name_of_file' (item size: 1) to 21 items.
 The style file: elsarticle-num-names.bst
-Reallocating 'name_of_file' (item size: 1) to 23 items.
 Database file #1: RES_droughts_Morin_ref.bib
-Warning--I didn't find a database entry for "doi:10.3390/atmos12050624"
-Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 25 entries,
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 26 entries,
             2918 wiz_defined-function locations,
-            795 strings with 11465 characters,
-and the built_in function-call counts, 18689 in all, are:
-= -- 1316
-> -- 974
+            800 strings with 11710 characters,
+and the built_in function-call counts, 19533 in all, are:
+= -- 1373
+> -- 1025
 < -- 7
-+ -- 372
-- -- 339
-* -- 2403
-:= -- 2714
-add.period$ -- 49
-call.type$ -- 25
-change.case$ -- 237
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 1286
-empty$ -- 1206
-format.name$ -- 410
-if$ -- 3368
++ -- 391
+- -- 357
+* -- 2517
+:= -- 2837
+add.period$ -- 51
+call.type$ -- 26
+change.case$ -- 248
+chr.to.int$ -- 26
+cite$ -- 26
+duplicate$ -- 1341
+empty$ -- 1257
+format.name$ -- 431
+if$ -- 3519
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 285
-newline$ -- 132
-num.names$ -- 100
-pop$ -- 420
+missing$ -- 298
+newline$ -- 137
+num.names$ -- 104
+pop$ -- 438
 preamble$ -- 1
-purify$ -- 237
+purify$ -- 248
 quote$ -- 0
-skip$ -- 262
+skip$ -- 272
 stack$ -- 0
-substring$ -- 735
-swap$ -- 1074
+substring$ -- 765
+swap$ -- 1124
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 225
+type$ -- 234
 warning$ -- 0
-while$ -- 99
+while$ -- 103
 width$ -- 0
-write$ -- 360
-(There was 1 warning)
+write$ -- 374
