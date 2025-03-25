@@ -1,0 +1,604 @@
+%% 
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL RES_droughts_Morin_ReEn.tex      Mon Jan 20 17:56:31 2025
+%DIF ADD RES_droughts_Morin_ReEn_R2.tex   Sat Mar 22 22:41:54 2025
+%% Copyright 2007-2025 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.3 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for Elsevier's document class `elsarticle'
+%% with harvard style bibliographic references
+
+\documentclass[preprint, 12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times,authoryear]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+%% please give \usepackage{epsfig}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsmath package provides various useful equation environments.
+\usepackage{amsmath}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers.
+\usepackage{lineno}
+
+%% Use this package to add line brakes in URL
+\usepackage{xurl}
+
+\graphicspath{ {../Scripts/} }
+
+\journal{Renewable Energy}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+
+\begin{frontmatter}
+
+\newpageafter{author}
+
+\title{Reducing RES Droughts through the integration of wind and \DIFaddbegin \DIFadd{Solar }\DIFaddend PV}
+
+\author[Math]{Boris Morin \corref{cor1}}
+\ead{boris.morin@ucdconnect.ie}
+
+\author[Math]{Aina Maimó Far}
+\ead{aina.maimofar@ucd.ie}
+
+\author[Eng]{Damian Flynn}
+\ead{damian.flynn@ucd.ie}
+
+\author[Math]{Conor Sweeney}
+\ead{conor.sweeney@ucd.ie}
+
+%% Author affiliation
+\affiliation[Math]{organization={School of Mathematics and Statistics, University College Dublin}, %Department and Organization
+	addressline={Belfied, Dublin 4}, 
+	city={Dublin},
+	postcode={D04 V1W8}, 
+	country={Ireland}}
+
+\affiliation[Eng]{organization={School of Electrical and Electronic Engineering, University College Dublin}, %Department and Organization
+	addressline={Belfied, Dublin 4}, 
+	city={Dublin},
+	postcode={D04 V1W8}, 
+	country={Ireland}}
+
+\cortext[cor1]{Corresponding author}
+
+%% Abstract
+\begin{abstract}
+Increasing the share of electricity produced from renewable energy sources (RES), combined with RES dependence on weather, poses a critical challenge for energy systems. This study investigates the importance of the balance between wind and \DIFaddbegin \DIFadd{solar }\DIFaddend photovoltaic (PV) capacity on periods of low renewable generation, known as RES droughts. Three different RES \DIFdelbegin \DIFdel{models }\DIFdelend \DIFaddbegin \DIFadd{datasets }\DIFaddend are used to estimate the capacity factors for different scenarios of installed capacities for wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV power. The skill of the RES models is quantified by comparing capacity factor time series to observed hourly data and by assessing their representation of observed RES droughts. The RES models are used to generate a 45-year hourly time series of RES capacity factor, enabling analysis of the frequency, duration and return periods of RES droughts at a climatological scale. Results show the importance of using an accurate, validated RES model for RES drought risk assessment. The addition of \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity to a wind-dominated system results in a significant reduction in the frequency and duration of RES droughts, while also reducing extremes and seasonal drought patterns. These findings underscore the importance of diversification in RES capacity to enhance energy security and resilience.
+\end{abstract}
+
+%%Research highlights
+\begin{highlights}
+\item RES droughts are analysed using 45 years of hourly wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation data
+
+\item RES droughts from C3S-Energy and ERA5-Atlite datasets are compared
+
+\item Adding \DIFaddbegin \DIFadd{solar }\DIFaddend PV to a wind-dominated system reduces RES drought frequency and duration
+
+\item Validated RES datasets are crucial to accurately identify RES drought extremes
+
+\end{highlights}
+
+%% Keywords
+\begin{keyword}
+RES Drought \sep Wind Power \sep Solar PV Power \sep Renewable Energy Sources \sep Return Periods
+
+\end{keyword}
+
+\end{frontmatter}
+
+%% Add \usepackage{lineno} before \begin{document} and uncomment 
+%% following line to enable line numbers
+\linenumbers
+
+\section{Introduction}
+\DIFdelbegin %DIFDELCMD < \label{sec:Intro}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{sec:intro}
+\DIFaddend 
+
+The EU aims to generate at least 69\% of its electricity from renewable energy sources (RES) by 2030, up from 41\% in 2022 \citep{eurostat2023share}. While this transition is essential for reducing greenhouse gas emissions, it also highlights the challenge of managing the variability of weather-dependent energy sources such as wind and \DIFaddbegin \DIFadd{solar }\DIFaddend photovoltaic (PV) power. This challenge is \DIFdelbegin \DIFdel{compounded }\DIFdelend \DIFaddbegin \DIFadd{amplified }\DIFaddend by the increasing electrification of energy sectors, which places greater demand on the power system and makes it more sensitive to meteorological conditions\DIFdelbegin \DIFdel{~\mbox{%DIFAUXCMD
+\citep{bloomfield2016, bloomfield2021, vanderwiel2019drought}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{, both in historical~\mbox{%DIFAUXCMD
+\citep{bloomfield2016} }\hspace{0pt}%DIFAUXCMD
+and future climates~\mbox{%DIFAUXCMD
+\citep{bloomfield2021}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend . Periods of low renewable generation, known as \textit{Dunkelflaute} or RES droughts, pose significant risks to system adequacy and energy security, emphasising the need for a resilient energy system to meet both growing electricity demand and decarbonisation targets.
+
+\DIFdelbegin \DIFdel{This study focuses on Ireland, a region with a strong reliance on wind power, which has ambitious targets for PV power expansion. This case study provides valuable insights into the potential benefits of diversifying the renewable energy mix on RES droughts. The performance of different RES models are compared, and a 45-year time series of RES generation is produced. The results highlight the role of increased PV capacity in reducing RES drought risks, offering insights for policymakers and energy planners. }%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{For this study, }\DIFdelend \DIFaddbegin \DIFadd{RES drought events do not have a fixed definition, with various approaches present in the literature. One common method defines }\DIFaddend a RES drought \DIFdelbegin \DIFdel{event is defined as occurring when }\DIFdelend \DIFaddbegin \DIFadd{as a period during which }\DIFaddend the average capacity factor (CF) remains below a fixed threshold for a \DIFdelbegin \DIFdel{given duration, following the methodology used in other research~\mbox{%DIFAUXCMD
+\citep{kaspar2019drought, ohba2022drought, mockert2023drought, mayer2023drought}}\hspace{0pt}%DIFAUXCMD
+. Alternative methods exist for defining }\DIFdelend \DIFaddbegin \DIFadd{specified duration. For example, Kaspar et al.~\mbox{%DIFAUXCMD
+\citep{kaspar2019drought} }\hspace{0pt}%DIFAUXCMD
+used this method to investigate the shortfall risks of low wind and solar PV generation in Europe, with a focus on Germany, testing multiple CF thresholds and durations. Similarly, Mockert et al.~\mbox{%DIFAUXCMD
+\citep{mockert2023drought} }\hspace{0pt}%DIFAUXCMD
+examined the link between weather regimes and RES droughts in Germany using a 48-hour rolling window under a threshold to define }\DIFaddend RES droughts. \DIFdelbegin \DIFdel{One approach uses relative CF thresholds that change }\DIFdelend \DIFaddbegin \DIFadd{Similar fixed-threshold approaches have also been applied using CF series reconstructed through machine learning in regions such as Japan~\mbox{%DIFAUXCMD
+\citep{ohba2022drought} }\hspace{0pt}%DIFAUXCMD
+and Hungary \mbox{%DIFAUXCMD
+\citep{mayer2023drought}}\hspace{0pt}%DIFAUXCMD
+.
+}
+
+\DIFadd{Alternative methods adjust the CF threshold dynamically }\DIFaddend over the year to account for seasonal variations in renewable \DIFdelbegin \DIFdel{energy generation~\mbox{%DIFAUXCMD
+\citep{raynaud2018drought, rinaldi2021drought, gangopadhyay2022drought, allen2023drought, kapica2024drought}}\hspace{0pt}%DIFAUXCMD
+. Another common method relies on percentile-based thresholds, where drought eventsare defined by identifying }\DIFdelend \DIFaddbegin \DIFadd{production. Raynaud et al.~\mbox{%DIFAUXCMD
+\citep{raynaud2018drought} }\hspace{0pt}%DIFAUXCMD
+defined droughts as sequences of days with energy production below a threshold that varies seasonally, a methodology later adapted for India~\mbox{%DIFAUXCMD
+\citep{gangopadhyay2022drought}}\hspace{0pt}%DIFAUXCMD
+. Building on this, Kapica et al.~\mbox{%DIFAUXCMD
+\citep{kapica2024drought} }\hspace{0pt}%DIFAUXCMD
+compared the likelihood of increased RES droughts in Europe under different climate models. Other studies have defined droughts based on deviations from daily mean production: Rinaldi et al.~\mbox{%DIFAUXCMD
+\citep{rinaldi2021drought} }\hspace{0pt}%DIFAUXCMD
+applied these in the U.S. Western Interconnection to quantify the benefits of long-term storage, while Brown et al.~\mbox{%DIFAUXCMD
+\citep{brown2021drought} }\hspace{0pt}%DIFAUXCMD
+examined weekly timescales to explore meteorological influences on the most severe drought events. Another method defines energy drought indices based on metrics commonly used in hydro-meteorology to characterise RES droughts~\mbox{%DIFAUXCMD
+\citep{allen2023drought}}\hspace{0pt}%DIFAUXCMD
+. This approach identifies }\DIFaddend periods of unusually low generation relative to historical production levels, \DIFdelbegin \DIFdel{typically based on }\DIFdelend \DIFaddbegin \DIFadd{using }\DIFaddend the lowest production percentiles\DIFdelbegin \DIFdel{~\mbox{%DIFAUXCMD
+\citep{allen2023drought, bracken2024drought}}\hspace{0pt}%DIFAUXCMD
+.Additionally, some studies combine these definitions with metrics that incorporate the demand side of energy consumption, analysing the balance between supply and demand during drought periods~\mbox{%DIFAUXCMD
+\citep{raynaud2018drought, rinaldi2021drought, allen2023drought, bracken2024drought}}\hspace{0pt}%DIFAUXCMD
+.}\DIFdelend \DIFaddbegin \DIFadd{. Bracken at al.~\mbox{%DIFAUXCMD
+\citep{bracken2024drought} }\hspace{0pt}%DIFAUXCMD
+used this approach to analyse RES droughts at different time scales in the U.S.~\mbox{%DIFAUXCMD
+\citep{bracken2024drought}}\hspace{0pt}%DIFAUXCMD
+, and Lei et al. ~\mbox{%DIFAUXCMD
+\citep{lei2024drought} }\hspace{0pt}%DIFAUXCMD
+used it to quantify droughts in wind-PV-hydro systems in China.
+}
+
+\DIFadd{In addition to examining periods of low renewable electricity generation, several studies also explore the periods when the imbalance between renewable generation and electricity demand (residual load) is high. Raynaud et al.~\mbox{%DIFAUXCMD
+\citep{raynaud2018drought} }\hspace{0pt}%DIFAUXCMD
+defined both energy production and energy supply droughts, and showed the difference in their patterns in a hypothetical fully renewable system composed of wind, PV and run-of-the-river hydropower. Similarly, Allen and Otero~\mbox{%DIFAUXCMD
+\citep{allen2023drought} }\hspace{0pt}%DIFAUXCMD
+also defined a standardised index based on meteorological droughts to address residual load, whose correlation to the energy production index is mostly negative (as expected, although quite low anticorrelations and even small positive correlations appear for some European countries). This index was also applied to the U.S. by Bracken et al~\mbox{%DIFAUXCMD
+\citep{bracken2024drought}}\hspace{0pt}%DIFAUXCMD
+, revealing a consistent increase in the drought magnitude when load is considered, despite showing differing results across regions.
+}
+
+\DIFaddend In this paper, the focus is exclusively on \DIFdelbegin \DIFdel{energy generation, and a }\DIFdelend \DIFaddbegin \DIFadd{renewable electricity generation, which allows us to maintain physical models that do not consider the behavioural influence of demand, whose role will be addressed in the discussion. A }\DIFaddend fixed threshold approach \DIFaddbegin \DIFadd{is used }\DIFaddend to define RES droughts\DIFdelbegin \DIFdel{is used}\DIFdelend , which facilitates consistent inter-comparison between scenarios with different installed wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacities. \DIFaddbegin \DIFadd{The case study used in this paper is Ireland, a region with a strong reliance on wind power and ambitious targets for solar PV power expansion. This provides valuable insights into the potential benefits of diversifying the renewable energy mix on RES droughts in the context of realistic scenarios.
+}\DIFaddend 
+
+RES droughts are identified using onshore wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV CF time series. In this study, three different datasets are used \DIFaddbegin \DIFadd{and compared}\DIFaddend , all of which are driven by \DIFaddbegin \DIFadd{the }\DIFaddend ERA5 \DIFdelbegin \DIFdel{data}\DIFdelend \DIFaddbegin \DIFadd{reanalysis}\DIFaddend ~\citep{hersbach2020era5}. Two of the datasets are part of C3S Energy (\DIFdelbegin \DIFdel{C3S-E}\DIFdelend \DIFaddbegin \DIFadd{C3SE}\DIFaddend ), an energy-based operational dataset produced by the EU Copernicus Climate Change Service~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{dubus2023energy, cds2023energy}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{dubus2023energy}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend . One of the C3S-E datasets provides CF time series aggregated at the national scale, while the other provides the CF time series at each grid point, at the ERA5 resolution of 0.25°. The third dataset was generated using the Atlite model~\citep{hofman2021atlite}, which converts the ERA5 atmospheric data to a generation time series using specified wind turbine and PV panel models. Atlite is an open-source tool developed by PyPSA~\citep{hofman2021atlite} and \DIFdelbegin \DIFdel{is widely }\DIFdelend \DIFaddbegin \DIFadd{has been }\DIFaddend used for estimating wind and \DIFdelbegin \DIFdel{PV generation~\mbox{%DIFAUXCMD
+\citep{mockert2023drought, li2023atlite, parzen2023atlite, ali2023comparative}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{solar PV generation in order to study RES droughts~\mbox{%DIFAUXCMD
+\citep{mockert2023drought}}\hspace{0pt}%DIFAUXCMD
+.
+}
+
+\DIFadd{Generic datasets for wind and solar PV CF are often used for the quantification of RES droughts. Despite most of them undergoing a validation process, they are often not fully representative of all geographical locations, and even show strong differences between each other \mbox{%DIFAUXCMD
+\citep{kies2021drought}}\hspace{0pt}%DIFAUXCMD
+. In this work, we quantify the skill of a generic model for Ireland (a region not commonly used for generic model validation), and explore the effect that using it has on RES droughts when compared to a specifically-designed model. This comparison is propagated through the whole analysis to fully see the effect of these differences in the context of a transition from a wind-only system to a more balanced mix that includes solar PV. In terms of the drought definition, the literature often uses daily averaged values, which limits the start and end times of events. We opt for a 24-hour rolling average, which avoids potential masking of day-long events due to their start time}\DIFaddend .
+
+\DIFaddbegin \DIFadd{Therefore, the aim of this study is to answer three questions which could help on the decision making for the planning of reserve capacity in real case wind-dominated renewable energy system:
+}\begin{itemize}
+	\item \DIFadd{Can generic datasets be used to quantify extreme events like RES droughts?
+	}\item \DIFadd{What is the impact of modelling assumptions on the analysis of RES droughts?
+	}\item \DIFadd{How does the integration of solar PV into a predominantly wind-based system alter the characteristics of RES droughts in a real-case setting?
+}\end{itemize}
+
+\DIFaddend The datasets used in this study are detailed in section~\DIFdelbegin \DIFdel{\ref{sec:Data}}\DIFdelend \DIFaddbegin \DIFadd{\ref{sec:data}}\DIFaddend , which describes their characteristics and relevance for evaluating RES droughts. Section~\DIFdelbegin \DIFdel{\ref{sec:Methods} }\DIFdelend \DIFaddbegin \DIFadd{\ref{sec:methods} }\DIFaddend outlines the RES \DIFdelbegin \DIFdel{models }\DIFdelend \DIFaddbegin \DIFadd{datasets }\DIFaddend used to simulate wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation and provides the methodology for defining and identifying RES drought events, including the thresholds and metrics applied. In section~\DIFdelbegin \DIFdel{\ref{sec:Results}, the models }\DIFdelend \DIFaddbegin \DIFadd{\ref{sec:results}, the datasets }\DIFaddend are first verified against observed energy data to assess their accuracy, followed by an analysis of RES drought occurrences for two scenarios with different ratios of installed wind to \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacities. Finally, section~\DIFdelbegin \DIFdel{\ref{sec:Conclusion} }\DIFdelend \DIFaddbegin \DIFadd{\ref{sec:conclusions} }\DIFaddend offers a discussion of the results in the context of energy reliability and future planning, followed by the main conclusions and recommendations for further research.
+
+\section{Data}
+\DIFdelbegin %DIFDELCMD < \label{sec:Data}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{sec:data}
+\DIFaddend 
+
+This study uses publicly available datasets to construct and validate the \DIFdelbegin \DIFdel{models }\DIFdelend \DIFaddbegin \DIFadd{datasets }\DIFaddend for estimating the CF of wind and \DIFdelbegin \DIFdel{PV energy}\DIFdelend \DIFaddbegin \DIFadd{solar PV power}\DIFaddend . The primary data sources include: EirGrid and SONI, the transmission system operators (TSO) for the Republic of Ireland and Northern Ireland, respectively; the ERA5 reanalysis dataset; and the \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S }\DIFaddend datasets.
+
+\subsection{Wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV Capacity and Availability}
+\label{sec:eirgrid}
+
+EirGrid, the TSO for the Republic of Ireland, and SONI, the Northern Ireland TSO, provide detailed datasets on all wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV farms across the island of Ireland (Republic of Ireland and Northern Ireland) from 1990 to the present~\citep{eirgrid2023spreadsheet}. These datasets include information such as each farm’s installed capacity, name, and connection date. To enhance the accuracy of this data, the longitude and latitude for each farm were manually determined through online searches. For simplicity, this data will be referred to as originating from EirGrid, as all-island data was directly obtained from EirGrid, and the combined regions of the Republic of Ireland and Northern Ireland will be referred to as Ireland throughout the remainder of this document.
+
+The spreadsheet available from the EirGrid website contains two key variables: generation and availability. Generation is the energy that a RES farm actually contributed to the grid, which may include limitations introduced by the TSO to maintain grid stability, such as constraints and curtailment. Availability represents the energy that would have been generated from a RES farm if no grid constraints had been applied, making it representative of the weather-related response. Generation and availability values are available from 2014 onward for wind power and from 2018 onward for \DIFaddbegin \DIFadd{solar }\DIFaddend PV power, although \DIFaddbegin \DIFadd{solar }\DIFaddend PV availability data only became present in the Republic of Ireland in 2023. This study focuses on availability for all analyses.
+
+\subsection{Atmospheric Variables}
+\label{sec:era5}
+
+\DIFdelbegin \DIFdel{Atlite and C3S-E }\DIFdelend \DIFaddbegin \DIFadd{ATL and the C3S }\DIFaddend datasets are driven by the ERA5 reanalysis~\citep{hersbach2020era5}, produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). This global gridded dataset provides hourly atmospheric variables from 1940 to the present at a horizontal resolution of 0.25\textdegree. It \DIFdelbegin \DIFdel{is widely used for estimating PV and wind energy ~\mbox{%DIFAUXCMD
+\citep{mockert2023drought, dubus2023energy, brown2021drought, otero2022drought}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{has proven to be the best choice for studying renewable energy in Ireland \mbox{%DIFAUXCMD
+\citep{doddy2021era5}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend . Table~\ref{tab:var_name} lists the ERA5 variables used \DIFdelbegin \DIFdel{by Atlite and C3S-Energy}\DIFdelend \DIFaddbegin \DIFadd{to produce the ATL and the C3S datasets}\DIFaddend .
+
+\begin{table}[h!]
+	\centering
+	\caption{ERA5 variables used to calculate wind and \DIFaddbeginFL \DIFaddFL{solar }\DIFaddendFL PV generation}
+	\begin{tabular}{|l|c|}
+		\hline
+		{\textbf{ERA5 name}}      & \textbf{variable} \\ \hline
+		100 metre zonal and meridional wind speed   & $u_{100}$, $v_{100}$ \\
+		2 metre temperature                         & $t2m$ \\
+		Surface net solar radiation                 & $ssr$ \\
+		Surface solar radiation downwards           & $ssrd$  \\
+		Top of atmosphere incident radiation        & $tisr$  \\
+		Total sky direct solar radiation at surface & $fdir$  \\ \hline
+	\end{tabular}
+	\label{tab:var_name}
+\end{table}
+
+\subsection{C3S Energy}
+\label{sec:c3se}
+
+The EU Copernicus Climate Change Service developed the \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S-Energy }\DIFaddend renewable energy dataset for Europe~\citep{dubus2023energy}, using ERA5 atmospheric variables and weather-to-energy models. This dataset provides hourly CF for wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV energy from 1979 to the present. The data are available on the same grid as the ERA5 data, which has a horizontal resolution of 0.25°. The time series are also available for download at two aggregated scales: regional (NUTS 2) and national.
+
+The \DIFdelbegin \DIFdel{C3S-E dataset estimates wind energy }\DIFdelend \DIFaddbegin \DIFadd{wind CF in the C3SE model is calculated }\DIFaddend using wind speeds at 100 metres ($u_{100}$, $v_{100}$) and a standard turbine model, the Vestas V136/3450, with a fixed hub height of 100 meters. This choice \DIFdelbegin \DIFdel{is based on expert advice and the trend in wind turbine installation. The PV generation model used by C3S-E uses two }\DIFdelend \DIFaddbegin \DIFadd{reflects trends in wind turbine installations and was guided by expert recommendations. Since real-time data on the exact wind turbine fleet across Europe is difficult to obtain, C3SE assumes a homogeneous distribution of turbines across the }\DIFaddend ERA5 \DIFdelbegin \DIFdel{variables: }\DIFdelend \DIFaddbegin \DIFadd{grid. While this approach does not capture the precise capacity factors reported by grid operators, it provides a well-correlated time series that effectively represents the impact of climate variability on wind power generation. The turbine power curves used in the model are sourced from publicly available databases, ensuring consistency with industry standards. The solar PV CF in the C3SE model is calculated at the grid level and represents the aggregated output of all solar PV systems within each pixel, rather than a single installation. It is derived from meteorological data, including }\DIFaddend surface solar radiation downwards ($ssrd$) and air temperature ($t2m$)\DIFdelbegin \DIFdel{. PV generation is calculated multiple times, using the same modelwith different azimuth and tilt angles. The results are aggregated based on a statistical distribution of the module angles based on the geographical }\DIFdelend \DIFaddbegin \DIFadd{, using a reference solar PV plant model. This model incorporates empirical calculations for key system components such as optical losses, module efficiency, and inverters. The final CF accounts for a mix of module orientations typical for each }\DIFaddend location~\citep{saintdrenan2018solar}. 
+
+\section{Methods}
+\DIFdelbegin %DIFDELCMD < \label{sec:Methods}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{sec:methods}
+\DIFaddend 
+
+This study uses \DIFaddbegin \DIFadd{onshore wind and solar PV CF time series from }\DIFaddend three datasets to analyse RES droughts across the island of Ireland. Data downloaded from \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3SE }\DIFaddend were used to obtain two datasets: one based on national-level data (\DIFdelbegin \DIFdel{C3S-E N}\DIFdelend \DIFaddbegin \DIFadd{C3S NAT}\DIFaddend ), and another on grid-level data (\DIFdelbegin \DIFdel{C3S-E G}\DIFdelend \DIFaddbegin \DIFadd{C3S GRD}\DIFaddend ). The third dataset was computed using the Atlite model (\DIFdelbegin \DIFdel{Atlite}\DIFdelend \DIFaddbegin \DIFadd{ATL}\DIFaddend ).
+
+\subsection{\DIFdelbegin \DIFdel{C3S-Energy }\DIFdelend \DIFaddbegin \DIFadd{C3S Energy }\DIFaddend National\DIFaddbegin \DIFadd{: C3S NAT}\DIFaddend }
+\label{sec:c3se_n}
+
+\DIFdelbegin \DIFdel{For national-level analyses, }\DIFdelend \DIFaddbegin \DIFadd{The C3S NAT dataset is created by combining different national and regional data sources. The inputs used are the total installed capacity in the Republic of Ireland and Northern Ireland, and }\DIFaddend the aggregated CF time series provided by \DIFdelbegin \DIFdel{C3S-E were used at two }\DIFdelend \DIFaddbegin \DIFadd{C3SE at the two corresponding NUTS }\DIFaddend levels: Republic of Ireland (NUTS0: IE) and Northern Ireland (NUTS2: UKN0). These \DIFaddbegin \DIFadd{values }\DIFaddend are based on the assumption \DIFdelbegin \DIFdel{by C3S-E }\DIFdelend that RES generation occurs at every ERA5 grid point in Ireland. \DIFdelbegin \DIFdel{We computed }\DIFdelend \DIFaddbegin \DIFadd{To get the C3S NAT CF for all of Ireland, }\DIFaddend a weighted average of \DIFdelbegin \DIFdel{these, based on the installed capacity of each one, to represent the total CF for Ireland}\DIFdelend \DIFaddbegin \DIFadd{the two obtained CF time series is performed, using the actual installed capacity as weights}\DIFaddend .
+
+\subsection{\DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S Energy }\DIFaddend Gridded\DIFaddbegin \DIFadd{: C3S GRID}\DIFaddend }
+\label{sec:c3se_g}
+
+The \DIFdelbegin \DIFdel{gridded dataset from C3S-E was }\DIFdelend \DIFaddbegin \DIFadd{C3S GRID dataset combines information that contains the spatial variability over Ireland. The inputs }\DIFaddend used to create \DIFdelbegin \DIFdel{CF datasets which account for the location of RES farms in Ireland. A list of the RES farms in Irelandwas compiled, including each farm’s latitude, longitude and installed capacity. Using these coordinates}\DIFdelend \DIFaddbegin \DIFadd{this dataset consist of the CF time series from C3SE over the ERA5 grid, along with the location and characteristics of individual RES farms across Ireland, as explained in section~\ref{sec:eirgrid}. For each farm}\DIFaddend , the nearest grid point on the \DIFdelbegin \DIFdel{C3S-E grid was identifiedfor each farm . The CF values from the C3S-E dataset corresponding to these grid points were retrieved. A }\DIFdelend \DIFaddbegin \DIFadd{C3SE dataset was identified, the generation from that farm was calculated using the retrieved CF from C3SE, and it was added to a total generation. This total generation was divided by the total installed capacity to convert it back to CF. This is equivalent to performing a }\DIFaddend weighted average of the CF \DIFdelbegin \DIFdel{values was calculated, with the installed capacity of each farm serving as the weight, to construct the }\DIFdelend \DIFaddbegin \DIFadd{associated with each farm using the farm's installed capacities as weights. The C3S GRID dataset contains the resulting }\DIFaddend CF time series\DIFdelbegin \DIFdel{for Ireland. This process resulted in a time series of RES generation for each energy source (wind and PV) for Ireland, which takes the location of the RES farms into account}\DIFdelend \DIFaddbegin \DIFadd{, which accounts for the actual spatial distribution of wind and solar PV farms in Ireland}\DIFaddend .
+
+\subsection{Atlite\DIFaddbegin \DIFadd{: ATL}\DIFaddend } 
+\label{sec:atlite}
+
+\DIFdelbegin \DIFdel{Atlite transforms weather data into energy data using the gridded ERA5 data and }\DIFdelend \DIFaddbegin \DIFadd{The ATL dataset is constructed by using the Atlite model to process weather variables into energy variables. This model allows for a tuning process where the model used to transform wind and solar PV can be adjusted to best represent the observed data up until this point for the relevant region (in this case, Ireland). The Atlite model takes as inputs }\DIFaddend the locations of \DIFdelbegin \DIFdel{existing RES farms , as described in C3S-E G. }\DIFdelend \DIFaddbegin \DIFadd{RES farms and }\DIFaddend ERA5 \DIFdelbegin \DIFdel{data for }\DIFdelend \DIFaddbegin \DIFadd{weather variables: }\DIFaddend wind speed at 100 metres ($u_{100}$, $v_{100}$) \DIFdelbegin \DIFdel{are used to calculate }\DIFdelend \DIFaddbegin \DIFadd{for }\DIFaddend wind generation, \DIFdelbegin \DIFdel{while the ERA5 }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend radiation variables ($ssr$, $ssrd$, $tisr$, and $fdir$) \DIFdelbegin \DIFdel{and }\DIFdelend \DIFaddbegin \DIFadd{along with }\DIFaddend air temperature ($t2m$) \DIFdelbegin \DIFdel{are used to calculate }\DIFdelend \DIFaddbegin \DIFadd{for solar }\DIFaddend PV generation. \DIFdelbegin \DIFdel{A key distinction between C3S-E and Atlite lies in their representation of wind turbines and PV panels}\DIFdelend \DIFaddbegin \DIFadd{These meteorological inputs are processed using the Atlite model to estimate CF time series for wind and solar PV, incorporating specific characteristics such as the wind turbine power curve and PV panel model selected for this specific case. The output of the Atlite model is a generation time series, which divided by the total capacity to transform it back into CF, which is what we call the ATL dataset. The flexibility in the usage of different power curves and PV panel models represents the key distinction between this dataset and the two C3SE-derived ones}\DIFaddend . This study identifies the most appropriate wind turbine power curve to use from the 121 power curves \DIFaddbegin \DIFadd{at five different levels of smoothing }\DIFaddend made available by Renewables.ninja~\citep{staffell2016wake}\DIFaddbegin \DIFadd{, and selects the PV panel model out of the options available within the Atlite model}\DIFaddend . The selection of a specific wind turbine and PV panel characteristics is further discussed and explained in section \ref{sec:verification}.
+
+\subsection{Energy Scenarios}
+\label{sec:scenarios}
+
+\DIFaddbegin \DIFadd{The output of those three datasets are one CF time series for both wind and Solar PV. }\DIFaddend In addition to analysing wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation separately, a combined CF was computed for each \DIFdelbegin \DIFdel{model }\DIFdelend \DIFaddbegin \DIFadd{dataset }\DIFaddend by averaging wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation, weighted by their installed capacities at the end of 2023 (5.9 GW for wind power and 0.6 GW for \DIFaddbegin \DIFadd{solar }\DIFaddend PV power). This configuration is referred to as the 91W-9PV scenario, reflecting the distribution of 91\% wind and 9\% PV capacity. Given that \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity in Ireland is low in 2023, and to explore how a more balanced distribution of wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacities might impact RES droughts, this study also considered a second scenario, referred to as 57W-43PV, where the installed \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity is assumed to increase to 8.6 GW, while wind capacity rises to 11.45 GW. These values are based on targets outlined in the roadmap published by the 2024 Climate Action Plan~\citep{cap2024future}. This study does not include offshore wind in the analysis. Recent reports suggest that even by 2030, Ireland is unlikely to have any significant new offshore wind farms, with projected offshore capacity expected to remain near zero using realistic scenarios~\citep{seai2024future}.
+
+New time series were generated for both the \DIFdelbegin \DIFdel{Atlite and C3S-E G PV models}\DIFdelend \DIFaddbegin \DIFadd{ATL and C3S GRD solar PV datasets}\DIFaddend , incorporating a revised distribution of installed capacity across Ireland as specified in the roadmap. For wind power, the CF time series remains unchanged, as significant shifts in the location of wind farms are not expected. In total, twelve CF time series were analysed in this study, six for individual wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV CF (three \DIFdelbegin \DIFdel{models }\DIFdelend \DIFaddbegin \DIFadd{datasets }\DIFaddend for each source) in the 91W-9PV scenario, and an additional six time series that include the combined CF for 91W-9PV and 57W-43PV scenarios across the different \DIFdelbegin \DIFdel{models}\DIFdelend \DIFaddbegin \DIFadd{datasets}\DIFaddend .
+
+It is important to note that the specific capacity values used in this study are illustrative and are not intended to reflect precise future realities. Instead, they serve to explore the impact of transitioning from a wind-dominated system (91W-9PV) to a more evenly distributed system (57W-43PV). This approach allows for a comparative analysis between the two scenarios, assessing how the balance of RES capacity affects the occurrence of RES droughts.
+
+\DIFaddbegin \DIFadd{For each dataset (ATL, C3S GRID, and C3S NAT), four distinct scenarios are examined, as summarised below:
+}
+
+\begin{itemize}
+	\item \DIFadd{Wind Power - based on the actual capacity at the end of 2023
+	}\item \DIFadd{Solar PV Power - based on the actual capacity at the end of 2023
+	}\item \DIFadd{Combined RES / 91W-9PV - based on the actual capacity at the end of 2023
+	}\item \DIFadd{Combined RES / 57W-43PV - based on the capacity projected for 2030
+}\end{itemize}
+
+\DIFaddend \subsection{RES Drought Definition}
+\label{sec:res_drought}
+
+In this study, a RES drought event was defined as occurring when the 24-hour moving average of CF remains below a fixed threshold of 0.1 for a period of longer than 24 hours. The choice of this threshold is somewhat arbitrary, but aligns with similar studies on low renewable energy production \citep{kaspar2019drought, ohba2022drought, mayer2023drought}. By using a 24-hour moving average, fewer but longer-lasting events were captured compared to using the raw CF time series, which can be more sensitive to short-term fluctuations. A fixed threshold approach was chosen in this study to enable consistent inter-comparison between datasets.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{droughts_methodology.pdf}
+	\caption{Wind time series of CF (green) and its 24-hour moving average (pink) from the 7th to the 15th of July 2021. The black dashed line indicates the CF threshold. The grey bar shows the period identified as a wind drought under our definition}
+	\label{fig:find_res_droughts}
+\end{figure}
+
+The moving average approach smooths out short-term fluctuations, so that brief periods above the threshold do not interrupt an otherwise continuous low-CF period (Fig.~\ref{fig:find_res_droughts}). This means that a single hour above the threshold does not "break" a drought event if it is surrounded by prolonged low-generation hours. As a result, fewer but longer-lasting drought events are identified, which may better reflect real-world conditions where energy supply constraints persist over extended periods.
+
+\section{Results}
+\DIFdelbegin %DIFDELCMD < \label{sec:Results}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{sec:results}
+\DIFaddend 
+
+\subsection{Verification}
+\label{sec:verification}
+
+The accuracy of the datasets used in this study was verified, before continuing to the analysis of RES droughts. For the verification process, time-varying values of installed capacity were used to account for changes in RES development over the verification period. This step allowed us to assess how well the datasets represent the production of renewable energy by comparing them against observed data.
+
+\subsubsection{Wind Energy}
+\label{sec:wind_verification}
+
+The \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S }\DIFaddend datasets use the Vestas V136/3450 wind turbine power curve, (Fig.~\ref{fig:power_curve}a). The Atlite model allows the user to specify the power curve. We considered the 121 power curves available for download from Renewables.ninja~\citep{staffell2016wake}. For each power curve, Renewables.ninja also provides four associated smoothed power curves. The smoothing is done using a Gaussian filter with different standard deviations that depend on the wind speed. A separate wind CF time series for Ireland was generated for each of the wind turbine power curves and smoothing levels.
+
+The performance of each CF time series is then assessed based on four skill scores: correlation coefficient (CC), root mean square error (RMSE), mean bias error (MBE), and the percentage of overlap. The percentage of overlap quantifies the similarity between the observed and modelled distributions. It is a positively oriented skill score, where 100\% shows full agreement between the two distributions, and 0\% indicates no overlap. The histograms of hourly CF values for the most recent decade (2014-2023) are used to calculate this skill score.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{verification_power_curve.pdf}
+	\caption{a) Power curves of the Enercon E112.4500 with a 0.3w smoothing filter used by \DIFdelbeginFL \DIFdelFL{Atlite }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL }\DIFaddendFL (orange) and the Vestas V136/3450 used by \DIFdelbeginFL \DIFdelFL{C3S-E }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3SE }\DIFaddendFL (blue) b) Histograms of wind CF for Ireland from \DIFdelbeginFL \DIFdelFL{Atlite }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL }\DIFaddendFL (orange), \DIFdelbeginFL \DIFdelFL{C3S-E }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3SE }\DIFaddendFL (blue) and Observed (shaded)}
+	\label{fig:power_curve}
+\end{figure}
+
+Based on these metrics, the most representative power curve for Ireland is the Enercon E112.4500 power curve with the $0.3w$ smoothing filter. The smoothing of the wind turbine power curve represents losses associated with each turbine, as well as losses such as wake effects between turbines, which are important when modelling wind energy on larger spatial scales. The histogram in Fig.~\ref{fig:power_curve}b shows that the \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3SE }\DIFaddend power curve tends to underestimate low CF values and overestimate higher ones, whereas the smoothed \DIFdelbegin \DIFdel{Atlite }\DIFdelend \DIFaddbegin \DIFadd{ATL }\DIFaddend power curve more closely follows the observed wind availability data. This is further supported by the percentage of overlap which is higher for \DIFdelbegin \DIFdel{Atlite }\DIFdelend \DIFaddbegin \DIFadd{ATL }\DIFaddend (97.2\%) than for \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S }\DIFaddend (83.2\%), indicating better agreement with observed data.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{verification_wind_contour.png}
+	\caption{Wind CF density plot of the observed CF (vertical axes) and modelled (horizontal axes) CF data for the a) \DIFdelbeginFL \DIFdelFL{Atlite}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL}\DIFaddendFL , b) \DIFdelbeginFL \DIFdelFL{C3S-E G }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3SE GRID }\DIFaddendFL and c) \DIFdelbeginFL \DIFdelFL{C3S-E N models}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S NAT datasets}\DIFaddendFL }
+	\label{fig:wind_verification_contour}
+\end{figure}
+
+The effect of the difference between the power curves is also visible in Fig.~\ref{fig:wind_verification_contour}, which shows a density plot of wind CF values. The two \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3SE }\DIFaddend datasets are shown to overestimate the observed CF, whereas the Atlite model is in good agreement with the observed data. The skill scores presented in Table~\ref{tab:wind_skill_scores} show that \DIFdelbegin \DIFdel{Atlite }\DIFdelend \DIFaddbegin \DIFadd{ATL }\DIFaddend performs better than the \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{two C3S }\DIFaddend datasets for all of the skill scores. 
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{l|lll|}
+		\cline{2-4}
+		& \textbf{\DIFdelbeginFL \DIFdelFL{Atlite}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL}\DIFaddendFL } & \textbf{\DIFdelbeginFL \DIFdelFL{C3S-E G}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S GRID}\DIFaddendFL } & \textbf{\DIFdelbeginFL \DIFdelFL{C3S-E N}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S NAT}\DIFaddendFL } \\ \hline
+		\multicolumn{1}{|l|}{\textbf{CC}}   & 0.981           & 0.972            & 0.970            \\ \hline
+		\multicolumn{1}{|l|}{\textbf{RMSE}} & 0.045           & 0.177            & 0.162            \\ \hline
+		\multicolumn{1}{|l|}{\textbf{MBE}}   & -0.003          & 0.137            & 0.121            \\ \hline
+	\end{tabular}
+	\caption{Skill scores for wind power for the three datasets compared to observed data}
+	\label{tab:wind_skill_scores}
+\end{table}
+
+Fig.~\ref{fig:bar_number_events_verification_wind} shows the average annual number of wind drought events during the 2014 to 2023 validation period. The figure reveals that \DIFdelbegin \DIFdel{Atlite }\DIFdelend \DIFaddbegin \DIFadd{ATL }\DIFaddend presents the best overall agreement with the observed frequency and duration of wind drought events. This pattern is particularly evident for shorter-duration events, which are the most frequent.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{verification_wind_number_events.pdf}
+	\caption{Average annual number of wind drought events for \DIFdelbeginFL \DIFdelFL{Atlite }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL }\DIFaddendFL (red), \DIFdelbeginFL \DIFdelFL{C3S-E G }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S GRD }\DIFaddendFL (blue), \DIFdelbeginFL \DIFdelFL{C3S-E N }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S NAT }\DIFaddendFL (purple), and the observed data (black outline). The wind droughts are identified from 2014 to 2023, considering the actual capacity of the system at any given time}
+	\label{fig:bar_number_events_verification_wind}
+\end{figure}
+
+\DIFaddbegin \DIFadd{The verification of wind generation has put forward two main facts. On the one hand, the ATL dataset is skilled at reproducing onshore wind CF and droughts over Ireland. On the other hand, the power curve used for both C3S GRID and C3S NAT is not representative for Ireland, as it severely overestimates generation, underestimating the occurrence of RES droughts. This puts forward one of the problems that come with using generalised datasets for the characterisation of RES droughts: biases severely affect the ability of any given model to reproducing them. The skill scores for the three datasets (Tab.~\ref{tab:wind_skill_scores}) show only a small difference in the ability to reproduce the changes in CF (visible in the very similar CC). However, their ability to reproduce the exact value is much lower than that of ATL (RMSE almost 4 times bigger for the two C3S with respect to ATL), and particularly biased towards an overestimation of CF (clear in the MBE values), which leads to the underestimation of droughts. This puts forward the need to use fully verified models to assess RES droughts, whose impact on the analysis of RES droughts will be explored in section~\ref{sec:analysis}.
+}
+
+\DIFaddend \subsubsection{\DIFaddbegin \DIFadd{Solar }\DIFaddend PV Energy}
+\label{sec:pv_verification}
+
+The Atlite model allows the user to select certain PV panel characteristics. In this study, the three PV panel types available in the Atlite model were considered (CSi, CdTe, Kaneka). Following the same methodology as in the previous section, the three available models were compared using four skill scores (CC, RMSE, MBE, and the percentage of overlap). Based on the best-performing metrics, the \DIFdelbegin \DIFdel{Breyer }\DIFdelend \DIFaddbegin \DIFadd{Beyer }\DIFaddend PV panel model was selected \citep{beyer2004pv}, using the Kaneka Hybrid panel option. For all \DIFaddbegin \DIFadd{solar }\DIFaddend PV farm locations, the azimuth angle is fixed at 180\textdegree (due south), and the optimal tilt angle option is applied. 
+
+The \DIFaddbegin \DIFadd{solar }\DIFaddend PV installed capacity available on the spreadsheets from EirGrid represents the Maximum Export Capacity (MEC) and does not accurately reflect the installed \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity. To enable actual \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation potential to be modelled correctly, installed capacities were set at 1.4 times the MEC values. This scaling factor was estimated by analysing proprietary data from individual \DIFaddbegin \DIFadd{solar }\DIFaddend PV farms provided by EirGrid, which showed that, on average, assuming that the installed capacities of farms exceed their MEC values by 40\% yields the best agreement with the observed availability.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{verification_pv_contour.png}
+	\caption{\DIFaddbeginFL \DIFaddFL{Solar }\DIFaddendFL PV CF density plot of the observed (vertical axes) and modelled (horizontal axes) CF series for the a) \DIFdelbeginFL \DIFdelFL{Atlite}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL}\DIFaddendFL , b) \DIFdelbeginFL \DIFdelFL{C3S-E G }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S GRD }\DIFaddendFL and c) \DIFdelbeginFL \DIFdelFL{C3S-E N models}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S NAT datasets}\DIFaddendFL }	
+	\label{fig:solar_verification_contour}
+\end{figure}
+
+Figure \ref{fig:solar_verification_contour} shows that the three datasets have a similar tendency to overestimate the CF compared to the observed values, especially for high CF values. The skill scores presented in Table~\ref{tab:pv_skill_scores} indicate that \DIFdelbegin \DIFdel{C3S-E~G }\DIFdelend \DIFaddbegin \DIFadd{C3S }\DIFaddend performs best overall, with the lowest RMSE and a high correlation coefficient, suggesting a closer match to observed data. All models show a slight positive bias, with \DIFdelbegin \DIFdel{Atlite }\DIFdelend \DIFaddbegin \DIFadd{ATL }\DIFaddend exhibiting a slightly lower correlation and higher RMSE.
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{l|lll|}
+		\cline{2-4}
+		& \textbf{\DIFdelbeginFL \DIFdelFL{Atlite}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL}\DIFaddendFL } & \textbf{\DIFdelbeginFL \DIFdelFL{C3S-E G}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S GRD}\DIFaddendFL } & \textbf{\DIFdelbeginFL \DIFdelFL{C3S-E N}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S NAT}\DIFaddendFL } \\ \hline
+		\multicolumn{1}{|l|}{\textbf{CC}}   & 0.921           & 0.931            & 0.931            \\ \hline
+		\multicolumn{1}{|l|}{\textbf{RMSE}} & 0.119           & 0.090            & 0.113            \\ \hline
+		\multicolumn{1}{|l|}{\textbf{MBE}}   & 0.046           & 0.027           & 0.021           \\ \hline
+	\end{tabular}
+	\caption{Skill scores for \DIFaddbeginFL \DIFaddFL{Solar }\DIFaddendFL PV CF for the three datasets compared to observed data}
+	\label{tab:pv_skill_scores}
+\end{table}
+
+Fig.~\ref{fig:bar_number_events_verification_pv} shows the number of \DIFaddbegin \DIFadd{solar }\DIFaddend PV drought events during the 2023 validation period across different duration ranges. The figure reveals partial agreement between the three datasets and the observed data, with consistent results noticed for duration ranges of 1-2, 3-4, 7-8, and 8+ days. However, discrepancies appear in the other ranges, where the models diverge from the observed data. The main challenge in validating \DIFaddbegin \DIFadd{solar }\DIFaddend PV data stems from the recent installation of a large share of Ireland’s \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity, with over 65\% of the total \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity installed in 2023. This results in uncertainties in \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation data and the actual generating capacity in the first few months after each farm is connected.
+
+\DIFdelbegin \DIFdel{As the goal }\DIFdelend \DIFaddbegin \begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{verification_pv_number_events.pdf}
+	\caption{\DIFaddFL{Number of solar PV drought events for ATL (red), C3S GRD (blue), and C3S NAT (purple) and the observed data (black outline). The solar PV droughts are identified for 2023, considering the actual capacity of the system at any given time}}
+	\label{fig:bar_number_events_verification_pv}
+\end{figure}
+
+\DIFadd{As one of the goals }\DIFaddend of this analysis is to assess the combination of wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation, the complementary nature of these energy sources \DIFdelbegin \DIFdel{mitigates }\DIFdelend \DIFaddbegin \DIFadd{will mitigate }\DIFaddend the limitations in \DIFaddbegin \DIFadd{solar }\DIFaddend PV-only results. \DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < \begin{figure}[!ht]
+%DIFDELCMD < 	\centering
+%DIFDELCMD < 	\includegraphics[width=\textwidth]{verification_pv_number_events.pdf}
+%DIFDELCMD < 	%%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{Number of PV drought events for Atlite (red), C3S-E G (blue), and C3S-E N (purple) and the observed data (black outline). The PV droughts are identified for 2023, considering the actual capacity of the system at any given time}}
+	%DIFAUXCMD
+%DIFDELCMD < \label{fig:bar_number_events_verification_pv}
+%DIFDELCMD < \end{figure}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \DIFadd{Still, a few differences between wind and solar PV stand out. First, no single model has proven best for the characterisation of solar PV, although the statistical approach taken by the two C3S datasets has proven superior to the single panel model in ATL (Tab.~\ref{tab:pv_skill_scores}). The short time considered in the verification due to the limited data availability for solar PV in Ireland is part of the cause for our limited ability to select a specific overall best solar PV dataset. However, our results seem to indicate that it is possible that the generic datasets perform better for solar PV than for wind, as the variability between the different panel models is smaller in comparison to the existing differences between wind turbine power curves. Therefore, all through section~\ref{sec:analysis} the differences between the three models will be highlighted, considering that neither stands out positively.
+}\DIFaddend 
+
+\subsection{Analysis}
+\DIFdelbegin %DIFDELCMD < \label{sec:Analysis}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{sec:analysis}
+\DIFaddend 
+
+In this section, RES drought events are evaluated under two different scenarios with fixed installed capacities: the 91W-9PV scenario, with 5.9 GW of wind capacity and 0.6 GW of \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity; and the 57W-43PV scenario, where wind capacity comprises 11.45 GW and \DIFaddbegin \DIFadd{solar }\DIFaddend PV capacity increases to 8.6 GW. Both scenarios were driven by 45 years of ERA5 data. Using the RES drought identification process described in Section~\ref{sec:res_drought}, wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV droughts are first analysed separately before presenting the results for combined (wind + \DIFaddbegin \DIFadd{solar }\DIFaddend PV) RES droughts under both scenarios.
+
+\DIFaddbegin \DIFadd{It is important to highlight that this analysis considers two key aspects: the absolute values that characterise RES droughts, which are crucial for power system planning, and the relative differences observed when comparing the various datasets and energy scenarios described in Section~\ref{sec:scenarios}. This complete analysis puts forward the differences between the datasets, showing the impact of possible misrepresentations of the system on the analysis of RES drought events.
+}
+
+\DIFaddend \subsubsection{Annual Number of RES Droughts}
+
+The \DIFdelbegin \DIFdel{first part of the analysis examines the annual number of }\DIFdelend \DIFaddbegin \DIFadd{analysis of annual }\DIFaddend RES drought events \DIFdelbegin \DIFdel{across the three datasets}\DIFdelend \DIFaddbegin \DIFadd{reveals trends that are largely consistent with earlier studies}\DIFaddend . When only wind energy is considered (Fig.\DIFdelbegin \DIFdel{~}\DIFdelend \ref{fig:boxplot_number_events}a), the number of \DIFaddbegin \DIFadd{drought }\DIFaddend events decreases as the duration range increases, with very few events lasting more than seven days. \DIFdelbegin \DIFdel{In the case of only }\DIFdelend \DIFaddbegin \DIFadd{This pattern aligns with previous research showing that wind droughts tend to be short and frequent. In contrast, for solar }\DIFaddend PV energy (Fig.\DIFdelbegin \DIFdel{~}\DIFdelend \ref{fig:boxplot_number_events}b), \DIFdelbegin \DIFdel{the number of events also declines as the duration range extends }\DIFdelend \DIFaddbegin \DIFadd{drought frequency declines }\DIFaddend from one to eight days \DIFdelbegin \DIFdel{, followed by a slight increase }\DIFdelend \DIFaddbegin \DIFadd{and then slightly increases }\DIFaddend for longer durations. This \DIFdelbegin \DIFdel{increase occurs because Ireland, being located above the 50\textdegree~parallel, experiences reduced sunlight during the winter months. From }\DIFdelend \DIFaddbegin \DIFadd{behaviour is attributable to Ireland's high-latitude location, where reduced sunlight in winter (from }\DIFaddend November to March\DIFdelbegin \DIFdel{, PV output often remains consistently low , leading to extended periods where generation stays below the CF threshold}\DIFdelend \DIFaddbegin \DIFadd{) leads to consistently low solar PV output}\DIFaddend .
+
+\DIFdelbegin \DIFdel{When comparing wind and PV results (Fig.~\ref{fig:boxplot_number_events}a~\&~b), }\DIFdelend \DIFaddbegin \DIFadd{Moreover, the comparison between wind and solar PV results indicates that }\DIFaddend the median, first, and third quartiles for \DIFaddbegin \DIFadd{solar }\DIFaddend PV are consistently higher than or equal to those for wind\DIFdelbegin \DIFdel{, across all duration ranges and datasets}\DIFdelend . This is \DIFdelbegin \DIFdel{due to the typically lower CF of PV power compared to wind power, especially in a region such as Ireland where solar potential is limited. }\DIFdelend \DIFaddbegin \DIFadd{expected, given that solar }\DIFaddend PV generation is \DIFdelbegin \DIFdel{also }\DIFdelend \DIFaddbegin \DIFadd{inherently lower, }\DIFaddend zero at night\DIFdelbegin \DIFdel{and constrained by the daily }\DIFdelend \DIFaddbegin \DIFadd{, and limited by the }\DIFaddend solar cycle, \DIFdelbegin \DIFdel{leading to a naturally higher frequency of drought events in PV compared to wind.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{Fig. ~\ref{fig:boxplot_number_events}c~\&~d show the combination of wind and PV under the two capacity scenarios. In the }\DIFdelend \DIFaddbegin \DIFadd{as observed in other studies. When wind and solar PV are combined under the }\DIFaddend 91W-9PV scenario (Fig.\DIFdelbegin \DIFdel{~}\DIFdelend \ref{fig:boxplot_number_events}c), the \DIFdelbegin \DIFdel{identified RES droughts closely match those for }\DIFdelend \DIFaddbegin \DIFadd{results closely mirror those of }\DIFaddend wind alone, \DIFdelbegin \DIFdel{which is expected due to the dominance of installed windcapacity. In contrast, }\DIFdelend \DIFaddbegin \DIFadd{reaffirming wind’s dominance in the current energy mix. However, in }\DIFaddend the 57W-43PV scenario (Fig.\DIFdelbegin \DIFdel{~}\DIFdelend \ref{fig:boxplot_number_events}d)\DIFdelbegin \DIFdel{shows a clear reduction in the number of drought events }\DIFdelend \DIFaddbegin \DIFadd{, a marked reduction in drought events is observed }\DIFaddend across all datasets\DIFdelbegin \DIFdel{and durations}\DIFdelend , with a decrease of the total number of events of 56\% for \DIFdelbegin \DIFdel{Atlite}\DIFdelend \DIFaddbegin \DIFadd{ATL}\DIFaddend , 52\% for \DIFdelbegin \DIFdel{C3S-E G}\DIFdelend \DIFaddbegin \DIFadd{C3S GRD}\DIFaddend , and 50\% for \DIFdelbegin \DIFdel{C3S-E N. This reduction is attributed to the anti-correlation between wind and PV }\DIFdelend \DIFaddbegin \DIFadd{C3S NAT, demonstrating the beneficial effects of a more balanced energy mix. These findings are in line with earlier studies that highlight how increasing solar PV capacity can mitigate drought frequency through the anti-correlated seasonal patterns of wind and solar }\DIFaddend generation.
+
+\DIFdelbegin \DIFdel{The median, first, and third quartiles for the Atlite dataset are consistently greater than or equal to those of the other two datasets, regardless of the duration range or type of renewable energy considered. This difference arises from the }\DIFdelend \DIFaddbegin \DIFadd{Additionally, the consistently higher drought counts reported by the ATL dataset, compared to the C3S datasets, underscore the impact of model selection, particularly the influence of }\DIFaddend wind turbine power curve \DIFdelbegin \DIFdel{model used in the C3S-E datasets, which tends to overestimate the wind CF (Fig.~\ref{fig:wind_verification_contour}). As a result, the overall }\DIFdelend \DIFaddbegin \DIFadd{representation, on quantifying RES droughts. This observation is consistent with previous research, which has also noted that assumptions regarding turbine characteristics can significantly affect drought duration estimates. Despite the differences in the }\DIFaddend number of RES droughts \DIFdelbegin \DIFdel{is underestimated in the C3S-E datasets compared to Atlite}\DIFdelend \DIFaddbegin \DIFadd{detected by each dataset, the overall effect of balancing the shares of wind and solar PV is consistent, independently of the complexity of the dataset used}\DIFaddend .
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{droughts_number_events.pdf}
+	\caption{Average annual number of RES droughts (from 1979 to 2023) for a)~Wind, b)~\DIFaddbeginFL \DIFaddFL{solar }\DIFaddendFL PV, c)~91W-9PV and d)~57W-43PV for \DIFdelbeginFL \DIFdelFL{Atlite }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL }\DIFaddendFL (red), \DIFdelbeginFL \DIFdelFL{C3S-E G }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S GRD }\DIFaddendFL (blue), and \DIFdelbeginFL \DIFdelFL{C3S-E N }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S NAT }\DIFaddendFL (purple). The x-axis represents duration ranges in days (lower bound included), while the y-axis indicates the annual number of events. The boxes display the first and third quartiles and the median is marked by a black line. The whiskers indicate the 5th and 95th percentiles}
+	\label{fig:boxplot_number_events}	
+\end{figure}
+
+\subsubsection{Return Periods of RES Drought Duration}
+
+The RES drought events identified over the 45-year period were used to calculate the return periods for different RES drought durations. A return period is the estimated average time interval between events of a specified duration or intensity (not to be confused with the frequency of their occurrence within a fixed time frame). Fig.~\ref{fig:return_periods} illustrates the return periods for varying RES drought durations, highlighting how often different drought lengths are likely to occur across the datasets. This analysis \DIFdelbegin \DIFdel{provides insight into the frequency and }\DIFdelend \DIFaddbegin \DIFadd{not only quantifies the }\DIFaddend likelihood of prolonged low-generation periods \DIFdelbegin \DIFdel{, which is crucial for evaluating the potential impact of RES droughts on energy reliability and security of supply }\DIFdelend \DIFaddbegin \DIFadd{but also provides insight into how extreme events are distributed across different timescales, helping to assess the variability of rare but impactful events. Understanding these return periods is crucial, as even infrequent droughts can challenge energy security by placing significant strain on conventional backup sources necessary to maintain supply in high-RES scenarios}\DIFaddend .
+
+\DIFdelbegin \DIFdel{The duration of wind droughts }\DIFdelend \DIFaddbegin \DIFadd{For wind }\DIFaddend (Fig.~\ref{fig:return_periods}a)\DIFdelbegin \DIFdel{increases in a log-linear fashion across the three datasets. The log-linear trend indicates a predictable relationship between drought duration and occurrence, with longer wind droughts becoming exponentially less likely as duration increases. }%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \DIFadd{, the log‐linear increase in return periods observed in this study confirms that longer droughts occur exponentially less frequently, a trend consistent with earlier research on wind variability. }\DIFaddend In the case of \DIFaddbegin \DIFadd{solar }\DIFaddend PV droughts (Fig.\DIFdelbegin \DIFdel{~}\DIFdelend \ref{fig:return_periods}b), \DIFdelbegin \DIFdel{Atlite behaves differently than the two C3S-E datasets. The Atlite results show a generally log-linear increase. For C3S-E G and C3S-E N, }\DIFdelend the \DIFdelbegin \DIFdel{duration of PV droughts increases in a log-linear pattern for events lasting less than 16 days. Beyond this duration, there is a sharp rise }\DIFdelend \DIFaddbegin \DIFadd{ATL dataset shows a general log‐linear trend, whereas the C3S datasets exhibit a sudden increase }\DIFaddend in drought duration for events \DIFdelbegin \DIFdel{up to a one-year return period. This sudden increase again reflects the impact of extended periods of low PV generation during winter in Ireland.
+ }%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{The difference between Atlite and the C3S-E results arises from differences in the datasets near the threshold of 0.1 CF . Atlite remains slightly above the threshold more frequently during these conditions, leading to shorter, more fragmented drought events. 
+In contrast, C3S-E G and C3S-E N tend to fall below the threshold in similar conditions}\DIFdelend \DIFaddbegin \DIFadd{exceeding sixteen days. This abrupt rise reflects differences in how solar PV output is handled near the CF threshold during low irradiance conditions. 
+}
+
+\DIFadd{In the balanced scenario, the reduced share of wind and increased share of solar PV leverages their complementary seasonal patterns}\DIFaddend , resulting in \DIFdelbegin \DIFdel{longer continuous drought periods , especially during winter}\DIFdelend \DIFaddbegin \DIFadd{higher return periods for combined drought events. This outcome highlights the benefit of a diversified energy mix in enhancing system resilience}\DIFaddend .
+
+\DIFdelbegin \DIFdel{For }\DIFdelend \DIFaddbegin \DIFadd{Under }\DIFaddend the 91W-9PV scenario (Fig.~\ref{fig:return_periods}c), the \DIFaddbegin \DIFadd{combined RES drought }\DIFaddend return periods mirror those \DIFdelbegin \DIFdel{of Fig.~\ref{fig:return_periods}a, due to the low levels of installed PV capacity. In }\DIFdelend \DIFaddbegin \DIFadd{for wind alone, reflecting the dominance of wind in the current energy mix. In contrast, }\DIFaddend the 57W-43PV scenario (Fig.~\ref{fig:return_periods}d) \DIFdelbegin \DIFdel{, the return periods for RES droughts increase }\DIFdelend \DIFaddbegin \DIFadd{shows a dramatic increase in return periods }\DIFaddend across all durations\DIFdelbegin \DIFdel{. For example, the return period for a five-day drought event (shown by the vertical dashed lines in Fig.~\ref{fig:return_periods}) extends from roughly six months for the 91W-9PV scenario, to four years for the 57W-43PV scenario in the Atlite dataset, and from about fifteen months to around five years in the two C3S-E datasets}\DIFdelend \DIFaddbegin \DIFadd{, suggesting that a more diversified energy mix can substantially mitigate the frequency of prolonged drought events}\DIFaddend . 
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{droughts_return_periods.pdf}
+	\caption{Return periods of the duration of RES droughts  (from 1979 to 2023) for a)~Wind, b)~\DIFaddbeginFL \DIFaddFL{Solar }\DIFaddendFL PV, c)~91W-9PV and d)~57W-43PV for \DIFdelbeginFL \DIFdelFL{Atlite }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{ATL }\DIFaddendFL (red triangle), \DIFdelbeginFL \DIFdelFL{C3S-E G }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S GRD }\DIFaddendFL (blue circle), and \DIFdelbeginFL \DIFdelFL{C3S-E N }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{C3S NAT }\DIFaddendFL (purple square). The x-axis represents the return period time in a log-scale and the y-axis indicates the duration of RES drought associated with it. The horizontal dashed line marks the 5-day return period, with coloured vertical dashed marking its return period for each dataset}
+	\label{fig:return_periods}
+\end{figure}
+
+Across Fig.~\ref{fig:return_periods}a, c, and, d, the return periods in the \DIFdelbegin \DIFdel{Atlite }\DIFdelend \DIFaddbegin \DIFadd{ATL }\DIFaddend dataset are consistently higher than those in the two \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S }\DIFaddend datasets. For instance, in the 91W-9PV scenario (Fig.~\ref{fig:return_periods}c), an event with a one-year return period lasts six days in the \DIFdelbegin \DIFdel{Atlite }\DIFdelend \DIFaddbegin \DIFadd{ATL }\DIFaddend dataset, compared to only five days in the \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S }\DIFaddend datasets. This difference underscores the importance of model selection when quantifying RES droughts, as each \DIFdelbegin \DIFdel{model}\DIFdelend \DIFaddbegin \DIFadd{dataset}\DIFaddend ’s assumptions and parametrisations significantly influence drought duration estimates. Additionally, in all four graphs, the similarity between results from the two \DIFdelbegin \DIFdel{C3S-E }\DIFdelend \DIFaddbegin \DIFadd{C3S }\DIFaddend datasets suggests that assumptions in the \DIFdelbegin \DIFdel{Atlite model—}\DIFdelend \DIFaddbegin \DIFadd{ATL dataset, }\DIFaddend such as wind turbine power curve selection and PV panel specifications\DIFdelbegin \DIFdel{—}\DIFdelend \DIFaddbegin \DIFadd{, }\DIFaddend have a greater impact on RES drought duration estimates than the precise geographic distribution of RES farms when studying the return periods of RES droughts.
+
+\DIFaddbegin \DIFadd{Contrary to the number of events per year and per duration, the return periods show large differences in the behaviours of the three datasets. The reproduction of average behaviours is still manageable using the C3S datasets, but the magnitude of extremes is not well reproduced when the share of wind is large. System planning based on the wrong datasets could yield an underestimation of the potential for extreme RES droughts, eventually leading to shortages linked to undersized reserve capacity. Even though this effect will be mitigated, affecting only the most extreme events with the introduction of widespread solar PV, it is important to keep in mind this effect for all wind-dominated electricity systems.
+}
+
+\DIFaddend \subsubsection{Seasonal Distribution of RES Droughts}
+
+The \DIFdelbegin \DIFdel{seasonality }\DIFdelend \DIFaddbegin \DIFadd{seasonal analysis }\DIFaddend of RES droughts \DIFdelbegin \DIFdel{was analysed by comparing }\DIFdelend \DIFaddbegin \DIFadd{is based on }\DIFaddend the percentage of hours in each month classified as \DIFdelbegin \DIFdel{part of a RES drought }\DIFdelend \DIFaddbegin \DIFadd{drought events. Wind droughts tend to be more frequent during summer, whereas solar PV droughts are more common in winter due to reduced sunlight. By comparing these seasonal patterns across different datasets and energy scenarios, the study examines how model-specific assumptions and variations in capacity mix affect the overall characterisation of drought events}\DIFaddend .
+
+For \DIFdelbegin \DIFdel{wind-dominated scenarios }\DIFdelend \DIFaddbegin \DIFadd{the wind-only scenario }\DIFaddend (Fig.~\ref{fig:res_droughts_seasonality}a\DIFdelbegin \DIFdel{~\&~c}\DIFdelend ), the \DIFdelbegin \DIFdel{percentage of hours that are part of a drought is higher in summer than in winter. In the Atlite dataset , for instance, an average of }\DIFdelend \DIFaddbegin \DIFadd{ATL dataset exhibits a pronounced seasonal pattern, with about }\DIFaddend 24\% of \DIFdelbegin \DIFdel{hours in summer (June-July-August) are identified as wind droughts , }\DIFdelend \DIFaddbegin \DIFadd{summer hours (June–July–August) identified as droughts }\DIFaddend compared to only 4\% in winter (\DIFdelbegin \DIFdel{December-January-February}\DIFdelend \DIFaddbegin \DIFadd{December–January–February}\DIFaddend ). This \DIFdelbegin \DIFdel{seasonal variation is less prominent for the two C3S-E datasetscompared to the Atlite one. This difference can be linked to the shape of the two power curves (Fig.~\ref{fig:power_curve}). CFs near or under }\DIFdelend \DIFaddbegin \DIFadd{strong seasonal signal is less evident in the C3S datasets, which suggests that the differences in the underlying wind power curves play a significant role. In ATL, CF near or below }\DIFaddend the 0.1 threshold \DIFdelbegin \DIFdel{occur at }\DIFdelend \DIFaddbegin \DIFadd{occurs at relatively }\DIFaddend higher wind speeds\DIFdelbegin \DIFdel{for the Atlite power curve than for the C3S-E one}\DIFdelend \DIFaddbegin \DIFadd{, resulting in a higher count of drought hours during the summer months}\DIFaddend . In contrast, \DIFdelbegin \DIFdel{the results for }\DIFdelend \DIFaddbegin \DIFadd{solar }\DIFaddend PV droughts (Fig.~\ref{fig:res_droughts_seasonality}b) \DIFdelbegin \DIFdel{show a higher percentage in winter, with PV droughts occurring }\DIFdelend \DIFaddbegin \DIFadd{display an opposite seasonal trend. Across all datasets, }\DIFaddend over 60\% of \DIFdelbegin \DIFdel{the time regardless of the dataset. The Atlite results show a }\DIFdelend \DIFaddbegin \DIFadd{winter hours are classified as solar PV droughts, reflecting the naturally low solar irradiance in Ireland during winter. Moreover, ATL tends to record a slightly }\DIFaddend higher percentage of \DIFdelbegin \DIFdel{PV }\DIFdelend drought hours for wind \DIFdelbegin \DIFdel{, and a slightly }\DIFdelend \DIFaddbegin \DIFadd{and a marginally }\DIFaddend lower percentage for \DIFdelbegin \DIFdel{PV, compared to the two C3S-E datasets. }%DIFDELCMD < 
+
+%DIFDELCMD < \begin{figure}[!ht]
+%DIFDELCMD < 	\centering
+%DIFDELCMD < 	\includegraphics[width=\textwidth]{droughts_seasonality.pdf}
+%DIFDELCMD < 	%%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{Percentage of hours in a month which are part of a RES drought (from 1979 to 2023) for a)~Wind, b)~PV, c)~91W-9PV and d)~57W-43PV for Atlite (red dotted), C3S-E G (blue dashed), and C3S-E N (purple solid). The x-axis represents the month of the year, and the y-axis indicates the percentage of hours. Lines correspond to the median values and the area between the first and third quartiles is shaded. Note the different y-axis scale for b).}}
+	%DIFAUXCMD
+%DIFDELCMD < \label{fig:res_droughts_seasonality}
+%DIFDELCMD < \end{figure}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \DIFadd{solar PV relative to the C3S datasets. These differences highlight how dataset-specific assumptions, such as the treatment of wind turbine power curves and PV panel characteristics, significantly influences the apparent seasonal dynamics of RES droughts.
+}\DIFaddend 
+
+The 91W-9PV scenario (Fig.~\ref{fig:res_droughts_seasonality}c) shows patterns comparable to the ones for wind droughts (Fig.~\ref{fig:res_droughts_seasonality}a). However, in the 91W/9PV scenario, the number of hours classified as RES droughts in summer decreases slightly compared to the wind-only scenario. This reduction can be explained by the contribution of \DIFaddbegin \DIFadd{solar }\DIFaddend PV generation during the summer months in the 91W-9PV scenario, even though it constitutes only 11\% of total capacity. Since the number of RES drought hours for \DIFaddbegin \DIFadd{solar }\DIFaddend PV in summer is near zero, this small contribution has a noticeable impact on reducing overall drought hours. In the 57W-43PV scenario (Fig.~\ref{fig:res_droughts_seasonality}d), all three datasets show a reduction in monthly RES drought frequency. Annual reductions in median RES drought frequency are observed across the datasets, dropping from 14\% to 5\% for \DIFdelbegin \DIFdel{Atlite}\DIFdelend \DIFaddbegin \DIFadd{ATL}\DIFaddend , from 8\% to 3\% for \DIFdelbegin \DIFdel{C3S-E G}\DIFdelend \DIFaddbegin \DIFadd{C3S GRD}\DIFaddend , and from 9\% to 4\% for C3S-E \DIFdelbegin \DIFdel{N}\DIFdelend \DIFaddbegin \DIFadd{NAT}\DIFaddend . The balanced mix of wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV power in this scenario reduces the seasonal signal overall and significantly decreases the percentage of RES drought hours in the summer.
+
+\DIFdelbegin \section{\DIFdel{Discussion and Conclusions}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+%DIFDELCMD < \label{sec:Conclusion}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{droughts_seasonality.pdf}
+	\caption{\DIFaddFL{Percentage of hours in a month which are part of a RES drought (from 1979 to 2023) for a)~Wind, b)~Solar PV, c)~91W-9PV and d)~57W-43PV for ATL (red dotted), C3S GRD (blue dashed), and C3S NAT (purple solid). The x-axis represents the month of the year, and the y-axis indicates the percentage of hours. Lines correspond to the median values and the area between the first and third quartiles is shaded. Note the different y-axis scale for b).}}
+	\label{fig:res_droughts_seasonality}
+\end{figure}
+\DIFaddend 
+
+\DIFdelbegin \DIFdel{This study has investigated the ability of three RES models to represent RES droughts: Atlite, C3S-E G, and C3S-E N. One of the most evident differences is how each dataset incorporates the specific locations of RES farms. Both Atlite and C3S-E G consider the locations of wind and PV farms, which one would expect to result in a more accurate representation of RES generation. While this approach slightly improves PV models, our analysis indicates that for wind energy, the Atlite dataset performs better overall , especially in its close alignment with observed data for wind generation estimates}\DIFdelend \DIFaddbegin \DIFadd{The seasonal variations observed in this study have important implications for energy planning. Given that energy demand peaks in winter for Northern European countries, understanding these seasonal patterns is critical for assessing the need for conventional backup or storage solutions during periods of prolonged low renewable output. The findings underscore that even small differences in model assumptions leads to significant variations in drought estimates, thereby affecting the reliability of the energy system during critical periods. Such insights are essential for policymakers to develop targeted strategies that enhance grid resilience and ensure a stable energy supply throughout the year.
+}
+
+
+\section{\DIFadd{Conclusions}}
+\label{sec:conclusions}
+
+\DIFadd{The first question this study aimed to answer was whether generic datasets can be used to quantify extreme events like RES droughts. The analysis compared three datasets, ATL, C3S GRD, and C3S NAT, over a 45‐year period to determine their ability to represent RES drought events. The results show that while all three datasets capture overall trends in drought occurrence, significant differences emerge when using non-tailored data for the study of RES droughts}\DIFaddend . This finding \DIFdelbegin \DIFdel{suggests that , although the inclusion of RES farm locations is beneficial, the accuracy of the RES model is more strongly influenced by underlying model assumptions , such as selecting an appropriate wind power curve.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{Atlite shows the best alignment with observed data for wind generation. Differences between the models are smaller for PV, with C3S-G performing marginally better than the other two. The results show that }\DIFdelend \DIFaddbegin \DIFadd{highlights that }\DIFaddend the \DIFdelbegin \DIFdel{two C3S-E datasets (C3S-E G and C3S-E N) consistently yield similar outcomes, indicating that their methodological differences have minimal impact in this case. This distinction is also evident in the analysis, where Atlite reports }\DIFdelend \DIFaddbegin \DIFadd{choice of dataset and its underlying assumptions can lead to consequential differences in estimated RES drought characteristics, emphasising the need for datasets that are specifically designed for extreme event analysis.
+}
+
+\DIFadd{The second key question addressed the impact of modeling assumptions on RES drought analysis. The study revealed that differences in model parametrisation, particularly in the representation of wind turbine power curves and solar PV panel characteristics, have a stronger influence on the drought estimates than the inclusion of RES farm locations. For instance, the ATL dataset, which uses a carefully selected wind turbine power curve from Renewables.ninja, consistently produced }\DIFaddend higher return periods and a greater number of \DIFdelbegin \DIFdel{RES droughts, especially in scenarios with a balanced share of RES. Again, the results from RES drought modelling rely more on the precision of the wind power curve and PV panel models than on the specific locations of RES farms. Atlite’s superior performance highlights the importance of selecting validated models for assessing }\DIFdelend \DIFaddbegin \DIFadd{drought events for wind energy than the C3S datasets. This suggests that fine-tuning model parameters to match observed data is crucial for accurately quantifying }\DIFaddend RES drought risks\DIFdelbegin \DIFdel{. This careful model selection can better quantify risks, support effective planning, and avoid the potential underestimation of capacity needs, which is essential for ensuring energy security. }\DIFdelend \DIFaddbegin \DIFadd{, thereby supporting more effective energy system planning.
+}\DIFaddend 
+
+\DIFdelbegin \DIFdel{Looking at the 57W-43PV scenario}\DIFdelend \DIFaddbegin \DIFadd{The third question explored how the integration of solar PV into a predominantly wind-based system alters the characteristics of RES droughts in a real-case setting. In Ireland, where the existing energy mix (91W-9PV) is highly wind-dominated}\DIFaddend , the analysis \DIFdelbegin \DIFdel{showed a significant improvement in the management of RES droughts due }\DIFdelend \DIFaddbegin \DIFadd{demonstrated that transitioning to a more balanced system (57W-43PV) markedly reduces the frequency, duration, and seasonal variability of drought events. This improvement is attributed }\DIFaddend to the complementary nature of wind and \DIFdelbegin \DIFdel{PV generation. Wind and PV together perform better in terms of reducing drought frequency and duration than either would individually, largely because of the seasonal anti-correlation between the two energy sources. This diversification reduces the seasonal impact on RES droughts, as PV generation peaks in the summer and }\DIFdelend \DIFaddbegin \DIFadd{solar PV generation—solar PV typically peaks in summer while }\DIFaddend wind generation is more consistent in winter. \DIFdelbegin \DIFdel{Ireland currently has a highly wind-dependent energy system, but with ambitious targets for PV installations in the coming years, the energy mix is expected to approach a balance between wind and PV capacity.
+While this balanced approach offers a more stable and secure energy supply by mitigating RES drought risks, it is important to note that having similar wind and PV capacities may not optimise other aspects, such as annual energy production or meeting nighttime loads. For policymakers, these findings underscore the importance of meeting these capacity targets to enhance energy security through diversification. Additionally, the choice of model for RES drought assessment becomes increasingly critical as more renewable capacity is integrated into the system}\DIFdelend \DIFaddbegin \DIFadd{Thus, a more diversified renewable energy mix not only mitigates extreme drought conditions but also enhances overall system resilience, providing valuable insights for policymakers tasked with ensuring energy security.
+}
+
+\DIFadd{This study has several limitations. Although ERA5 is among the best reanalysis datasets for renewable energy analysis, its resolution may not capture local-scale phenomena, making it less reliable at the individual farm level. In addition, previous studies have indicated biases in ERA5 variables especially wind speed. Moreover, the methodology employs a fixed threshold to define RES drought events, which is necessary for comparing the three models but does not account for demand variations. Consequently, while this approach enables a consistent inter-comparison, it may overlook events that are most critical for power system operations}\DIFaddend .
+
+Future work is planned to extend the current analysis. First, climate projection data will be integrated with different energy scenarios, incorporating the addition of offshore wind, to better understand how climate change might affect RES droughts. Second, expanding the geographic domain of the study to include the rest of Europe would provide a more comprehensive understanding of RES droughts in an interconnected energy grid. This would require extensive verification across other European countries, making it a more complex but highly relevant challenge.
+
+\section*{Data Availability}
+
+The ERA5 data can be obtained from the Climate Data Store (\url{https://doi.org/10.24381/cds.adbb2d47}). The \DIFdelbegin \DIFdel{C3S-E dataset is }\DIFdelend \DIFaddbegin \DIFadd{C3S datasets are }\DIFaddend also available from the Climate Data Store (\url{https://doi.org/10.24381/cds.4bd77450}). Information on wind and \DIFaddbegin \DIFadd{solar }\DIFaddend PV farms in Ireland can be obtained from the EirGrid website (\url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports}). The Atlite model used in this study is open-source and can be found on GitHub (\url{https://github.com/pypsa/atlite}). The data and code required to reproduce the analysis in this article will be made available upon acceptance of the manuscript in a public GitHub repository.
+
+\section*{Acknowledgments}
+
+The research conducted in this publication was funded by Science Foundation Ireland and co-funding partners under grant number 21/SPP/3756 through the NexSys Strategic Partnership Programme.
+
+\bibliographystyle{elsarticle-num-names}
+\bibliography{RES_droughts_Morin_ref}
+
+\end{document}
+
+\endinput
+
+
+
