@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  28 MAR 2025 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  31 MAR 2025 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -343,7 +343,7 @@ Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 387.
+ne 389.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [21] [22 <../Scripts//droughts_seasonality.pdf>] [23] (./RES_droughts_Morin_Re
 En_R2.bbl [24] [25] [26])
@@ -355,7 +355,7 @@ Here is how much of TeX's memory you used:
  22346 multiletter control sequences out of 15000+600000
  484764 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,10n,76p,1498b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,10n,76p,1497b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-s
 uper/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.en
 c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
@@ -375,7 +375,7 @@ type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn_R2.pdf (28 pages, 656538 bytes).
+Output written on RES_droughts_Morin_ReEn_R2.pdf (28 pages, 656534 bytes).
 PDF statistics:
  299 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
