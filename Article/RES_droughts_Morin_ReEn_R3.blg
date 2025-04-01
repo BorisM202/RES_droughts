@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: RES_droughts_Morin_ReEn_R3.aux
+The style file: elsarticle-num-names.bst
+Database file #1: RES_droughts_Morin_ref.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 25 entries,
+            2918 wiz_defined-function locations,
+            794 strings with 11473 characters,
+and the built_in function-call counts, 18774 in all, are:
+= -- 1321
+> -- 982
+< -- 7
++ -- 375
+- -- 342
+* -- 2416
+:= -- 2726
+add.period$ -- 49
+call.type$ -- 25
+change.case$ -- 238
+chr.to.int$ -- 25
+cite$ -- 25
+duplicate$ -- 1288
+empty$ -- 1210
+format.name$ -- 413
+if$ -- 3383
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 286
+newline$ -- 132
+num.names$ -- 100
+pop$ -- 421
+preamble$ -- 1
+purify$ -- 238
+quote$ -- 0
+skip$ -- 262
+stack$ -- 0
+substring$ -- 744
+swap$ -- 1078
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 225
+warning$ -- 0
+while$ -- 99
+width$ -- 0
+write$ -- 360
