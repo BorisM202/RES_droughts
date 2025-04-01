@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  1 APR 2025 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  1 APR 2025 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -266,93 +266,80 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [2] [3] [4] [5]
-[6]
-<../Scripts//violin_plots_verification.pdf, id=41, 445.849pt x 224.63087pt>
-File: ../Scripts//violin_plots_verification.pdf Graphic file (type pdf)
-<use ../Scripts//violin_plots_verification.pdf>
-Package pdftex.def Info: ../Scripts//violin_plots_verification.pdf  used on inp
-ut line 189.
-(pdftex.def)             Requested size: 390.0pt x 196.49324pt.
- [7] [8 <../Scripts//violin_plots_verification.pdf>] [9]
-<../Scripts//droughts_methodology.pdf, id=72, 445.45973pt x 246.67972pt>
+[6] [7] [8]
+<../Scripts//droughts_methodology.pdf, id=47, 445.45973pt x 246.67972pt>
 File: ../Scripts//droughts_methodology.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_methodology.pdf>
 Package pdftex.def Info: ../Scripts//droughts_methodology.pdf  used on input li
-ne 234.
+ne 229.
 (pdftex.def)             Requested size: 390.0pt x 215.97595pt.
- [10 <../Scripts//droughts_methodology.pdf>]
-<../Scripts//verification_power_curve.pdf, id=86, 443.26425pt x 224.63087pt>
+ [9] [10 <../Scripts//droughts_methodology.pdf>]
+<../Scripts//verification_power_curve.pdf, id=70, 443.26425pt x 224.63087pt>
 File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 <use ../Scripts//verification_power_curve.pdf>
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
-t line 258.
+t line 253.
 (pdftex.def)             Requested size: 390.0pt x 197.64148pt.
- [11]
-<../Scripts//verification_wind_contour.png, id=90, 459.1554pt x 150.5625pt>
+<../Scripts//verification_wind_contour.png, id=71, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
-ut line 267.
+ut line 262.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
- [12 <../Scripts//verification_power_curve.pdf> <../Scripts//verification_wind_
-contour.png>]
-<../Scripts//verification_wind_number_events.pdf, id=110, 445.849pt x 275.13245
-pt>
+ [11 <../Scripts//verification_power_curve.pdf>]
+<../Scripts//verification_wind_number_events.pdf, id=91, 445.849pt x 275.13245p
+t>
 File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_wind_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_wind_number_events.pdf  used 
-on input line 291.
+on input line 286.
 (pdftex.def)             Requested size: 390.0pt x 240.66891pt.
- [13]
-<../Scripts//verification_pv_contour.png, id=114, 459.1554pt x 150.5625pt>
+ [12 <../Scripts//verification_wind_contour.png>]
+[13 <../Scripts//verification_wind_number_events.pdf>]
+<../Scripts//verification_pv_contour.png, id=107, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_pv_contour.png Graphic file (type png)
 <use ../Scripts//verification_pv_contour.png>
 Package pdftex.def Info: ../Scripts//verification_pv_contour.png  used on input
- line 307.
+ line 302.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <../Scripts//verification_wind_number_events.pdf>]
-<../Scripts//verification_pv_number_events.pdf, id=125, 445.849pt x 275.13245pt
+ [14 <../Scripts//verification_pv_contour.png>]
+<../Scripts//verification_pv_number_events.pdf, id=112, 445.849pt x 275.13245pt
 >
 File: ../Scripts//verification_pv_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//verification_pv_number_events.pdf>
 Package pdftex.def Info: ../Scripts//verification_pv_number_events.pdf  used on
- input line 331.
+ input line 326.
 (pdftex.def)             Requested size: 390.0pt x 240.66891pt.
- [15 <../Scripts//verification_pv_contour.png>] [16 <../Scripts//verification_p
-v_number_events.pdf>]
-<../Scripts//droughts_number_events.pdf, id=140, 435.01134pt x 273.54399pt>
+ [15 <../Scripts//verification_pv_number_events.pdf>]
+[16]
+<../Scripts//droughts_number_events.pdf, id=126, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_number_events.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_number_events.pdf>
 Package pdftex.def Info: ../Scripts//droughts_number_events.pdf  used on input 
-line 353.
+line 348.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
-
-[17] [18 <../Scripts//droughts_number_events.pdf>]
-<../Scripts//droughts_return_periods.pdf, id=160, 434.3668pt x 273.54399pt>
+ [17 <../Scripts//droughts_number_events.pdf>]
+<../Scripts//droughts_return_periods.pdf, id=142, 434.3668pt x 273.54399pt>
 File: ../Scripts//droughts_return_periods.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_return_periods.pdf>
 Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
- line 368.
+ line 363.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
- [19] [20 <../Scripts//droughts_return_periods.pdf>]
-<../Scripts//droughts_seasonality.pdf, id=190, 435.01134pt x 273.54399pt>
+ [18] [19 <../Scripts//droughts_return_periods.pdf>] [20]
+<../Scripts//droughts_seasonality.pdf, id=175, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
 Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
-ne 389.
+ne 384.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
- [21] [22 <../Scripts//droughts_seasonality.pdf>]
-[23] (./RES_droughts_Morin_ReEn_R2.bbl [24] [25] [26]) [27]
+ [21 <../Scripts//droughts_seasonality.pdf>]
+[22] [23] (./RES_droughts_Morin_ReEn_R2.bbl [24] [25] [26]) [27]
 (./RES_droughts_Morin_ReEn_R2.aux) ) 
 Here is how much of TeX's memory you used:
- 4469 strings out of 480247
- 67982 string characters out of 5896151
- 358064 words of memory out of 5000000
- 22346 multiletter control sequences out of 15000+600000
+ 4460 strings out of 480247
+ 67593 string characters out of 5896151
+ 357054 words of memory out of 5000000
+ 22338 multiletter control sequences out of 15000+600000
  484764 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,10n,76p,1481b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -375,10 +362,10 @@ re/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1
 i1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn_R2.pdf (28 pages, 656634 bytes).
+Output written on RES_droughts_Morin_ReEn_R2.pdf (28 pages, 638840 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
+ 284 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
