@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  1 APR 2025 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  2 APR 2025 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -279,12 +279,12 @@ Package pdftex.def Info: ../Scripts//droughts_methodology.pdf  used on input li
 ne 226.
 (pdftex.def)             Requested size: 390.0pt x 215.97595pt.
  [9]
-<../Scripts//violin_plots_verification.pdf, id=51, 445.849pt x 224.63087pt>
+<../Scripts//violin_plots_verification.pdf, id=51, 443.71472pt x 202.83685pt>
 File: ../Scripts//violin_plots_verification.pdf Graphic file (type pdf)
 <use ../Scripts//violin_plots_verification.pdf>
 Package pdftex.def Info: ../Scripts//violin_plots_verification.pdf  used on inp
 ut line 243.
-(pdftex.def)             Requested size: 390.0pt x 196.49324pt.
+(pdftex.def)             Requested size: 390.0pt x 178.2896pt.
  [10 <../Scripts//droughts_methodology.pdf>]
 <../Scripts//verification_power_curve.pdf, id=71, 443.26425pt x 224.63087pt>
 File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
@@ -292,14 +292,15 @@ File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
 t line 257.
 (pdftex.def)             Requested size: 390.0pt x 197.64148pt.
-<../Scripts//verification_wind_contour.png, id=72, 459.1554pt x 150.5625pt>
+ [11 <../Scripts//violin_plots_verification.pdf>]
+<../Scripts//verification_wind_contour.png, id=90, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
 ut line 266.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
- [11 <../Scripts//violin_plots_verification.pdf>] [12 <../Scripts//verification
-_power_curve.pdf> <../Scripts//verification_wind_contour.png>]
+ [12 <../Scripts//verification_power_curve.pdf> <../Scripts//verification_wind_
+contour.png>]
 <../Scripts//verification_wind_number_events.pdf, id=110, 445.849pt x 275.13245
 pt>
 File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
@@ -342,7 +343,7 @@ Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
  line 367.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
 
-[19 <../Scripts//droughts_return_periods.pdf>] [20]
+[19] [20 <../Scripts//droughts_return_periods.pdf>]
 <../Scripts//droughts_seasonality.pdf, id=190, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
@@ -379,7 +380,7 @@ type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn_R3.pdf (28 pages, 656418 bytes).
+Output written on RES_droughts_Morin_ReEn_R3.pdf (28 pages, 656859 bytes).
 PDF statistics:
  299 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
