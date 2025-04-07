@@ -1,47 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: RES_droughts_Morin_ReEn_R3.aux
 The style file: elsarticle-num-names.bst
 Database file #1: RES_droughts_Morin_ref.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 25 entries,
+You've used 26 entries,
             2918 wiz_defined-function locations,
-            794 strings with 11473 characters,
-and the built_in function-call counts, 18774 in all, are:
-= -- 1321
-> -- 982
-< -- 7
-+ -- 375
-- -- 342
-* -- 2416
-:= -- 2726
-add.period$ -- 49
-call.type$ -- 25
-change.case$ -- 238
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 1288
-empty$ -- 1210
-format.name$ -- 413
-if$ -- 3383
+            798 strings with 11615 characters,
+and the built_in function-call counts, 19241 in all, are:
+= -- 1355
+> -- 992
+< -- 8
++ -- 379
+- -- 345
+* -- 2461
+:= -- 2793
+add.period$ -- 51
+call.type$ -- 26
+change.case$ -- 244
+chr.to.int$ -- 26
+cite$ -- 26
+duplicate$ -- 1333
+empty$ -- 1248
+format.name$ -- 417
+if$ -- 3469
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 286
-newline$ -- 132
-num.names$ -- 100
-pop$ -- 421
+missing$ -- 295
+newline$ -- 135
+num.names$ -- 104
+pop$ -- 439
 preamble$ -- 1
-purify$ -- 238
+purify$ -- 244
 quote$ -- 0
-skip$ -- 262
+skip$ -- 274
 stack$ -- 0
-substring$ -- 744
-swap$ -- 1078
+substring$ -- 758
+swap$ -- 1105
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 225
+type$ -- 234
 warning$ -- 0
-while$ -- 99
+while$ -- 102
 width$ -- 0
-write$ -- 360
+write$ -- 374
