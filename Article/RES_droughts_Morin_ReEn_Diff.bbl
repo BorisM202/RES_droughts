@@ -279,17 +279,6 @@
   (\bibinfo{year}{2022}) \bibinfo{pages}{e2089}.
   \DOIprefix\doi{10.1002/met.2089}, \bibinfo{note}{13}.
 %Type = Article
-\bibitem[{Doddy~Clarke et~al.(2021)Doddy~Clarke, Griffin, McDermott,
-  Monteiro~Correia, and Sweeney}]{doddy2021era5}
-\bibinfo{author}{E.~Doddy~Clarke}, \bibinfo{author}{S.~Griffin},
-  \bibinfo{author}{F.~McDermott}, \bibinfo{author}{J.~Monteiro~Correia},
-  \bibinfo{author}{C.~Sweeney},
-\newblock \bibinfo{title}{Which reanalysis dataset should we use for renewable
-  energy analysis in ireland?},
-\newblock \bibinfo{journal}{Atmosphere} \bibinfo{volume}{12}
-  (\bibinfo{year}{2021}) \bibinfo{pages}{624}.
-  \DOIprefix\doi{10.3390/atmos12050624}.
-%Type = Article
 \bibitem[{Saint-Drenan et~al.(2018)Saint-Drenan, Wald, Ranchin, Dubus, and
   Troccoli}]{saintdrenan2018solar}
 \bibinfo{author}{Y.-M. Saint-Drenan}, \bibinfo{author}{L.~Wald},
@@ -324,6 +313,13 @@
   Report}, Sustainability Energy Authority of Ireland, \bibinfo{year}{2024}.
   \URLprefix
   \url{https://www.seai.ie/news-and-events/news/energy-projections-report},
+  \bibinfo{note}{{A}ccessed: 2024-11-06}.
+%Type = Techreport
+\bibitem[{{EirGrid \& SONI}(2023)}]{eirgrid2023future}
+\bibinfo{author}{{EirGrid \& SONI}}, \bibinfo{title}{{Tomorrow’s Energy
+  Scenarios 2023}}, \bibinfo{type}{Technical Report}, {EirGrid \& SONI},
+  \bibinfo{year}{2023}. \URLprefix
+  \url{https://cms.eirgrid.ie/sites/default/files/publications/TES-2023-Final-Full-Report.pdf},
   \bibinfo{note}{{A}ccessed: 2024-11-06}.
 %Type = Article
 \bibitem[{Beyer et~al.(2004)Beyer, Heilscher, and Bofinger}]{beyer2004pv}
