@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -18,28 +18,12 @@
   \url{https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Renewable_energy_statistics},
   \bibinfo{note}{{A}ccessed: 2024-11-06}.
 %Type = Article
-\bibitem[{Bloomfield et~al.(2016)Bloomfield, Brayshaw, Shaffrey, Coker, and
-  Thornton}]{bloomfield2016}
-\bibinfo{author}{H.~C. Bloomfield}, \bibinfo{author}{D.~J. Brayshaw},
-  \bibinfo{author}{L.~C. Shaffrey}, \bibinfo{author}{P.~J. Coker},
-  \bibinfo{author}{H.~E. Thornton},
-\newblock \bibinfo{title}{Quantifying the increasing sensitivity of power
-  systems to climate variability},
-\newblock \bibinfo{journal}{Environmental Research Letters}
-  \bibinfo{volume}{11} (\bibinfo{year}{2016}) \bibinfo{pages}{124025}.
-  \DOIprefix\doi{10.1088/1748-9326/11/12/124025}.
-%Type = Article
-\bibitem[{Bloomfield et~al.(2021)Bloomfield, Brayshaw, Troccoli, Goodess,
-  De~Felice, Dubus, Bett, and Saint-Drenan}]{bloomfield2021}
-\bibinfo{author}{H.~C. Bloomfield}, \bibinfo{author}{D.~J. Brayshaw},
-  \bibinfo{author}{A.~Troccoli}, \bibinfo{author}{C.~M. Goodess},
-  \bibinfo{author}{M.~De~Felice}, \bibinfo{author}{L.~Dubus},
-  \bibinfo{author}{P.~E. Bett}, \bibinfo{author}{Y.-M. Saint-Drenan},
-\newblock \bibinfo{title}{Quantifying the sensitivity of european power systems
-  to energy scenarios and climate change projections},
-\newblock \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{164}
-  (\bibinfo{year}{2021}) \bibinfo{pages}{1062–1075}.
-  \DOIprefix\doi{10.1016/j.renene.2020.09.125}.
+\bibitem[{Staffell and Pfenninger(2018)}]{staffell2018demand}
+\bibinfo{author}{I.~Staffell}, \bibinfo{author}{S.~Pfenninger},
+\newblock \bibinfo{title}{The increasing impact of weather on electricity
+  supply and demand},
+\newblock \bibinfo{journal}{Energy} \bibinfo{volume}{145}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{65--78}.
 %Type = Article
 \bibitem[{Kaspar et~al.(2019)Kaspar, Borsche, Pfeifroth, Trentmann, Drücke,
   and Becker}]{kaspar2019drought}
