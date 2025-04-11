@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (prel
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**RES_droughts_Morin_ReEn_R3.tex
-(./RES_droughts_Morin_ReEn_R3.tex
+**RES_droughts_Morin_ReEn_R4.tex
+(./RES_droughts_Morin_ReEn_R4.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (./elsarticle.cls
 Document Class: elsarticle 2025/01/11, 3.4c: Elsevier Ltd
@@ -88,7 +88,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@sep=\skip49
 \@@sep=\skip50
 
-(./RES_droughts_Morin_ReEn_R3.spl)
+(./RES_droughts_Morin_ReEn_R4.spl)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
@@ -97,7 +97,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count267
 )
 \splwrite=\write3
-\openout3 = `RES_droughts_Morin_ReEn_R3.spl'.
+\openout3 = `RES_droughts_Morin_ReEn_R4.spl'.
 
 \appnamewidth=\dimen145
 )
@@ -196,8 +196,8 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
-(./RES_droughts_Morin_ReEn_R3.aux)
-\openout1 = `RES_droughts_Morin_ReEn_R3.aux'.
+(./RES_droughts_Morin_ReEn_R4.aux)
+\openout1 = `RES_droughts_Morin_ReEn_R4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -265,16 +265,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-
-Package natbib Warning: Citation `bloomfield2016' on page 2 undefined on input 
-line 119.
-
-
-Package natbib Warning: Citation `bloomfield2021' on page 2 undefined on input 
-line 119.
-
-[2] [3]
+) [2] [3]
 Overfull \hbox (1.66132pt too wide) in paragraph at lines 135--136
 []\T1/cmr/m/n/12 Do generic datasets have suf-fi-cient skill to re-li-ably quan
 -tify RES drought
@@ -301,15 +292,14 @@ File: ../Scripts//verification_power_curve.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Scripts//verification_power_curve.pdf  used on inpu
 t line 257.
 (pdftex.def)             Requested size: 390.0pt x 197.64148pt.
- [11 <../Scripts//violin_plots_verification.pdf>]
-<../Scripts//verification_wind_contour.png, id=90, 459.1554pt x 150.5625pt>
+<../Scripts//verification_wind_contour.png, id=72, 459.1554pt x 150.5625pt>
 File: ../Scripts//verification_wind_contour.png Graphic file (type png)
 <use ../Scripts//verification_wind_contour.png>
 Package pdftex.def Info: ../Scripts//verification_wind_contour.png  used on inp
 ut line 266.
 (pdftex.def)             Requested size: 390.0pt x 127.8937pt.
- [12 <../Scripts//verification_power_curve.pdf> <../Scripts//verification_wind_
-contour.png>]
+ [11 <../Scripts//violin_plots_verification.pdf>] [12 <../Scripts//verification
+_power_curve.pdf> <../Scripts//verification_wind_contour.png>]
 <../Scripts//verification_wind_number_events.pdf, id=110, 445.849pt x 275.13245
 pt>
 File: ../Scripts//verification_wind_number_events.pdf Graphic file (type pdf)
@@ -352,7 +342,7 @@ Package pdftex.def Info: ../Scripts//droughts_return_periods.pdf  used on input
  line 367.
 (pdftex.def)             Requested size: 390.0pt x 245.61546pt.
 
-[19] [20 <../Scripts//droughts_return_periods.pdf>]
+[19 <../Scripts//droughts_return_periods.pdf>] [20]
 <../Scripts//droughts_seasonality.pdf, id=190, 435.01134pt x 273.54399pt>
 File: ../Scripts//droughts_seasonality.pdf Graphic file (type pdf)
 <use ../Scripts//droughts_seasonality.pdf>
@@ -360,11 +350,8 @@ Package pdftex.def Info: ../Scripts//droughts_seasonality.pdf  used on input li
 ne 388.
 (pdftex.def)             Requested size: 390.0pt x 245.24399pt.
  [21] [22 <../Scripts//droughts_seasonality.pdf>] [23] (./RES_droughts_Morin_Re
-En_R3.bbl [24] [25] [26])
-
-Package natbib Warning: There were undefined citations.
-
-[27] (./RES_droughts_Morin_ReEn_R3.aux) ) 
+En_R4.bbl [24] [25] [26])
+[27] (./RES_droughts_Morin_ReEn_R4.aux) ) 
 Here is how much of TeX's memory you used:
  4469 strings out of 480247
  68003 string characters out of 5896151
@@ -392,7 +379,7 @@ type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sftt1200.pfb>
-Output written on RES_droughts_Morin_ReEn_R3.pdf (28 pages, 657815 bytes).
+Output written on RES_droughts_Morin_ReEn_R4.pdf (28 pages, 658073 bytes).
 PDF statistics:
  299 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
