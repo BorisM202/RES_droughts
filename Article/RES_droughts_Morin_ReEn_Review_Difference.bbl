@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{31}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -18,6 +18,17 @@
   \url{https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Renewable_energy_statistics},
   \bibinfo{note}{{A}ccessed: 2024-11-06}.
 %Type = Article
+\bibitem[{van~der Wiel et~al.(2019)van~der Wiel, Stoop, Van~Zuijlen, Blackport,
+  Van~den Broek, and Selten}]{vanderwiel2019drought}
+\bibinfo{author}{K.~van~der Wiel}, \bibinfo{author}{L.~P. Stoop},
+  \bibinfo{author}{B.~R.~H. Van~Zuijlen}, \bibinfo{author}{R.~Blackport},
+  \bibinfo{author}{M.~A. Van~den Broek}, \bibinfo{author}{F.~M. Selten},
+\newblock \bibinfo{title}{Meteorological conditions leading to extreme low
+  variable renewable energy production and extreme high energy shortfall},
+\newblock \bibinfo{journal}{Renewable and Sustainable Energy Reviews}
+  \bibinfo{volume}{111} (\bibinfo{year}{2019}) \bibinfo{pages}{261–275}.
+  \DOIprefix\doi{10.1016/j.rser.2019.04.065}.
+%Type = Article
 \bibitem[{Staffell and Pfenninger(2018)}]{staffell2018demand}
 \bibinfo{author}{I.~Staffell}, \bibinfo{author}{S.~Pfenninger},
 \newblock \bibinfo{title}{The increasing impact of weather on electricity
@@ -36,6 +47,14 @@
   \bibinfo{volume}{16} (\bibinfo{year}{2019}) \bibinfo{pages}{119–128}.
   \DOIprefix\doi{10.5194/asr-16-119-2019}.
 %Type = Article
+\bibitem[{Ohba et~al.(2022)Ohba, Kanno, and Nohara}]{ohba2022drought}
+\bibinfo{author}{M.~Ohba}, \bibinfo{author}{Y.~Kanno},
+  \bibinfo{author}{D.~Nohara},
+\newblock \bibinfo{title}{Climatology of dark doldrums in japan},
+\newblock \bibinfo{journal}{Renewable and Sustainable Energy Reviews}
+  \bibinfo{volume}{155} (\bibinfo{year}{2022}) \bibinfo{pages}{111927}.
+  \DOIprefix\doi{10.1016/j.rser.2021.111927}.
+%Type = Article
 \bibitem[{Mockert et~al.(2023)Mockert, Grams, Brown, and
   Neumann}]{mockert2023drought}
 \bibinfo{author}{F.~Mockert}, \bibinfo{author}{C.~M. Grams},
@@ -45,14 +64,6 @@
 \newblock \bibinfo{journal}{Meteorological Applications} \bibinfo{volume}{30}
   (\bibinfo{year}{2023}) \bibinfo{pages}{e2141}.
   \DOIprefix\doi{10.1002/met.2141}.
-%Type = Article
-\bibitem[{Ohba et~al.(2022)Ohba, Kanno, and Nohara}]{ohba2022drought}
-\bibinfo{author}{M.~Ohba}, \bibinfo{author}{Y.~Kanno},
-  \bibinfo{author}{D.~Nohara},
-\newblock \bibinfo{title}{Climatology of dark doldrums in japan},
-\newblock \bibinfo{journal}{Renewable and Sustainable Energy Reviews}
-  \bibinfo{volume}{155} (\bibinfo{year}{2022}) \bibinfo{pages}{111927}.
-  \DOIprefix\doi{10.1016/j.rser.2021.111927}.
 %Type = Article
 \bibitem[{Mayer et~al.(2023)Mayer, Biró, Szücs, and
   Aszódi}]{mayer2023drought}
@@ -74,6 +85,18 @@
   (\bibinfo{year}{2018}) \bibinfo{pages}{578--589}.
   \DOIprefix\doi{https://doi.org/10.1016/j.renene.2018.02.130}.
 %Type = Article
+\bibitem[{Rinaldi et~al.(2021)Rinaldi, Dowling, Ruggles, Caldeira, and
+  Lewis}]{rinaldi2021drought}
+\bibinfo{author}{K.~Z. Rinaldi}, \bibinfo{author}{J.~A. Dowling},
+  \bibinfo{author}{T.~H. Ruggles}, \bibinfo{author}{K.~Caldeira},
+  \bibinfo{author}{N.~S. Lewis},
+\newblock \bibinfo{title}{{Wind and Solar Resource Droughts in California
+  Highlight the Benefits of Long-Term Storage and Integration with the Western
+  Interconnect}},
+\newblock \bibinfo{journal}{Environmental Science and Technology}
+  \bibinfo{volume}{55} (\bibinfo{year}{2021}) \bibinfo{pages}{6214–6226}.
+  \DOIprefix\doi{10.1021/acs.est.0c07848}.
+%Type = Article
 \bibitem[{Gangopadhyay et~al.(2022)Gangopadhyay, Seshadri, Sparks, and
   Toumi}]{gangopadhyay2022drought}
 \bibinfo{author}{A.~Gangopadhyay}, \bibinfo{author}{A.~K. Seshadri},
@@ -83,6 +106,13 @@
 \newblock \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{194}
   (\bibinfo{year}{2022}) \bibinfo{pages}{926–937}.
   \DOIprefix\doi{10.1016/j.renene.2022.05.122}.
+%Type = Article
+\bibitem[{Allen and Otero(2023)}]{allen2023drought}
+\bibinfo{author}{S.~Allen}, \bibinfo{author}{N.~Otero},
+\newblock \bibinfo{title}{Standardised indices to monitor energy droughts},
+\newblock \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{217}
+  (\bibinfo{year}{2023}) \bibinfo{pages}{119206}.
+  \DOIprefix\doi{10.1016/j.renene.2023.119206}.
 %Type = Article
 \bibitem[{Kapica et~al.(2024)Kapica, Jurasz, Canales, Bloomfield, Guezgouz,
   De~Felice, and Kobus}]{kapica2024drought}
@@ -96,18 +126,6 @@
   \bibinfo{volume}{189} (\bibinfo{year}{2024}) \bibinfo{pages}{114011}.
   \DOIprefix\doi{10.1016/j.rser.2023.114011}.
 %Type = Article
-\bibitem[{Rinaldi et~al.(2021)Rinaldi, Dowling, Ruggles, Caldeira, and
-  Lewis}]{rinaldi2021drought}
-\bibinfo{author}{K.~Z. Rinaldi}, \bibinfo{author}{J.~A. Dowling},
-  \bibinfo{author}{T.~H. Ruggles}, \bibinfo{author}{K.~Caldeira},
-  \bibinfo{author}{N.~S. Lewis},
-\newblock \bibinfo{title}{{Wind and Solar Resource Droughts in California
-  Highlight the Benefits of Long-Term Storage and Integration with the Western
-  Interconnect}},
-\newblock \bibinfo{journal}{Environmental Science and Technology}
-  \bibinfo{volume}{55} (\bibinfo{year}{2021}) \bibinfo{pages}{6214–6226}.
-  \DOIprefix\doi{10.1021/acs.est.0c07848}.
-%Type = Article
 \bibitem[{Brown et~al.(2021)Brown, Farnham, and Caldeira}]{brown2021drought}
 \bibinfo{author}{P.~T. Brown}, \bibinfo{author}{D.~J. Farnham},
   \bibinfo{author}{K.~Caldeira},
@@ -116,13 +134,6 @@
 \newblock \bibinfo{journal}{SN Applied Sciences} \bibinfo{volume}{3}
   (\bibinfo{year}{2021}) \bibinfo{pages}{814}.
   \DOIprefix\doi{10.1007/s42452-021-04794-z}.
-%Type = Article
-\bibitem[{Allen and Otero(2023)}]{allen2023drought}
-\bibinfo{author}{S.~Allen}, \bibinfo{author}{N.~Otero},
-\newblock \bibinfo{title}{Standardised indices to monitor energy droughts},
-\newblock \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{217}
-  (\bibinfo{year}{2023}) \bibinfo{pages}{119206}.
-  \DOIprefix\doi{10.1016/j.renene.2023.119206}.
 %Type = Article
 \bibitem[{Bracken et~al.(2024)Bracken, Voisin, Burleyson, Campbell, Hou, and
   Broman}]{bracken2024drought}
@@ -173,6 +184,13 @@
 \newblock \bibinfo{journal}{Meteorological Applications} \bibinfo{volume}{30}
   (\bibinfo{year}{2023}) \bibinfo{pages}{e2145}.
   \DOIprefix\doi{10.1002/met.2145}.
+%Type = Misc
+\bibitem[{{Copernicus Climate Change Service (C3S)}(2020)}]{cds2023energy}
+\bibinfo{author}{{Copernicus Climate Change Service (C3S)}},
+  \bibinfo{title}{{Climate and energy indicators for Europe from 1979 to
+  present derived from reanalysis.}}, \bibinfo{year}{2020}.
+  \DOIprefix\doi{10.24381/cds.4bd77450}, \bibinfo{note}{accessed on
+  28-11-2024}.
 %Type = Article
 \bibitem[{Hofmann et~al.(2021)Hofmann, Hampp, Neumann, Brown, and
   H{\"o}rsch}]{hofman2021atlite}
@@ -184,6 +202,38 @@
 \newblock \bibinfo{journal}{Journal of Open Source Software}
   \bibinfo{volume}{6} (\bibinfo{year}{2021}) \bibinfo{pages}{3294}.
   \DOIprefix\doi{10.21105/joss.03294}.
+%Type = Article
+\bibitem[{Li et~al.(2023)Li, Zhao, Xu, Li, Liu, Mahmud, and
+  Chen}]{li2023atlite}
+\bibinfo{author}{J.~Li}, \bibinfo{author}{Z.~Zhao}, \bibinfo{author}{D.~Xu},
+  \bibinfo{author}{P.~Li}, \bibinfo{author}{Y.~Liu}, \bibinfo{author}{M.~A.
+  Mahmud}, \bibinfo{author}{D.~Chen},
+\newblock \bibinfo{title}{The potential assessment of pump hydro energy storage
+  to reduce renewable curtailment and {CO2 emissions in Northwest China}},
+\newblock \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{212}
+  (\bibinfo{year}{2023}) \bibinfo{pages}{82--96}.
+  \DOIprefix\doi{10.1016/j.renene.2023.04.132}.
+%Type = Article
+\bibitem[{Parzen et~al.(2023)Parzen, Abdel-Khalek, Fedotova, Mahmood,
+  Frysztacki, Hampp, Franken, Schumm, Neumann, Poli et~al.}]{parzen2023atlite}
+\bibinfo{author}{M.~Parzen}, \bibinfo{author}{H.~Abdel-Khalek},
+  \bibinfo{author}{E.~Fedotova}, \bibinfo{author}{M.~Mahmood},
+  \bibinfo{author}{M.~M. Frysztacki}, \bibinfo{author}{J.~Hampp},
+  \bibinfo{author}{L.~Franken}, \bibinfo{author}{L.~Schumm},
+  \bibinfo{author}{F.~Neumann}, \bibinfo{author}{D.~Poli}, et~al.,
+\newblock \bibinfo{title}{Pypsa-earth. a new global open energy system
+  optimization model demonstrated in africa},
+\newblock \bibinfo{journal}{Applied Energy} \bibinfo{volume}{341}
+  (\bibinfo{year}{2023}) \bibinfo{pages}{121096}.
+  \DOIprefix\doi{10.1016/j.apenergy.2023.121096}.
+%Type = Article
+\bibitem[{Ali Khan~Niazi and Victoria(2023)}]{ali2023comparative}
+\bibinfo{author}{K.~Ali Khan~Niazi}, \bibinfo{author}{M.~Victoria},
+\newblock \bibinfo{title}{Comparative analysis of photovoltaic configurations
+  for agrivoltaic systems in europe},
+\newblock \bibinfo{journal}{Progress in Photovoltaics: Research and
+  Applications} \bibinfo{volume}{31} (\bibinfo{year}{2023})
+  \bibinfo{pages}{1101--1113}. \DOIprefix\doi{10.1002/pip.3727}.
 %Type = Article
 \bibitem[{Kies et~al.(2021)Kies, Schyska, Bilousova, El~Sayed, Jurasz, and
   Stoecker}]{kies2021drought}
@@ -201,6 +251,17 @@
   Reports}}, \bibinfo{year}{2023}. \URLprefix
   \url{https://www.eirgrid.ie/grid/system-and-renewable-data-reports},
   \bibinfo{note}{{A}ccessed: 2024-11-06}.
+%Type = Article
+\bibitem[{Otero et~al.(2022)Otero, Martius, Allen, Bloomfield, and
+  Schaefli}]{otero2022drought}
+\bibinfo{author}{N.~Otero}, \bibinfo{author}{O.~Martius},
+  \bibinfo{author}{S.~Allen}, \bibinfo{author}{H.~Bloomfield},
+  \bibinfo{author}{B.~Schaefli},
+\newblock \bibinfo{title}{{Characterizing renewable energy compound events
+  across Europe using a logistic regression‐based approach}},
+\newblock \bibinfo{journal}{Meteorological Applications} \bibinfo{volume}{29}
+  (\bibinfo{year}{2022}) \bibinfo{pages}{e2089}.
+  \DOIprefix\doi{10.1002/met.2089}, \bibinfo{note}{13}.
 %Type = Article
 \bibitem[{Saint-Drenan et~al.(2018)Saint-Drenan, Wald, Ranchin, Dubus, and
   Troccoli}]{saintdrenan2018solar}
