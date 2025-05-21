@@ -1,0 +1,391 @@
+Name,Capacity (MW),Connection date,Region,ROI/NI,Latitude,Longitude
+Grousemount,114.2,2020-04-01,Kerry,ROI,51.87221782,-9.313179766
+Seecon,108,2017-08-01,Galway,ROI,53.37343,-9.25834
+Knockacummer,100,2015-07-01,Cork,ROI,52.259334,-9.09987
+Oweninny,92.8,2019-10-01,Mayo,ROI,54.11771191,-9.563367868
+Ardderroo,91.2,2023-08-01,Galway,ROI,53.35431475,-9.325665197
+Mulreavy,90,2017-02-01,Donegal,ROI,55.125604,-7.26176
+Mountlucas,84,2014-11-01,Offaly,ROI,53.269003,-7.26796
+Oweninny,83,2023-04-01,Mayo,ROI,54.11771191,-9.563367868
+Cloncreen,75.6,2022-11-01,Offaly,ROI,53.29562524,-7.088261382
+Slieve Kirk,73.6,2011-09-01,Killymallaght Main,NI,54.917622,-7.265
+Meentycat,72.4,2004-10-01,Donegal,ROI,54.881363,-7.88313
+Boggeragh,65.7,2016-06-01,Cork,ROI,52.04222,-8.91333
+Uggool,64,2017-02-01,Galway,ROI,53.35797222,-9.36927778
+Sliabh Bawn,64,2016-12-01,Roscommon,ROI,53.730526,-8.07742
+Derrybrien,59.5,2005-10-01,Galway,ROI,53.091159,-8.59711
+Boggeragh,57,2009-12-01,Cork,ROI,52.034522,-8.92005
+Cordal,54.4,2018-03-01,Kerry,ROI,52.22950259,-9.280771817
+Carrigdangan,54.3,2021-01-01,Cork,ROI,51.83597222,-9.03897222
+Slieve Rushen 2,54,2007-10-31,Aghyoule Main,NI,54.162375,-7.61633
+Cappawhite A Wind Farm (Gate 3),49.08,2017-08-11,Cauteen T144,ROI,52.5816,-8.15435
+Cloghboola,48,2015-10-01,Kerry,ROI,52.330165,-9.43758
+Bindoo,48,2009-10-01,Cavan,ROI,54.001628,-7.10167
+Brockaghboy,47.5,2017-08-29,Brockaghboy 110kV,NI,54.561347,-6.44152
+Evishagaran,46.8,2021-05-01,Garvagh Main,NI,54.93947328,-6.829745517
+Boolinrudda,45,2018-10-01,Clare,ROI,52.83716667,-9.28447222
+Coomagearlahy,45,2006-03-01,Kerry,ROI,51.938248,-9.31082
+Cleanrath Wind Farm,42.64,2019-11-21,Coomataggart,ROI,51.87864605,-9.142452784
+Knocknagoum (1),42.55,2013-09-09,Reamore T142,ROI,52.326114,-9.54008
+Dunbeg,42,2014-08-25,Coleraine Main,NI,55.093186,-6.81321
+Coomacheo,41.4,2008-06-01,Cork,ROI,52.002202,-9.13047
+Leitir Guingaid Wind Farm,40.9,2014-02-07,Salthill,ROI,53.28582,-9.19551
+Magheramore and Cloontooa Wind Farm,40.8,2018-12-12,Dalton T141,ROI,53.76597222,-8.90197222
+Pallas,40,2008-06-01,Kerry,ROI,52.363183,-9.53168
+Bruckana,39.6,2014-07-16,Lisheen,ROI,52.797768,-7.68331
+Cornavarrow,38.4,2018-07-01,Drumquin 110kV,NI,54.57482754,-7.487951114
+Kelwin,37.05,2018-09-01,Kerry,ROI,52.574035,-9.37088
+Boolynagleragh (1),36.98,2019-09-03,BOOLTIAGH T143,ROI,52.77738889,-9.15263889
+Garracummer Wind Farm,36.9,2013-03-05,Cauteen T141,ROI,52.643456,-8.14754
+Drumlins,36.6,2024-03-01,Monaghan,ROI,54.128071,-7.150946
+Kill Hill,36,2014-12-01,Tipperary,ROI,52.548735,-7.79733
+Lisheen,36,2009-07-01,Tipperary,ROI,52.750659,-7.68092
+Scartaglen Wind Farm,35.45,2017-12-12,Cordal,ROI,52.16213976,-9.314601971
+Knockalough,35.2,2019-01-01,Galway,ROI,53.3005422,-9.237242232
+Cordal,35.2,2018-03-01,Kerry,ROI,52.23158155,-9.275547092
+Raheenleagh (1),35.2,2016-08-04,Arklow,ROI,52.788973,-6.31634
+Tievenameenta,34.5,2016-09-20,Magherakeel Main,NI,54.647584,-7.75813
+Athea,34.35,2014-02-01,Limerick,ROI,52.438656,-9.29746
+Carrowleagh Wind Farm (1),34.15,2012-06-06,Glenree,ROI,54.133287,-8.95369
+Cloghan,34,2023-01-01,Offaly,ROI,53.19490556,-7.875035116
+Derrysallagh Wind Farm (Formerly Kilronan 2),34,2019-11-29,GARVAGH,ROI,54.10213442,-8.198677443
+Castlepook (1),33.1,2017-11-28,Charleville T141,ROI,52.289135,-8.55436
+Glencarbry Wind Farm,33,2016-10-27,Cauteen T142,ROI,52.618299,-8.1054
+Glenough Wind Farm,33,2011-08-22,Cauteen T142,ROI,52.63908,-8.05097
+Monaincha Bog Wind Farm (Gate 3),32.55,2014-01-31,Ikerrin,ROI,52.936818,-7.71823
+Coomagearlahy,32.5,2009-06-01,Kerry,ROI,51.938248,-9.31082
+Midas,32.45,2007-07-01,Kerry,ROI,51.925497,-9.30641
+Barranafaddock Wind Farm,32.4,2015-05-01,Barrymore,ROI,52.178638,-8.0614
+Crigshane,32.2,2012-04-12,Magherakeel Main,NI,54.642408,-7.79754
+Sorne Hill Wind Farm,31.5,2006-07-01,SORNE HILL,ROI,55.131364,-7.36731
+Ballywater,31.5,2005-05-01,Wexford,ROI,52.537452,-6.25008
+Lenalea,30.1,2023-09-01,Donegal,ROI,54.882415,-7.85205
+Slieve Divena 1,30,2009-01-07,Omagh Main,NI,54.508768,-7.09729
+Lisheen,28.8,2023-02-01,Tipperary,ROI,52.75255369,-7.693603816
+Dromada,28.5,2009-12-01,Limerick,ROI,52.44846,-9.21556
+Tappaghan,28.5,2005-04-01,Omagh Main,NI,54.56112,-7.55023
+Bunnyconnellan Wind Farm,28,2019-12-04,Glenree,ROI,54.09269444,-8.99163889
+Long Mountain,27.6,2016-12-13,Rasharkin Main,NI,54.982221,-6.41216
+Knockalassa,27.5,2018-10-01,Clare,ROI,52.83716667,-9.28447222
+Garvagh,26,2010-06-01,Leitrim,ROI,54.149939,-8.19247
+Taurbeg Wind Farm,26,2006-01-01,Glenlara T142,ROI,52.249871,-9.13491
+Altahullion 1,26,2003-04-04,Limavady Main,NI,54.962299,-7.03275
+Mountain Lodge,25.5,2008-04-01,Cavan,ROI,54.000395,-7.10493
+Arklow Bank Wind Farm (1),25.2,2003-11-01,Arklow,ROI,52.79256,-6.13933
+Castlecraig,25,2018-07-01,Drumquin 110kV,NI,54.59203258,-7.667834801
+Gruig,25,2009-01-27,Coleraine Main,NI,55.025239,-6.25462
+Kingsmountain,25,2003-05-01,Sligo,ROI,54.21592,-8.83705
+Carrickatane,24.7,2012-12-12,Killymallaght Main,NI,54.917482,-7.33943
+Sorrell Island (Prev Glenmore),24,2019-09-03,BOOLTIAGH T141,ROI,52.77077778,-9.30527778
+Lisheen,24,2013-05-01,Tipperary,ROI,52.750659,-7.68092
+Bawnmore (Burren/Carraignimma),24,2011-10-14,Macroom,ROI,51.954036,-8.9031
+Craiggore,23.5,2021-05-01,Garvagh Main,NI,54.99486015,-6.805468087
+Beenanaspuck & Tobertoreen,23.1,2020-04-01,Kerry,ROI,54.96165977,-7.027888337
+Taghart Wind Farm (formerly Cregg WF),23.06,2022-07-22,Meath Hill,ROI,53.99097222,-7.36
+Elginny Hill,23,2018-02-16,Ballymena Main,NI,54.93407477,-6.205552941
+Knockawarriga Wind Farm,22.5,2008-07-01,Trien T143,ROI,52.344315,-9.2191
+Rathsherry,22.3,2017-12-01,Ballymena Main,NI,54.937411,-6.20811
+Carrickallen Wind Farm,22,2018-10-11,Shankill,ROI,53.98461111,-7.13961111
+Garvagh,22,2010-06-01,Roscommon,ROI,52.91045,-6.16488
+Altaveedan,21.15,2017-04-07,Rasharkin Main,NI,55.082892,-6.26633
+Dunmore,21,2013-01-17,Coleraine Main,NI,53.787539,-6.53188
+Gortahile Wind Farm,21,2010-06-21,Carlow,ROI,52.82095,-7.05764
+Castledockrell,20.7,2011-01-01,Wexford,ROI,52.587646,-6.63665
+Richfield Wind Farm,20.25,2006-08-01,Wexford,ROI,52.219027,-6.59332
+Glanaruddery 1 (formerly Dromadda More Wind Farm),20,2018-02-13,Cloghboola,ROI,52.31154631,-9.46058768
+Woodhouse,20,2015-06-01,Waterford,ROI,52.081658,-7.78609
+Thornog,20,2014-09-16,Magherakeel Main,NI,54.58804,-7.62715
+Carraigcannon Wind Farm,20,2011-03-25,BOGGERAGH,ROI,52.064429,-8.89761
+Screggagh,20,2011-01-13,Omagh Main,NI,54.454178,-7.33106
+Hunters Hill,20,2010-05-13,Omagh Main,NI,54.436822,-7.36425
+Ballybane (Glanta Commons) Wind Farm,19.55,2008-07-01,Ballylickey,ROI,51.631304,-9.37941
+Booltiagh,19.5,2005-08-01,Clare,ROI,52.775987,-9.23688
+Killala Wind Farm (Phase 1),19.2,2019-05-30,TAWNAGHMORE,ROI,54.19438043,-9.222612375
+Slieve Divena 2,18.8,2017-02-08,Gort Main,NI,54.502731,-7.1127
+Raheen Barr Wind Farm,18.7,2003-11-01,Castlebar,ROI,53.904996,-9.3368
+Coollegrean Wind Farm,18.5,2018-01-30,Cordal,ROI,52.261834,-9.27005
+Church Hill,18.4,2012-04-05,Magherakeel Main,NI,54.661245,-7.72216
+Coomacheo,18.4,2009-07-01,Cork,ROI,52.009268,-9.10478
+Knocknatallig Wind Farm (formerly Buttevant Wind Farm),18.3,2017-11-28,Charleville T141,ROI,52.295474,-8.61808
+Ballycumber Wind Farm,18,2019-03-20,Arklow,ROI,52.84338047,-6.490386243
+Leanamore Wind Farm (Tarbert Wind Farm),18,2017-12-18,Kilpaddoge,ROI,52.553356,-9.41586
+Curryfree,18,2011-08-01,Lisaghmore Main,NI,54.930121,-7.31093
+Cronalaght Wind Farm 2,17.96,2019-08-28,Ardnagappary,ROI,55.06058185,-8.216294463
+Acres Wind Farm,17.5,2015-05-23,Cathaleens Fall,ROI,54.523152,-8.19509
+Crockagarran,17.5,2010-09-02,Dungannon Main,NI,54.553666,-7.02623
+Moneypoint,17.25,2017-06-01,Clare,ROI,52.611423,-9.43556
+Tournafulla (2) Wind Farm,17.2,2008-04-01,Trien T143,ROI,52.384517,-9.15305
+Killaveenoge Windfarm (Derryvacorneen merge with Barrboy Windfarm),17,2016-12-16,Dunmanway,ROI,51.66452,-9.18541
+Callagheen,16.9,2006-01-16,Enniskillen Main,NI,54.44266,-8.01373
+Dromdeeveen Wind Farm (2),16.5,2011-08-24,Glenlara T141,ROI,52.327234,-9.02965
+Ballykeel,16.1,2020-05-03,Larne Main,NI,54.85337758,-5.920345729
+Shantavany Scotch,16.1,2017-03-03,Gort Main,NI,54.497953,-7.10083
+Grove Hill Windfarm (formerly Tullynageer WF),16.1,2016-09-03,Dundalk,ROI,54.243833,-6.91233
+Castledockrell,16.1,2011-01-01,Wexford,ROI,52.587646,-6.63665
+Meentycat,16.1,2009-10-01,Donegal,ROI,54.865052,-7.89841
+Muingnaminnane Wind Farm,15.3,2010-02-09,Reamore T141,ROI,52.3095398,-9.5213874
+Crockandun,15,2017-02-27,Tremoge Main,NI,54.734729,-6.78644
+Gortfinbar,15,2016-12-15,Tremoge Main,NI,54.553053,-7.04038
+Eglish,15,2016-12-12,Killymallaght Main,NI,54.436725,-7.36342
+Ora More,15,2016-11-03,Enniskillen Main,NI,54.2023,-7.5358
+Molly Mountain,15,2014-11-27,Aghyoule Main,NI,54.19182,-7.62595
+Grouse Lodge Wind Farm,15,2011-04-08,Rathkeale,ROI,52.526888,-9.09799
+Ballincollig Hill Wind Farm (Lee Strand),15,2010-03-04,Tralee,ROI,52.342932,-9.57172
+Garves,15,2009-01-27,Coleraine Main,NI,55.000676,-6.44844
+Tursillagh Wind Farm,15,2000-11-01,Tralee,ROI,52.312767,-9.60215
+Cark,15,1997-12-01,Letterkenny,ROI,54.88592,-7.8599
+Golagh,15,1997-07-01,Donegal,ROI,54.686899,-7.93394
+Gibbet Hill Wind Farm,14.8,2013-03-01,Crory,ROI,52.678926,-6.57695
+Ballycadden Wind Farm (1),14.45,2012-10-12,Crory,ROI,52.39136,-6.32199
+Altamuskin,14.1,2017-02-08,Gort Main,NI,54.52534,-7.11695
+Seegronan,14.1,2016-04-15,Magherakeel Main,NI,54.646986,-7.70087
+Beam Hill Wind Farm,14,2006-08-01,Trillick,ROI,55.198288,-7.4401
+Mauricetown (Glenduff)  Wind Farm,13.8,2020-04-16,Glenlara T141,ROI,52.34020592,-9.041623624
+Clahane,13.8,2018-08-01,Kerry,ROI,52.36408333,-9.53966667
+Ballybay Wind Farm (Tullaroan),13.8,2017-07-21,Thurles,ROI,52.660889,-7.50911
+Tullabrack Wind Farm,13.8,2017-05-19,Tullabrack,ROI,52.688068,-9.49454
+Inishative,13.8,2017-03-03,Tremoge Main,NI,54.56266,-6.98628
+Cregganconroe,13.8,2016-12-15,Tremoge Main,NI,54.619612,-6.9716
+Carn Hill,13.8,2013-03-20,Carnmoney Main,NI,54.72647,-5.92166
+Snugborough,13.5,2004-01-01,Aghyoule Main,NI,54.16,-7.62
+Lissycasey Wind Farm,13.399,2019-10-31,BOOLTIAGH T143,ROI,52.78103144,-9.232009001
+Lendrum's Bridge 1 & 2,13.2,2003-04-01,Omagh Main,NI,54.438371,-7.34187
+Cappawhite B Wind Farm (Cappagh White),13.18,2018-06-19,Cauteen T141,ROI,52.60123306,-8.162367576
+Moanmore Wind Farm,12.6,2004-12-01,Tullabrack,ROI,52.670557,-9.48761
+Cloghaneleskirt Wind Farm,12.55,2018-04-27,Cloghboola,ROI,52.34377778,-9.54280556
+Black Lough Wind farm,12.5,2020-03-06,Glenree 110-MV,ROI,54.17934942,-8.933941868
+Teiges Mountain,12.5,2018-07-01,Gort Main,NI,54.303915,-7.33845
+Crockdun,12.5,2017-06-26,Tremoge Main,NI,54.636426,-7.07375
+Rathcahill West Windfarm,12.5,2011-05-02,Rathkeale,ROI,52.400639,-9.12092
+Esk Wind Farm Phase 2,12,2020-10-16,BOGGERAGH,ROI,52.05268673,-8.805802483
+Glanaruddery 2 (formerly Dromadda More 2),12,2018-02-13,Cloghboola,ROI,52.31154631,-9.46058768
+Monnaboy,12,2015-12-10,Coolkeeragh 110kV,NI,54.980571,-7.1019
+Booltiagh,12,2013-09-01,Clare,ROI,52.773858,-9.2403
+Tullynamoyle Wind Farm 3 (Formerly Geevagh 2),11.98,2017-09-18,Corderry T122,ROI,54.227944,-8.12752
+Meenachullalan Wind Farm,11.9,2008-11-01,Binbane,ROI,54.664196,-8.46176
+Carnsore Wind Farm,11.9,2002-08-01,Wexford,ROI,52.205503,-6.35006
+Culliagh Wind Farm (Meenbog),11.88,2000-10-01,Letterkenny,ROI,54.871305,-7.8869
+Altahullion 2,11.7,2007-09-27,Limavady Main,NI,54.958749,-7.0337
+Raragh 2 Wind Farm,11.5,2019-11-28,Meath Hill,ROI,53.92807149,-6.81448625
+An Cnoc,11.5,2017-09-19,Thurles,ROI,52.647176,-7.530758
+Ballybane 2A (Glanta Commons) Wind Farm,11.5,2015-01-30,Ballylickey,ROI,51.629801,-9.38185
+Kingsmountain,11.05,2010-06-01,Sligo,ROI,54.21592,-8.83705
+Clogheravaddy Wind Farm (Phase 2),10.8,2022-02-08,Binbane T143,ROI,54.70888853,-8.274121812
+Dromdeeveen Wind Farm (1),10.5,2011-08-24,Glenlara T141,ROI,52.32916,-9.03166
+Ballywater,10.5,2007-08-01,Wexford,ROI,52.550915,-6.22243
+Gartnaneane (1) Wind Farm,10.5,2004-11-01,Meath Hill,ROI,53.94441,-6.9186
+Tullynamoyle 2 Wind Farm,10.225,2017-11-17,CORDERRY T122,ROI,54.227088,-8.13479
+Caherdowney Wind Farm,10,2012-04-16,Garrow,ROI,52.002181,-9.11764
+Wolf Bog,10,2007-11-23,Larne Main,NI,54.802908,-6.08531
+Glantaunyalkeen Windfarm,9.999,2018-08-30,Cloghboola,ROI,52.33641667,-9.44161111
+Meenwaun Wind Farm,9.99,2017-12-21,Dallow,ROI,53.15825514,-7.92368527
+Corkermore Wind Farm Phase 1,9.99,2011-07-06,Binbane T143,ROI,54.714721,-8.35426
+Drumlough Hill (2) (Lough Doo),9.99,2011-04-01,Trillick,ROI,55.199266,-7.44231
+Ballycadden Wind Farm (2),9.762,2012-10-12,Crory,ROI,52.39136,-6.32199
+Foyle Wind Farm (prev Holmes Hill),9.6,2017-07-25,Thurles,ROI,52.64826,-7.45321
+Gneeves Wind Farm,9.35,2005-06-29,Knockearagh,ROI,52.012811,-9.11987
+Clogheravaddy Wind Farm (Phase 1),9.2,2019-12-03,Binbane T143,ROI,54.70888853,-8.274121812
+Glenbuck,9.2,2016-12-13,Rasharkin Main,NI,54.97525,-6.44053
+Lisdowney Wind Farm,9.2,2016-10-14,PORTLAOISE 110kV,ROI,52.784312,-7.44993
+Cloonty,9.2,2016-06-09,Loguestown Main,NI,55.161039,-6.48614
+Flughland,9.2,2009-06-30,SORNE HILL,ROI,55.141121,-7.27246
+Teevurcher Wind Farm,9,2017-12-18,Meath Hill,ROI,53.885214,-6.93682
+Hollyford(Holyford) Wind Farm,9,2013-12-10,Cauteen T141,ROI,52.646332,-8.06896
+Knockaneden Wind Farm,9,2012-09-14,Oughtragh,ROI,51.937047,-10.10131
+Tullynamoyle,9,2011-07-01,Corderry T122,ROI,54.226614,-8.13418
+Bessy Bell 2,9,2008-04-22,Omagh Main,NI,54.680063,-7.38459
+Bin Mountain,9,2007-04-13,Strabane Main,NI,54.616396,-7.6313
+Garranereagh Wind Farm,8.75,2013-04-30,Bandon,ROI,51.817719,-8.94049
+Derrynadivva Wind Farm (prev. sd),8.5,2009-09-20,Castlebar,ROI,53.90936111,-9.34886111
+Coomagearlahy,8.5,2009-03-01,Kerry,ROI,51.938248,-9.31082
+Kealkil Wind Farm,8.5,2005-05-01,Ballylickey,ROI,51.811998,-9.31966
+Ballybane 2 (Glanta Commons) Wind Farm,8.4,2009-11-01,Ballylickey,ROI,51.631304,-9.37941
+Ballymartin (2) - Smithstown,8.28,2013-03-29,Waterford,ROI,52.387518,-7.10055
+Sorrell Island (Glenmore) WF Ext,8,2020-10-28,BOOLTIAGH T141,ROI,52.77077778,-9.30527778
+Killaveenoge Windfarm - (Derryvacorneen merge with Barrboy),7.8,2016-12-16,Dunmanway,ROI,51.66452,-9.18541
+Lough Hill,7.8,2007-05-25,Strabane Main,NI,54.627753,-7.6086
+Carrickeeny Wind Farm,7.65,2014-03-24,Sligo,ROI,54.333333,-8.27693
+Loughderryduff Wind Farm,7.65,2008-10-01,Binbane,ROI,54.818364,-8.37583
+Altagowlan Wind Farm,7.65,2005-09-01,Corderry T122,ROI,54.122513,-8.143476
+Sonnagh Old Phase 1,7.65,2004-05-01,Somerset,ROI,53.130492,-8.63725
+Crockbaravally,7.5,2017-02-17,Gort Main,NI,54.516882,-7.03685
+Knockastanna Wind Farm,7.5,2009-03-01,Ardnacrusha,ROI,52.660511,-8.21108
+Mullananalt Wind Farm,7.5,2008-11-01,Meath Hill,ROI,54.07644,-6.91211
+Tournafulla Wind Farm (1),7.5,2007-01-01,Trien,ROI,52.384517,-9.15305
+Sorne Hill (2),7.4,2009-02-20,SORNE HILL,ROI,55.131364,-7.36731
+Eshmore,7.05,2016-12-15,Tremoge Main,NI,54.538226,-6.97833
+Slieveglass,6.9,2018-07-01,Drumquin 110kV,NI,54.648031,-7.57329
+Meenaward Wind Farm (Formerly Beam Hill 2),6.9,2017-12-06,Trillick,ROI,55.188389,-7.41725
+Derrynadivva Extension,6.8,2019-12-18,Castlebar,ROI,53.90936111,-9.34886111
+Black Banks (2),6.8,2005-09-01,Corderry T121,ROI,54.10014,-8.14447
+Tursillagh (2) Wind Farm,6.8,2004-09-01,Tralee,ROI,52.312767,-9.60215
+Richfield Wind Farm (2),6.75,2006-08-01,Wexford,ROI,52.209293,-6.5856
+Knockawarriga Extension (Knockacummer & Caherlevoy) Wind Farm,6.6,2020-02-12,Trien T143,ROI,52.344315,-9.2191
+Bellacorrick Wind Farm,6.45,1992-10-01,Bellacorick 110-MV,ROI,54.131754,-9.55035
+Cahermurphy Wind Farm,6,2020-01-23,BOOLTIAGH T143,ROI,52.76867297,-9.338371666
+Killin Hill Wind Farm,6,2017-06-23,Binbane T143,ROI,54.70412,-8.29129
+Faughary Wind Farm,6,2014-12-16,Sligo,ROI,54.342843,-8.13219
+Ballymartin (1) (Smithstown),6,2011-06-08,Waterford,ROI,52.387518,-7.10055
+Mountain Lodge,6,2009-03-01,Cavan,ROI,53.99084,-7.10597
+Lackan Wind Farm,6,2008-06-30,Moy,ROI,54.244848,-9.06731
+Esk Wind Farm Phase 1,5.95,2020-10-16,BOGGERAGH,ROI,52.05263395,-8.805963416
+Coomatallin Wind Farm,5.95,2005-01-01,Dunmanway,ROI,51.938247,-9.31084
+Largan Hill,5.94,2000-11-01,Tonroe,ROI,53.94794,-8.56679
+Milane Hill Wind Farm,5.94,2000-09-01,Dunmanway,ROI,51.68911,-9.21195
+Owenreagh 1,5.5,1997-03-10,Strabane Main,NI,54.809544,-7.3354
+Esk Wind Farm Phase 1,5.4,2020-10-16,BOGGERAGH,ROI,52.05263395,-8.805963416
+Owenreagh 2,5.1,2008-08-06,Strabane Main,NI,54.809544,-7.3354
+Mount Eagle Wind Farm,5.1,2005-03-01,Tralee,ROI,52.238608,-9.3191
+Mulreavy,5,2016-10-01,Donegal,ROI,54.661954,-8.00756
+Knocknalour Wind Farm (1),5,2013-06-20,Crory,ROI,52.678179,-6.54585
+Crockahenny,5,1998-04-01,Trillick,ROI,55.145639,-7.27692
+Kilronan,5,1997-12-01,Arigna,ROI,54.080461,-8.14608
+Rigged Hill,5,1995-11-22,Coleraine Main,NI,55.023658,-6.82245
+Bessy Bell 1,5,1995-10-01,Omagh Main,NI,54.67789,-7.4103
+Elliots Hill,5,1995-02-13,Larne Main,NI,54.801204,-6.10039
+Corkey,5,1994-12-20,Ballymena Main,NI,55.030793,-6.799
+Ballycurreen Wind Farm,4.99,2014-03-26,Dungarvan,ROI,52.032524,-7.59355
+Clydaghroe Wind Farm,4.99,2012-04-24,Garrow,ROI,51.989999,-9.16059
+Carrons (A&B) Wind Farm,4.99,2010-11-26,Rathkeale,ROI,52.540898,-9.07066
+Lurganboy Wind Farm,4.99,2008-06-01,Letterkenny,ROI,55.120457,-7.60319
+Cronelea Wind Farm,4.99,2007-05-21,Carlow,ROI,52.779471,-6.55455
+Greenoge Wind Farm,4.99,2005-06-27,Crane,ROI,52.651896,-6.72332
+Brackagh Quarry,4.98,2016-09-20,Ballymena Main,NI,54.75213058,-6.826443627
+Mount Cronalaght,4.98,1997-07-01,ARDNAGAPPARY,ROI,55.058403,-8.217451
+Geevagh Wind Farm,4.95,2006-01-01,Corderry T121,ROI,54.142158,-8.26781
+Drumlough Hill Wind Farm,4.8,1997-08-01,Trillick,ROI,55.202848,-7.44521
+Corrie Mt.,4.8,1997-03-01,Arigna,ROI,54.07611111,-8.14363889
+Kilberehert Wind Farm,4.799,2017-04-14,Charleville,ROI,52.262996,-8.85398
+Kilmeedy Wind Farm,4.7,2016-12-22,Charleville,ROI,52.427135,-8.8944
+Kiltumper Wind Farm,4.69,2019-12-18,BOOLTIAGH T143,ROI,52.74872154,-9.297085832
+Lenanavea (Burren) Wind Farm,4.65,2011-02-07,Castlebar,ROI,53.919309,-9.34258
+Currabwee Wind Farm,4.62,1999-11-01,Dunmanway,ROI,51.681027,-9.12063
+Ballincurry Wind Farm Ltd (Glengoole),4.6,2019-05-31,Thurles,ROI,52.65399414,-7.525142142
+Ballagh Wind Farm,4.6,2018-01-31,Trien,ROI,52.36990248,-9.084782758
+Michelin,4.6,2015-12-23,Ballymena Main,NI,54.87775,-6.23044444
+Carrownaweelaun Wind Farm,4.6,2015-07-03,Tullabrack,ROI,52.63308333,-9.72530556
+Seltanaveeny Wind Farm,4.6,2011-03-25,Arigna,ROI,54.109425,-8.11606
+Skrine Wind Farm,4.6,2011-03-20,Lanesborough,ROI,53.569054,-8.18115
+Curraghderrig,4.5,2017-12-14,Trien,ROI,52.554969,-9.5917041
+Cronelea Wind Farm (2),4.5,2009-12-11,Carlow,ROI,52.779541,-6.55437
+WEDcross Wind Farm,4.5,2009-11-01,Knockearagh,ROI,52.1527,-9.22802
+Reenascreena Wind Farm,4.5,2009-06-24,Dunmanway,ROI,51.622884,-9.03573
+Kilvinane Wind Farm,4.5,2006-08-01,Bandon,ROI,51.705211,-8.99128
+Gartnaneane II Wind Farm,4.5,2004-11-01,Meath Hill,ROI,53.944736,-6.93662
+Boolard Wind Farm,4.45,2019-12-05,Charleville,ROI,52.324813,-8.698937
+Rathnacally Wind Farm,4.45,2018-07-09,Charleville,ROI,52.324813,-8.698937
+Ballybane 3 (Glanta Commons) Wind Farm,4.45,2017-01-29,Ballylickey,ROI,51.631323,-9.37651
+Gortnacloghy Wind Farm,4.4,2018-01-31,Trien,ROI,52.36715775,-9.0820903
+Three Trees,4.25,2019-12-18,SORNE HILL,ROI,54.531543,-8.17868
+Cloonlusk Wind Farm,4.25,2018-01-26,Cloon,ROI,53.46451238,-8.792162146
+Leabeg Wind Farm,4.25,2015-09-17,Dallow,ROI,53.234325,-7.76749
+Rahora Wind Farm,4.25,2009-05-01,Waterford,ROI,52.395064,-7.05168
+Skehanagh Wind Farm,4.25,2006-04-01,Dallow,ROI,53.020134,-7.98435
+Lahanaght Hill Wind Farm,4.25,2006-01-01,Dunmanway,ROI,51.650332,-9.21701
+Meenkeeragh Wind Farm,4.2,2009-04-29,SORNE HILL,ROI,55.129092,-7.39201
+Cooly Wind Farm,4,2017-03-15,Trillick,ROI,54.630806,-7.07972
+Ballyduff Wind Farm,4,2017-01-13,Crory,ROI,52.645957,-6.4815
+Ballynancoran Wind Farm,4,2013-07-24,Crory,ROI,52.666765,-6.52545
+Moneenatieve Wind Farm (1),3.96,2005-09-23,Corderry T122,ROI,54.142721,-8.15028
+Beenageeha Wind Farm,3.96,2000-10-01,Tralee,ROI,52.333053,-9.564
+Knocknalour Wind Farm G3,3.95,2013-06-20,Crory,ROI,52.678179,-6.54585
+Templederry Wind Farm,3.9,2012-10-26,NENAGH,ROI,52.779089,-8.1481
+Scartaglen 2 Wind Farm,3.8,2017-12-12,Cordal,ROI,52.16213976,-9.314601971
+Clogheravaddy Wind Farm (Phase 3),3.6,2023-07-27,Binbane T143,ROI,54.70577778,-8.27480556
+Roosky Wind Farm,3.6,2015-09-25,Tonroe,ROI,53.879561,-8.58548
+Ballaman (Kennystown) Wind Farm,3.6,2012-09-28,Crory,ROI,52.734014,-6.455
+Monaincha Bog Wind Farm (Gate 2),3.4,2014-01-31,Ikerrin,ROI,52.936818,-7.71823
+Meenanilta (3),3.4,2011-12-19,Letterkenny,ROI,54.842676,-7.81593
+Carrane Hill Wind Farm,3.4,2006-11-01,Corderry T121,ROI,54.138718,-8.2327
+Cuillalea Wind Farm,3.4,2004-04-01,Castlebar,ROI,53.849237,-9.07287
+Meenadreen Wind Farm,3.4,2003-04-01,Cathaleens Fall,ROI,54.661711,-7.9659
+Black Banks (1),3.4,2001-09-01,Corderry T121,ROI,54.144096,-8.19436
+Rossaveel Wind Farm,3,2019-06-28,Screeb,ROI,53.26192958,-9.56397522
+Slievereagh Wind Farm (1),3,2009-09-25,Tipperary,ROI,52.372731,-8.38865
+Mountain Lodge Wind Farm,3,2008-04-01,Shankill,ROI,54.000395,-7.10493
+CORNEEN Wind Farm,3,2001-08-01,Gortawee,ROI,54.133372,-7.63678
+Cappawhite A Wind Farm (Gate 2),2.92,2017-08-11,Cauteen T144,ROI,52.5816,-8.15435
+Carrowleagh Wind Farm Ext. (2),2.65,2019-05-24,Glenree,ROI,54.13916667,-8.95730556
+Knock South Wind Farm (Inverin),2.64,1999-01-01,Screeb,ROI,53.264809,-9.36771
+Tullynamalra Wind Farm,2.638,2019-04-15,Meath Hill,ROI,54.06029966,-6.812698685
+Bunnahowen Wind Farm (Temp),2.55,2019-12-18,Bellacorick,ROI,54.11764293,-9.563465489
+Shannagh (Kilcar),2.55,2010-03-30,Binbane,ROI,54.66882,-8.58329
+Mace Upper Wind Farm,2.55,2010-02-20,Dalton,ROI,53.767462,-8.96764
+Killybegs Wind Farm,2.55,2007-12-19,Binbane,ROI,54.658218,-8.45327
+Carrig Wind Farm,2.55,2006-04-01,Dallow,ROI,53.029002,-7.97761
+Ballinlough Wind Farm,2.55,2006-01-01,NENAGH,ROI,52.828357,-8.01098
+Ballinveny Wind Farm,2.55,2006-01-01,NENAGH,ROI,52.824929,-7.94243
+Cronelea Upper Wind Farm,2.55,2005-07-01,Carlow,ROI,52.77975,-6.54642
+Curraghgraigue Wind Farm,2.55,2004-01-01,NENAGH,ROI,52.799001,-8.11862
+Meenanilta Wind Farm (1),2.55,2003-09-01,Letterkenny,ROI,54.849861,-7.8206
+Beale Hill (2),2.55,2003-08-01,Trien,ROI,52.579469,-9.62071
+Kilbranish Wind Farm,2.5,2018-10-11,Crane,ROI,52.66253326,-6.73425848
+Grady Joinery Wind Farm,2.5,2017-08-05,Tonroe,ROI,53.970931,-8.74725
+DePuy 3MW Wind Turbine,2.5,2014-07-21,Barnahely 110-MV T121,ROI,51.826657,-8.30129
+Meenanilta Wind Farm (2),2.45,2004-07-01,Letterkenny,ROI,54.849861,-7.8206
+CURRAGHGRAIGUE (2) Wind Farm,2.44,2011-08-24,NENAGH,ROI,52.799001,-8.11862
+Enros - Sorne Hill Single Turbine,2.3,2019-12-18,SORNE HILL,ROI,55.12964817,-7.379017344
+Gurteen Lower Wind Farm,2.3,2017-08-22,Thurles,ROI,52.630618,-7.60295
+Collon Wind Power Limited (Gate 3),2.3,2016-04-11,Drybridge,ROI,53.79079,-6.53013
+Lisglass,2.3,2015-03-09,Eden Main,NI,54.728914,-5.91736
+Brett Martin,2.3,2011-06-30,Carnmoney Main,NI,54.687189,-6.01434
+Castledockrell,2.3,2011-01-01,Wexford,ROI,52.587646,-6.63665
+Castledockrell,2.3,2011-01-01,Wexford,ROI,52.587646,-6.63665
+Corvin Wind Turbine,2.1,2018-12-20,SORNE HILL,ROI,55.13249992,-7.396173796
+Wind Energy Project (Janssen),2,2014-07-21,Barnahely 110-MV T121,ROI,51.82784,-8.32928
+Anarget Wind Farm (1),1.98,2000-09-01,Cathaleens Fall,ROI,54.668014,-8.093
+Knocknagoum (2),1.8,2013-09-13,Reamore T142,ROI,52.288728,-9.54435
+Dunmore 2,1.8,2009-05-01,Drybridge,ROI,53.787539,-6.53188
+Crocane Wind Farm,1.7,2011-01-27,Midleton,ROI,51.842732,-8.15591
+Cronelea Upper Wind Farm (2),1.7,2009-12-11,Carlow,ROI,52.77975,-6.54642
+Beallough Wind Farm,1.7,2008-11-01,BUTLERSTOWN,ROI,52.272451,-7.34098
+Mount Eagle Wind Farm (2),1.7,2008-11-01,Tralee,ROI,52.238608,-9.3191
+Dunmore Wind Farm,1.7,2006-07-01,Drybridge,ROI,55.097671,-6.82889
+Beale Hill (1),1.65,2000-11-01,Trien,ROI,52.564661,-9.63542
+Liffey Autoproduction Project,1.6,2017-12-15,Shankill,ROI,53.85528,-7.20017
+Slievereagh Wind Farm (2),1.6,2014-12-01,Tipperary,ROI,52.372704,-8.38848
+Tullynamoyle Wind Farm 3 (Carrane Hill Merged Capacity),1.598,2017-09-18,Corderry T122,ROI,54.22696336,-8.135993866
+Cuillalea Wind Farm (2),1.59,2010-08-31,Castlebar,ROI,53.84819,-9.07539
+Ballybane 2A (Glanta Commons) Wind Farm Extension,1.55,2017-01-29,Ballylickey,ROI,51.629801,-9.38185
+Liffey Autoproduction Project (extension),1.417,2017-12-15,Shankill,ROI,53.853778,-7.20064
+Glackmore Hill (2),1.4,2009-04-28,SORNE HILL,ROI,55.11894,-7.26952
+Beale Hill (3) Wind Farm,1.3,2016-11-14,Trien,ROI,52.579469,-9.62071
+Spion Kop Wind Farm,1.2,1997-12-01,Arigna,ROI,54.092531,-8.11861
+Garracummer (2),1,2015-02-11,Cauteen T141,ROI,52.39252,-8.9328
+Pluckanes Wind Farm,0.85,2013-09-27,Kilbarry,ROI,52.002212,-8.70004
+Collon Wind Power Limited (Gate 2),0.7,2016-04-11,Drybridge,ROI,53.79079,-6.53013
+Knock South Wind Farm (2),0.69,1999-01-01,Screeb,ROI,53.264809,-9.36771
+Mounvaun (Mienvee) Wind Farm,0.66,2004-01-01,Ardnacrusha,ROI,52.647903,-8.14163
+Burtonport Harbour Single Turbine,0.66,2003-07-01,ARDNAGAPPARY,ROI,54.988881,-8.43903
+Ballyduff Wind Farm,0.6,2017-01-13,Crory,ROI,52.643729,-6.48438
+Glackmore Hill (1),0.6,2009-04-28,SORNE HILL,ROI,55.12448,-7.27295
+Muine Bheag Wind,0.5,2022-04-22,Carlow,ROI,52.69431603,-6.94639217
+Mossedge Wind Farm,0.5,2019-01-17,SORNE HILL,ROI,55.07185213,-7.290290902
+Michael Aylward,0.5,2016-09-26,Waterford,ROI,52.33207939,-7.072333524
+Anarget Wind Farm (3),0.5,2011-11-04,Cathaleens Fall,ROI,54.759405,-8.16477
+Country Crest,0.5,2011-03-07,Glasmore,ROI,53.549939,-6.17546
+Dundalk IT Wind Turbine,0.5,2006-01-01,Dundalk,ROI,53.98343,-6.38883
+Ballynultagh Wind Farm,0.499,2020-03-20,Carlow,ROI,52.80145962,-6.54880781
+Kilpatrick Wind,0.499,2020-01-30,Bandon 110-MV,ROI,51.77273489,-8.69960282
+Moyvane Wind,0.499,2019-12-10,Trien,ROI,52.50137669,-9.36974422
+Gortnahalla,0.499,2019-06-07,Thurles,ROI,52.71731779,-7.999390773
+Ballon Wind,0.499,2017-09-07,Carlow,ROI,52.744282,-6.715508
+Tesco Donabate,0.499,2016-09-01,Glasmore,ROI,53.487528,-6.19072
+Patrick Costello Wind Turbine,0.495,2018-12-21,Cahir,ROI,52.65772774,-8.05545362
+KWT Energy Ltd,0.49,2016-12-20,Dungarvan,ROI,,
+Meenkeeragh Wind Farm (2),0.4,2013-04-25,Sorne Hill,ROI,55.132156,-7.39122
+Meade Potato Company,0.3,2014-06-03,Drybridge,ROI,53.789639,-6.61286
+Glackmore Hill (3),0.3,2009-04-28,SORNE HILL,ROI,55.11894,-7.26952
+Moneenatieve Wind Farm (2),0.29,2011-10-15,Corderry T122,ROI,54.132065,-8.15758
+Donaghmede Fr Collins Park Wind Farm,0.25,2009-05-01,Grange (DR),ROI,53.407359,-6.16117
+Mounvaun (Mienvee) Wind Farm (2),0.19,2008-01-01,Ardnacrusha,ROI,52.647903,-8.14163
+Burtonstown,0.15,2014-10-01,Drybridge,ROI,,
+Burtonstown Autoproducer,0.15,2014-10-01,Drybridge,ROI,,
+Tullow Mushroom Growers Ltd,0.133,2010-11-01,Carlow,ROI,52.846611,-6.75725
+Patrick Costello Wind Turbine Ext,0.13,2022-03-15,Cahir,ROI,52.65772774,-8.05545362
+"St Patricks Missionary Society, Co. Wicklow",0.13,2012-06-26,Stratford,ROI,,
+IS Sustainable Supply Chain,0.12,2023-09-01,Binbane,ROI,,
+Anarget Wind Farm (2),0.02,2004-12-01,Cathaleens Fall,ROI,54.668014,-8.093
+Owenstown,0.018,2010-12-01,Griffinrath,ROI,,
+Shalvey Poultry WT,0.017,2013-02-01,Shankill,ROI,,
+Lios na Carraige,0.017,2008-10-01,Meath Hill,ROI,,
