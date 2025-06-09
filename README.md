@@ -6,6 +6,7 @@ This repository contains the code and data used for the analysis and figure gene
 *Boris Morin, Aina Maimó Far, Damian Flynn, Conor Sweeney* <br>
 2025, *Renewable Energy* <br>
 DOI: 10.1016/j.renene.2025.123392
+https://www.sciencedirect.com/science/article/pii/S0960148125010547#da1
 
 
 ## Repository sctructure
